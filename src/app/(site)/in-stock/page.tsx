@@ -22,14 +22,14 @@ export default async function InStockPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
       {/* Header */}
-      <section className="py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-rose-50">
+      <section className="py-16 bg-gradient-to-br from-cyan-500 via-teal-400 to-blue-500 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
               In Stock
             </h1>
-            <p className="text-lg text-gray-600">
-              Browse our current collection of premium fragrances in travel-friendly sizes.
+            <p className="text-lg text-cyan-50">
+              Current collection of premium fragrances in travel-ready sizes
             </p>
           </div>
         </div>
@@ -41,31 +41,37 @@ export default async function InStockPage() {
           {/* Error State */}
           {error ? (
             <div className="max-w-2xl mx-auto">
-              <div className="bg-red-50 border-2 border-red-200 rounded-xl p-8 text-center">
+              <div className="bg-red-50 border-2 border-red-300 rounded-2xl p-8 text-center shadow-xl">
                 <div className="text-6xl mb-4">⚠️</div>
                 <h3 className="text-2xl font-bold text-red-900 mb-3">
-                  Failed to Load Inventory
+                  Unable to Load Inventory
                 </h3>
-                <p className="text-red-700 mb-6">
+                <p className="text-red-700 mb-6 text-lg">
                   {error}
                 </p>
-                <div className="bg-white rounded-lg p-4 text-left text-sm">
-                  <p className="text-gray-700 mb-2 font-semibold">Common issues:</p>
-                  <ul className="list-disc list-inside space-y-1 text-gray-600">
-                    <li>Check your <code className="bg-gray-100 px-2 py-0.5 rounded">.env.local</code> file has correct credentials</li>
-                    <li>Verify the Google Sheet is publicly viewable</li>
-                    <li>Ensure the Google Sheets API is enabled</li>
-                    <li>Confirm the sheet tab name matches <code className="bg-gray-100 px-2 py-0.5 rounded">GOOGLE_SHEET_TAB</code></li>
+                <div className="bg-white rounded-xl p-6 text-left mb-6">
+                  <p className="text-gray-700 mb-3 font-semibold">Possible issues:</p>
+                  <ul className="space-y-2 text-sm text-gray-600">
+                    <li className="flex items-start gap-2">
+                      <span className="text-red-500">•</span>
+                      Google Sheet may not be set to public (Anyone with link can view)
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-red-500">•</span>
+                      API key may be incorrect or restricted
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-red-500">•</span>
+                      Google Sheets API not enabled in Google Cloud
+                    </li>
                   </ul>
                 </div>
-                <div className="mt-6">
-                  <a
-                    href="/book"
-                    className="inline-block px-6 py-3 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 transition-colors"
-                  >
-                    Contact Us
-                  </a>
-                </div>
+                <a
+                  href="/book"
+                  className="inline-block px-8 py-3 bg-cyan-600 text-white font-bold rounded-lg hover:bg-cyan-700 shadow-lg hover:shadow-xl transition-all"
+                >
+                  Contact for Availability
+                </a>
               </div>
             </div>
           ) : (
@@ -78,13 +84,19 @@ export default async function InStockPage() {
 
               {fragrances.length === 0 ? (
                 <div className="text-center py-20">
-                  <div className="text-6xl mb-4">🔍</div>
+                  <div className="text-6xl mb-4">🌊</div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                    No Fragrances Available
+                    No Inventory Currently Listed
                   </h3>
-                  <p className="text-gray-600 max-w-md mx-auto">
-                    Check back soon or contact us for availability.
+                  <p className="text-gray-600 max-w-md mx-auto mb-6">
+                    Our inventory is being updated. Contact us to check current availability.
                   </p>
+                  <a
+                    href="/book"
+                    className="inline-block px-6 py-3 bg-cyan-600 text-white font-bold rounded-lg hover:bg-cyan-700 shadow-lg transition-all"
+                  >
+                    Get in Touch
+                  </a>
                 </div>
               ) : (
                 <InventoryGrid fragrances={fragrances} />

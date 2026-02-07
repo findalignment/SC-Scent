@@ -2,32 +2,32 @@ import { FLIGHT_RULES } from '@/lib/constants';
 
 export default function FlightExplainer() {
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-50 via-cyan-50 to-teal-50">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <div className="text-center mb-12">
-            <div className="inline-block bg-blue-100 text-blue-600 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            <div className="inline-block bg-cyan-100 text-cyan-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
               Travel Tips
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Flying with Fragrance
+              TSA-Approved Sizes
             </h2>
             <p className="text-lg text-gray-600">
-              Everything you need to know about traveling with your favorite scents
+              All our decants are flight-ready and travel-friendly
             </p>
           </div>
 
           {/* Main Content */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
             {/* Hero Section */}
-            <div className="bg-gradient-to-r from-blue-500 to-cyan-500 p-8 text-white">
+            <div className="bg-gradient-to-r from-cyan-500 to-teal-500 p-8 text-white rounded-t-2xl">
               <div className="flex items-center gap-4 mb-4">
                 <div className="text-5xl">✈️</div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-1">TSA-Approved Sizes</h3>
-                  <p className="text-blue-100">
-                    Maximum container size: {FLIGHT_RULES.maxSize} (3.4oz)
+                  <h3 className="text-2xl font-bold mb-1">Travel-Ready</h3>
+                  <p className="text-cyan-100">
+                    All sizes {FLIGHT_RULES.maxSize} or less • Perfect for carry-on
                   </p>
                 </div>
               </div>
@@ -88,15 +88,15 @@ export default function FlightExplainer() {
             </div>
 
             {/* CTA Footer */}
-            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-8 text-center border-t border-gray-200">
-              <p className="text-gray-700 mb-4">
-                All our flight-ready decants are pre-tested and guaranteed TSA-compliant.
+            <div className="bg-gradient-to-r from-cyan-50 to-blue-50 p-8 text-center border-t border-gray-200 rounded-b-2xl">
+              <p className="text-gray-700 mb-4 font-medium">
+                All decants are TSA-compliant and ready for your next adventure
               </p>
               <a
                 href="/in-stock"
-                className="inline-block px-6 py-3 bg-gradient-to-r from-amber-600 to-orange-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-200"
+                className="inline-block px-6 py-3 bg-gradient-to-r from-cyan-500 to-teal-500 text-white font-bold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-200"
               >
-                Shop Flight-Ready Decants
+                Browse Collection
               </a>
             </div>
           </div>

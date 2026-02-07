@@ -7,7 +7,7 @@ interface FragranceCardProps {
 
 export default function FragranceCard({ fragrance }: FragranceCardProps) {
   return (
-    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition-all duration-300 border border-gray-200 hover:border-amber-300"
+    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition-all duration-300 border-2 border-cyan-100 hover:border-cyan-400"
     >
       {/* Image */}
       <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
@@ -42,7 +42,7 @@ export default function FragranceCard({ fragrance }: FragranceCardProps) {
         {/* Brand & Name */}
         <div className="mb-3">
           <p className="text-sm text-gray-500 font-medium mb-1">{fragrance.brand}</p>
-          <h3 className="text-xl font-bold text-gray-900 group-hover:text-amber-600 transition-colors">
+          <h3 className="text-xl font-bold text-gray-900 group-hover:text-cyan-600 transition-colors">
             {fragrance.name}
           </h3>
         </div>
@@ -56,7 +56,7 @@ export default function FragranceCard({ fragrance }: FragranceCardProps) {
               .map(([size, qty]) => (
                 <span
                   key={size}
-                  className="px-2 py-1 bg-green-50 text-green-700 text-xs font-medium rounded border border-green-200"
+                  className="px-2 py-1 bg-teal-50 text-teal-700 text-xs font-medium rounded border border-teal-200"
                 >
                   {size} ({qty})
                 </span>
@@ -90,7 +90,7 @@ export default function FragranceCard({ fragrance }: FragranceCardProps) {
               {fragrance.scentFamily.map((family, index) => (
                 <span
                   key={index}
-                  className="text-xs px-2 py-1 bg-gradient-to-r from-amber-50 to-orange-50 text-amber-700 rounded-full border border-amber-200"
+                  className="text-xs px-2 py-1 bg-gradient-to-r from-cyan-50 to-blue-50 text-cyan-700 rounded-full border border-cyan-200"
                 >
                   {family}
                 </span>

@@ -22,18 +22,18 @@ export default function CTA({
   variant = 'default',
 }: CTAProps) {
   const variants = {
-    default: "bg-gradient-to-br from-amber-100 via-orange-100 to-rose-100",
-    gradient: "bg-gradient-to-r from-amber-600 via-orange-600 to-rose-600 text-white",
+    default: "bg-gradient-to-br from-cyan-50 via-sky-50 to-blue-50",
+    gradient: "bg-gradient-to-r from-cyan-500 via-teal-400 to-blue-500 text-white",
     minimal: "bg-gray-50 border-t border-b border-gray-200",
   };
 
   const buttonPrimary = variant === 'gradient' 
-    ? "bg-white text-gray-900 hover:bg-gray-100"
-    : "bg-gradient-to-r from-amber-600 to-orange-600 text-white hover:shadow-xl";
+    ? "bg-white text-cyan-600 hover:bg-cyan-50 font-bold"
+    : "bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:shadow-xl font-bold";
 
   const buttonSecondary = variant === 'gradient'
     ? "bg-transparent border-2 border-white text-white hover:bg-white/10"
-    : "bg-white border-2 border-gray-300 text-gray-900 hover:border-gray-400";
+    : "bg-white border-2 border-cyan-300 text-gray-900 hover:border-cyan-400";
 
   return (
     <section className={`py-20 ${variants[variant]}`}>

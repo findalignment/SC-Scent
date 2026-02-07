@@ -21,12 +21,12 @@ const offers = [
   },
   {
     id: 4,
-    title: 'Scent Consultation',
-    description: 'Not sure where to start? Book a personalized consultation to find your signature scent.',
+    title: 'In-Person Consultation',
+    description: 'Not sure where to start? Book an in-person consultation in Santa Cruz to find your signature scent.',
     icon: '🔍',
     link: '/book',
-    linkText: 'Book Now',
-    features: ['Expert guidance', 'Personalized picks', 'Virtual or in-person'],
+    linkText: 'Get in Touch',
+    features: ['Expert guidance', 'Personalized picks', 'Santa Cruz based'],
   },
   {
     id: 5,
@@ -50,15 +50,14 @@ const offers = [
 
 export default function OfferCards() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-gradient-to-br from-sky-50 to-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             What We Offer
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            From travel-ready decants to artisan candles, 
-            we have everything you need to elevate your fragrance game.
+            From travel-ready decants to artisan candles, discover premium scents in Santa Cruz
           </p>
         </div>
 
@@ -66,7 +65,7 @@ export default function OfferCards() {
           {offers.map((offer) => (
             <div
               key={offer.id}
-              className="bg-gradient-to-br from-white to-gray-50 border border-gray-200 rounded-2xl p-8 hover:shadow-xl hover:scale-105 transition-all duration-300"
+              className="bg-white border-2 border-cyan-100 rounded-2xl p-8 hover:shadow-2xl hover:border-cyan-300 hover:scale-105 transition-all duration-300"
             >
               <div className="text-5xl mb-4">{offer.icon}</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">
@@ -79,7 +78,7 @@ export default function OfferCards() {
               <ul className="mb-6 space-y-2">
                 {offer.features.map((feature, index) => (
                   <li key={index} className="flex items-start gap-2 text-sm text-gray-600">
-                    <span className="text-green-500 font-bold">✓</span>
+                    <span className="text-teal-500 font-bold">✓</span>
                     <span>{feature}</span>
                   </li>
                 ))}
@@ -87,7 +86,7 @@ export default function OfferCards() {
 
               <Link
                 href={offer.link}
-                className="inline-flex items-center gap-2 text-amber-600 hover:text-amber-700 font-semibold group"
+                className="inline-flex items-center gap-2 text-cyan-600 hover:text-cyan-700 font-semibold group"
               >
                 {offer.linkText}
                 <span className="group-hover:translate-x-1 transition-transform">→</span>
