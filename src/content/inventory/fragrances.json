@@ -1,0 +1,192 @@
+[
+  {
+    "id": "1",
+    "name": "Sauvage",
+    "brand": "Dior",
+    "size": "10ml",
+    "concentration": "EDP",
+    "notes": {
+      "top": ["Bergamot", "Pepper"],
+      "middle": ["Lavender", "Geranium", "Elemi"],
+      "base": ["Ambroxan", "Vanilla", "Cedar"]
+    },
+    "scentFamily": ["Aromatic", "Fresh"],
+    "gender": "Masculine",
+    "inStock": true,
+    "flightReady": true,
+    "price": 25,
+    "image": "/images/shop/dior-sauvage.jpg",
+    "description": "A bold, fresh fragrance with a raw spirit. Perfect for the modern adventurer."
+  },
+  {
+    "id": "2",
+    "name": "Blanche",
+    "brand": "Byredo",
+    "size": "10ml",
+    "concentration": "EDP",
+    "notes": {
+      "top": ["Aldehyde", "White Rose", "Pink Pepper"],
+      "middle": ["Violet", "Neroli", "Peony"],
+      "base": ["Blonde Woods", "Sandalwood", "Musk"]
+    },
+    "scentFamily": ["Floral", "Woody"],
+    "gender": "Unisex",
+    "inStock": true,
+    "flightReady": true,
+    "price": 35,
+    "image": "/images/shop/byredo-blanche.jpg",
+    "description": "A pure and innocent scent capturing the essence of clean white."
+  },
+  {
+    "id": "3",
+    "name": "Replica Jazz Club",
+    "brand": "Maison Margiela",
+    "size": "10ml",
+    "concentration": "EDT",
+    "notes": {
+      "top": ["Pink Pepper", "Neroli", "Lemon"],
+      "middle": ["Rum", "Clary Sage", "Java Vetiver"],
+      "base": ["Tobacco Leaf", "Vanilla", "Styrax"]
+    },
+    "scentFamily": ["Oriental", "Woody"],
+    "gender": "Unisex",
+    "inStock": true,
+    "flightReady": true,
+    "price": 30,
+    "image": "/images/shop/mmm-jazz-club.jpg",
+    "description": "Captures the ambiance of a Brooklyn jazz club with warm, boozy notes."
+  },
+  {
+    "id": "4",
+    "name": "Coco Mademoiselle",
+    "brand": "Chanel",
+    "size": "10ml",
+    "concentration": "EDP",
+    "notes": {
+      "top": ["Orange", "Bergamot", "Grapefruit"],
+      "middle": ["Rose", "Jasmine", "Lychee"],
+      "base": ["Patchouli", "Vanilla", "Vetiver"]
+    },
+    "scentFamily": ["Floral", "Oriental"],
+    "gender": "Feminine",
+    "inStock": true,
+    "flightReady": true,
+    "price": 32,
+    "image": "/images/shop/chanel-coco.jpg",
+    "description": "Fresh, sophisticated, and timeless. A modern classic."
+  },
+  {
+    "id": "5",
+    "name": "Santal 33",
+    "brand": "Le Labo",
+    "size": "10ml",
+    "concentration": "EDP",
+    "notes": {
+      "top": ["Cardamom", "Iris", "Violet"],
+      "middle": ["Papyrus", "Ambrox", "Cedarwood"],
+      "base": ["Sandalwood", "Leather", "Musk"]
+    },
+    "scentFamily": ["Woody", "Aromatic"],
+    "gender": "Unisex",
+    "inStock": true,
+    "flightReady": true,
+    "price": 38,
+    "image": "/images/shop/lelabo-santal33.jpg",
+    "description": "Cult favorite woody scent with creamy sandalwood and spice."
+  },
+  {
+    "id": "6",
+    "name": "Oud Wood",
+    "brand": "Tom Ford",
+    "size": "10ml",
+    "concentration": "EDP",
+    "notes": {
+      "top": ["Rosewood", "Cardamom", "Chinese Pepper"],
+      "middle": ["Oud", "Sandalwood", "Vetiver"],
+      "base": ["Tonka Bean", "Vanilla", "Amber"]
+    },
+    "scentFamily": ["Woody", "Oriental"],
+    "gender": "Unisex",
+    "inStock": false,
+    "flightReady": true,
+    "price": 40,
+    "image": "/images/shop/tf-oud-wood.jpg",
+    "description": "Exotic blend of rare oud wood, revealing a smoky, woody composition."
+  },
+  {
+    "id": "7",
+    "name": "Baie Rose",
+    "brand": "Diptyque",
+    "size": "10ml",
+    "concentration": "EDT",
+    "notes": {
+      "top": ["Pink Pepper", "Blackcurrant"],
+      "middle": ["Rose", "Violet"],
+      "base": ["Cedarwood", "Patchouli", "White Musk"]
+    },
+    "scentFamily": ["Floral", "Spicy"],
+    "gender": "Unisex",
+    "inStock": true,
+    "flightReady": true,
+    "price": 33,
+    "image": "/images/shop/diptyque-baie-rose.jpg",
+    "description": "Spicy rose with pink pepper berries and subtle woody notes."
+  },
+  {
+    "id": "8",
+    "name": "Wood Sage & Sea Salt",
+    "brand": "Jo Malone",
+    "size": "10ml",
+    "concentration": "EDC",
+    "notes": {
+      "top": ["Ambrette Seeds"],
+      "middle": ["Sea Salt"],
+      "base": ["Sage", "Grapefruit", "Red Algae"]
+    },
+    "scentFamily": ["Aquatic", "Woody"],
+    "gender": "Unisex",
+    "inStock": true,
+    "flightReady": true,
+    "price": 28,
+    "image": "/images/shop/jomalone-woodsage.jpg",
+    "description": "Fresh coastal escape with mineral sea salt and sage."
+  },
+  {
+    "id": "9",
+    "name": "Terre d'Hermès",
+    "brand": "Hermès",
+    "size": "10ml",
+    "concentration": "EDT",
+    "notes": {
+      "top": ["Orange", "Grapefruit"],
+      "middle": ["Pepper", "Pelargonium", "Flint"],
+      "base": ["Vetiver", "Cedar", "Patchouli", "Benzoin"]
+    },
+    "scentFamily": ["Woody", "Spicy"],
+    "gender": "Masculine",
+    "inStock": true,
+    "flightReady": true,
+    "price": 34,
+    "image": "/images/shop/hermes-terre.jpg",
+    "description": "Earthy and elegant, connecting man to earth and origins."
+  },
+  {
+    "id": "10",
+    "name": "Black Opium",
+    "brand": "Other",
+    "size": "10ml",
+    "concentration": "EDP",
+    "notes": {
+      "top": ["Pink Pepper", "Orange Blossom", "Pear"],
+      "middle": ["Coffee", "Jasmine", "Bitter Almond"],
+      "base": ["Vanilla", "Patchouli", "Cedarwood"]
+    },
+    "scentFamily": ["Oriental", "Gourmand"],
+    "gender": "Feminine",
+    "inStock": true,
+    "flightReady": true,
+    "price": 27,
+    "image": "/images/shop/black-opium.jpg",
+    "description": "Addictive gourmand with coffee, vanilla, and white flowers."
+  }
+]

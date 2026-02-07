@@ -1,0 +1,97 @@
+[
+  {
+    "id": "pf-1",
+    "name": "Teakwood & Tobacco",
+    "brand": "P.F. Candle Co.",
+    "size": "7.2oz",
+    "concentration": "Other",
+    "notes": {
+      "top": ["Leather", "Teak"],
+      "middle": ["Cedar", "Amber"],
+      "base": ["Patchouli", "Tobacco Leaf", "Sandalwood"]
+    },
+    "scentFamily": ["Woody", "Spicy"],
+    "gender": "Unisex",
+    "inStock": true,
+    "flightReady": false,
+    "price": 24,
+    "image": "/images/shop/pf-teakwood-tobacco.jpg",
+    "description": "A sophisticated blend of leather, teak, and tobacco. Rich and warm."
+  },
+  {
+    "id": "pf-2",
+    "name": "Golden Coast",
+    "brand": "P.F. Candle Co.",
+    "size": "7.2oz",
+    "concentration": "Other",
+    "notes": {
+      "top": ["Big Sur Magic", "Salty Skin"],
+      "middle": ["Eucalyptus", "Redwood"],
+      "base": ["Sea Spray", "Coastal Sage"]
+    },
+    "scentFamily": ["Fresh", "Aromatic"],
+    "gender": "Unisex",
+    "inStock": true,
+    "flightReady": false,
+    "price": 24,
+    "image": "/images/shop/pf-golden-coast.jpg",
+    "description": "California coastline scent with eucalyptus, sea salt, and redwood."
+  },
+  {
+    "id": "pf-3",
+    "name": "Amber & Moss",
+    "brand": "P.F. Candle Co.",
+    "size": "7.2oz",
+    "concentration": "Other",
+    "notes": {
+      "top": ["Sage"],
+      "middle": ["Moss", "Lavender"],
+      "base": ["Amber"]
+    },
+    "scentFamily": ["Aromatic", "Green"],
+    "gender": "Unisex",
+    "inStock": true,
+    "flightReady": false,
+    "price": 24,
+    "image": "/images/shop/pf-amber-moss.jpg",
+    "description": "Earthy and herbaceous with sage, lavender, and amber."
+  },
+  {
+    "id": "pf-4",
+    "name": "Pinon",
+    "brand": "P.F. Candle Co.",
+    "size": "7.2oz",
+    "concentration": "Other",
+    "notes": {
+      "top": ["Woodsmoke", "Pine"],
+      "middle": ["Piñon", "Cedarwood"],
+      "base": ["Vanilla", "Smoked Birch"]
+    },
+    "scentFamily": ["Woody", "Fresh"],
+    "gender": "Unisex",
+    "inStock": true,
+    "flightReady": false,
+    "price": 24,
+    "image": "/images/shop/pf-pinon.jpg",
+    "description": "Campfire scent with piñon pine, woodsmoke, and vanilla."
+  },
+  {
+    "id": "pf-5",
+    "name": "Sweet Grapefruit",
+    "brand": "P.F. Candle Co.",
+    "size": "7.2oz",
+    "concentration": "Other",
+    "notes": {
+      "top": ["Grapefruit Rind", "Pomelo"],
+      "middle": ["Black Pepper"],
+      "base": ["Vetiver", "Oakmoss"]
+    },
+    "scentFamily": ["Citrus", "Fresh"],
+    "gender": "Unisex",
+    "inStock": false,
+    "flightReady": false,
+    "price": 24,
+    "image": "/images/shop/pf-sweet-grapefruit.jpg",
+    "description": "Bright and zesty grapefruit with earthy vetiver."
+  }
+]
