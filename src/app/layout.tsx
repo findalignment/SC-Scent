@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     default: "Santa Cruz Scent - Premium Fragrance Decants & Candles",
     template: "%s | Santa Cruz Scent",
   },
-  description: "Discover luxury fragrances in travel-friendly sizes. Flight-ready decants, full bottles, and artisan candles. Try before you buy.",
+  description: "Discover luxury fragrances in travel-friendly sizes. Flight-ready decants and artisan candles.",
   keywords: ["fragrance", "perfume", "decants", "travel size", "TSA approved", "flight ready", "luxury scents", "PF Candle", "Santa Cruz"],
 };
 

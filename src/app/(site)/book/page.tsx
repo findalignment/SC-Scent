@@ -64,40 +64,6 @@ export default function BookPage() {
         </div>
       </section>
 
-      {/* Contact Info */}
-      <section className="py-20 bg-gradient-to-br from-blue-50 to-cyan-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">
-              Other Ways to Reach Us
-            </h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-white p-6 rounded-xl shadow-md">
-                <div className="text-4xl mb-3">📧</div>
-                <h3 className="font-bold text-gray-900 mb-2">Email</h3>
-                <a
-                  href="mailto:hello@santacruzscent.com"
-                  className="text-amber-600 hover:underline"
-                >
-                  hello@santacruzscent.com
-                </a>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-md">
-                <div className="text-4xl mb-3">📱</div>
-                <h3 className="font-bold text-gray-900 mb-2">Instagram</h3>
-                <a
-                  href="https://instagram.com/santacruzscent"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-amber-600 hover:underline"
-                >
-                  @santacruzscent
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

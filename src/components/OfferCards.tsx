@@ -11,15 +11,6 @@ const offers = [
     features: ['3.4oz or less', 'Leak-proof atomizers', 'Perfect for carry-on'],
   },
   {
-    id: 2,
-    title: 'Full Bottle Collection',
-    description: 'Ready to commit? Browse our selection of full-size designer fragrances.',
-    icon: '🎁',
-    link: '/in-stock',
-    linkText: 'View Full Bottles',
-    features: ['100% authentic', 'Gift-ready packaging', 'Premium selection'],
-  },
-  {
     id: 3,
     title: 'P.F. Candle Co.',
     description: 'Hand-poured artisan candles from Los Angeles. Transform your space.',
@@ -66,7 +57,7 @@ export default function OfferCards() {
             What We Offer
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            From travel-ready decants to full bottles and artisan candles, 
+            From travel-ready decants to artisan candles, 
             we have everything you need to elevate your fragrance game.
           </p>
         </div>

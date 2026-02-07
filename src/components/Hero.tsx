@@ -37,10 +37,10 @@ export default function Hero() {
               Browse Collection
             </Link>
             <Link
-              href="/scent-search"
+              href="/book"
               className="px-8 py-4 bg-white text-gray-900 font-semibold rounded-lg shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200 border-2 border-gray-200"
             >
-              Find Your Scent
+              Contact Us
             </Link>
           </div>
 
@@ -59,7 +59,7 @@ export default function Hero() {
             <div className="bg-white/60 backdrop-blur-sm p-6 rounded-xl">
               <div className="text-3xl mb-2">💰</div>
               <h3 className="font-semibold text-gray-900 mb-1">Affordable</h3>
-              <p className="text-sm text-gray-600">Try before full bottle commitment</p>
+              <p className="text-sm text-gray-600">Sample luxury scents affordably</p>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ import CTA from '@/components/CTA';
 
 export const metadata = {
   title: 'Santa Cruz Scent - Premium Fragrance Decants & Candles',
-  description: 'Discover luxury fragrances in travel-friendly sizes. Flight-ready decants, full bottles, and artisan candles. Try before you buy.',
+  description: 'Discover luxury fragrances in travel-friendly sizes. Flight-ready decants and artisan candles.',
 };
 
 export default function HomePage() {

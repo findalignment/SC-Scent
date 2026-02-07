@@ -50,7 +50,7 @@ export const GENDERS = [
 export const SITE_CONFIG = {
   name: 'Santa Cruz Scent',
   tagline: 'Premium Fragrance Decants & Candles',
-  description: 'Discover luxury fragrances in travel-friendly sizes. Flight-ready decants, full bottles, and artisan candles.',
+  description: 'Discover luxury fragrances in travel-friendly sizes. Flight-ready decants and artisan candles.',
   email: 'hello@santacruzscent.com',
   social: {
     instagram: 'https://instagram.com/santacruzscent',
