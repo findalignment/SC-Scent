@@ -234,7 +234,7 @@ export const pfProducts: PFProduct[] = [
       'Burn incense in a well-ventilated room, away from flammable materials, and never leave incense burning unattended or near children, pets, or a draft.',
     ],
     scentThrow: 'Our collection is thoughtfully-crafted to enhance your atmosphere, not overpower it. We intentionally develop welcoming, non-irritating home fragrances that even the most sensitive noses can enjoy.',
-    specs: ['15 charcoal-based incense sticks', 'One hour burn time per stick', 'Hand-dipped in Los Angeles', 'Sticks measure 10.75" in length'],
+    specs: ['20 charcoal-based incense sticks', 'One hour burn time per stick', 'Hand-dipped in Los Angeles', 'Sticks measure 10.75" in length'],
   },
   {
     id: 'in-golden-coast',
@@ -284,7 +284,7 @@ export const pfProducts: PFProduct[] = [
       'Burn incense in a well-ventilated room, away from flammable materials, and never leave incense burning unattended or near children, pets, or a draft.',
     ],
     scentThrow: 'Our collection is thoughtfully-crafted to enhance your atmosphere, not overpower it. We intentionally develop welcoming, non-irritating home fragrances that even the most sensitive noses can enjoy.',
-    specs: ['15 charcoal-based incense sticks', 'One hour burn time per stick', 'Hand-dipped in Los Angeles', 'Sticks measure 10.75" in length'],
+    specs: ['20 charcoal-based incense sticks', 'One hour burn time per stick', 'Hand-dipped in Los Angeles', 'Sticks measure 10.75" in length'],
   },
   {
     id: 'in-ojai-lavender',
@@ -359,7 +359,7 @@ export const pfProducts: PFProduct[] = [
       'Burn incense in a well-ventilated room, away from flammable materials, and never leave incense burning unattended or near children, pets, or a draft.',
     ],
     scentThrow: 'Our collection is thoughtfully-crafted to enhance your atmosphere, not overpower it. We intentionally develop welcoming, non-irritating home fragrances that even the most sensitive noses can enjoy.',
-    specs: ['15 charcoal-based incense sticks', 'One hour burn time per stick', 'Hand-dipped in Los Angeles', 'Sticks measure 10.75" in length'],
+    specs: ['20 charcoal-based incense sticks', 'One hour burn time per stick', 'Hand-dipped in Los Angeles', 'Sticks measure 10.75" in length'],
   },
   {
     id: 'in-smoked-cherry',
@@ -384,7 +384,7 @@ export const pfProducts: PFProduct[] = [
       'Burn incense in a well-ventilated room, away from flammable materials, and never leave incense burning unattended or near children, pets, or a draft.',
     ],
     scentThrow: 'Our collection is thoughtfully-crafted to enhance your atmosphere, not overpower it. We intentionally develop welcoming, non-irritating home fragrances that even the most sensitive noses can enjoy.',
-    specs: ['15 charcoal-based incense sticks', 'One hour burn time per stick', 'Hand-dipped in Los Angeles', 'Sticks measure 10.75" in length'],
+    specs: ['20 charcoal-based incense sticks', 'One hour burn time per stick', 'Hand-dipped in Los Angeles', 'Sticks measure 10.75" in length'],
   },
   {
     id: 'in-tuberose-musk',
@@ -409,7 +409,7 @@ export const pfProducts: PFProduct[] = [
       'Burn incense in a well-ventilated room, away from flammable materials, and never leave incense burning unattended or near children, pets, or a draft.',
     ],
     scentThrow: 'Our collection is thoughtfully-crafted to enhance your atmosphere, not overpower it. We intentionally develop welcoming, non-irritating home fragrances that even the most sensitive noses can enjoy.',
-    specs: ['15 charcoal-based incense sticks', 'One hour burn time per stick', 'Hand-dipped in Los Angeles', 'Sticks measure 10.75" in length'],
+    specs: ['20 charcoal-based incense sticks', 'One hour burn time per stick', 'Hand-dipped in Los Angeles', 'Sticks measure 10.75" in length'],
   },
   {
     id: 'in-wild-herb-tonic',
