@@ -7,58 +7,61 @@ interface FragranceCardProps {
 
 export default function FragranceCard({ fragrance }: FragranceCardProps) {
   return (
-    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition-all duration-300 border-2 border-cyan-100 hover:border-cyan-400"
+    <div className="bg-gradient-to-b from-[#1a2f4a] to-[#0d1b2a] shadow-2xl overflow-hidden hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)] transition-all duration-500 border border-amber-900/20 group"
     >
       {/* Image */}
-      <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
+      <div className="relative h-72 bg-gradient-to-br from-[#0a1628] to-[#1a2f4a] overflow-hidden">
         {fragrance.image ? (
           <img
             src={fragrance.image}
             alt={fragrance.name}
-            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center text-6xl">
+          <div className="w-full h-full flex items-center justify-center text-7xl opacity-40">
             🧴
           </div>
         )}
         
+        {/* Overlay Gradient */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628] via-transparent to-transparent opacity-60"></div>
+        
         {/* Badges */}
-        <div className="absolute top-3 left-3 flex flex-col gap-2">
+        <div className="absolute top-4 left-4 flex flex-col gap-2">
           {fragrance.inStock ? (
-            <Badge variant="success" size="sm">In Stock</Badge>
+            <span className="px-3 py-1 bg-amber-600/90 backdrop-blur-sm text-white text-xs font-medium uppercase tracking-wide shadow-lg">In Stock</span>
           ) : (
-            <Badge variant="danger" size="sm">Out of Stock</Badge>
+            <span className="px-3 py-1 bg-gray-800/90 backdrop-blur-sm text-gray-300 text-xs font-medium uppercase tracking-wide shadow-lg">Out of Stock</span>
           )}
           {fragrance.flightReady && (
-            <Badge variant="info" size="sm">✈️ Flight Ready</Badge>
+            <span className="px-3 py-1 bg-blue-900/80 backdrop-blur-sm text-blue-200 text-xs font-medium uppercase tracking-wide shadow-lg">✈️ TSA Ready</span>
           )}
         </div>
 
       </div>
 
       {/* Content */}
-      <div className="p-5">
+      <div className="p-6 bg-gradient-to-b from-[#0d1b2a] to-[#0a1628]">
         {/* Brand & Name */}
-        <div className="mb-3">
-          <p className="text-sm text-gray-500 font-medium mb-1">{fragrance.brand}</p>
-          <h3 className="text-xl font-bold text-gray-900 group-hover:text-cyan-600 transition-colors">
+        <div className="mb-4">
+          <p className="text-xs text-amber-400 font-medium mb-2 uppercase tracking-widest">{fragrance.brand}</p>
+          <h3 className="text-xl font-serif font-light text-white group-hover:text-amber-300 transition-colors leading-tight">
             {fragrance.name}
           </h3>
         </div>
 
         {/* Available Sizes */}
-        <div className="mb-3">
-          <p className="text-xs text-gray-500 mb-2">Available sizes:</p>
-          <div className="flex flex-wrap gap-1.5">
+        <div className="mb-4">
+          <p className="text-xs text-gray-500 mb-2 uppercase tracking-wide">Available Sizes:</p>
+          <div className="flex flex-wrap gap-2">
             {Object.entries(fragrance.sizes)
               .filter(([_, qty]) => qty > 0)
-              .map(([size, qty]) => (
+              .map(([size]) => (
                 <span
                   key={size}
-                  className="px-2 py-1 bg-teal-50 text-teal-700 text-xs font-medium rounded border border-teal-200"
+                  className="px-3 py-1 bg-amber-900/20 text-amber-300 text-xs font-medium border border-amber-900/40 hover:bg-amber-900/30 transition-colors"
                 >
-                  {size} ({qty})
+                  {size}
                 </span>
               ))}
             {Object.values(fragrance.sizes).every(qty => qty === 0) && (
@@ -69,8 +72,8 @@ export default function FragranceCard({ fragrance }: FragranceCardProps) {
         
         {/* Concentration */}
         {fragrance.concentration && (
-          <div className="mb-3">
-            <span className="px-2 py-0.5 bg-gray-100 rounded text-xs font-medium text-gray-700">
+          <div className="mb-4">
+            <span className="px-3 py-1 bg-white/5 border border-white/10 text-xs font-light text-gray-300 uppercase tracking-wider">
               {fragrance.concentration}
             </span>
           </div>
@@ -78,19 +81,19 @@ export default function FragranceCard({ fragrance }: FragranceCardProps) {
 
         {/* Description */}
         {fragrance.description && (
-          <p className="text-sm text-gray-600 mb-3 line-clamp-2">
+          <p className="text-sm text-gray-400 mb-4 line-clamp-2 font-light leading-relaxed">
             {fragrance.description}
           </p>
         )}
 
         {/* Scent Families */}
         {fragrance.scentFamily && fragrance.scentFamily.length > 0 && (
-          <div className="mb-3">
-            <div className="flex flex-wrap gap-1.5">
+          <div className="mb-4">
+            <div className="flex flex-wrap gap-2">
               {fragrance.scentFamily.map((family, index) => (
                 <span
                   key={index}
-                  className="text-xs px-2 py-1 bg-gradient-to-r from-cyan-50 to-blue-50 text-cyan-700 rounded-full border border-cyan-200"
+                  className="text-xs px-2 py-1 bg-white/5 text-gray-400 font-light border border-white/10"
                 >
                   {family}
                 </span>
@@ -100,14 +103,14 @@ export default function FragranceCard({ fragrance }: FragranceCardProps) {
         )}
 
         {/* Notes Preview */}
-        <div className="pt-3 border-t border-gray-100">
-          <div className="flex flex-wrap gap-1.5">
+        <div className="pt-4 border-t border-white/10">
+          <div className="flex flex-wrap gap-2">
             {[...fragrance.notes.top, ...fragrance.notes.middle, ...fragrance.notes.base]
               .slice(0, 4)
               .map((note, index) => (
                 <span
                   key={index}
-                  className="inline-block px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded-full"
+                  className="inline-block px-2 py-1 bg-white/5 text-gray-400 text-xs font-light"
                 >
                   {note}
                 </span>

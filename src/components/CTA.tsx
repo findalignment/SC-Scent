@@ -22,18 +22,18 @@ export default function CTA({
   variant = 'default',
 }: CTAProps) {
   const variants = {
-    default: "bg-gradient-to-br from-cyan-50 via-sky-50 to-blue-50",
-    gradient: "bg-gradient-to-r from-cyan-500 via-teal-400 to-blue-500 text-white",
-    minimal: "bg-gray-50 border-t border-b border-gray-200",
+    default: "bg-gray-100",
+    gradient: "bg-slate-800 text-white border-t-4 border-teal-600",
+    minimal: "bg-gray-50 border-t-4 border-gray-300",
   };
 
   const buttonPrimary = variant === 'gradient' 
-    ? "bg-white text-cyan-600 hover:bg-cyan-50 font-bold"
-    : "bg-gradient-to-r from-cyan-500 to-teal-500 text-white hover:shadow-xl font-bold";
+    ? "bg-white text-slate-900 hover:bg-gray-100 font-bold shadow-lg"
+    : "bg-teal-700 text-white hover:shadow-xl hover:bg-teal-800 font-bold shadow-lg";
 
   const buttonSecondary = variant === 'gradient'
-    ? "bg-transparent border-2 border-white text-white hover:bg-white/10"
-    : "bg-white border-2 border-cyan-300 text-gray-900 hover:border-cyan-400";
+    ? "bg-transparent border-2 border-white text-white hover:bg-white/10 shadow-md"
+    : "bg-white border-2 border-teal-600 text-gray-900 hover:border-teal-700 shadow-md";
 
   return (
     <section className={`py-20 ${variants[variant]}`}>
@@ -54,7 +54,7 @@ export default function CTA({
             {primaryButton && (
               <Link
                 href={primaryButton.href}
-                className={`px-8 py-4 font-semibold rounded-lg shadow-lg hover:scale-105 transition-all duration-200 ${buttonPrimary}`}
+                className={`px-8 py-4 font-semibold hover:scale-105 transition-all duration-200 ${buttonPrimary}`}
               >
                 {primaryButton.text}
               </Link>
@@ -62,7 +62,7 @@ export default function CTA({
             {secondaryButton && (
               <Link
                 href={secondaryButton.href}
-                className={`px-8 py-4 font-semibold rounded-lg shadow-md hover:scale-105 transition-all duration-200 ${buttonSecondary}`}
+                className={`px-8 py-4 font-semibold hover:scale-105 transition-all duration-200 ${buttonSecondary}`}
               >
                 {secondaryButton.text}
               </Link>

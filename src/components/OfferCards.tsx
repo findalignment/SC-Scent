@@ -15,7 +15,7 @@ const offers = [
     title: 'P.F. Candle Co.',
     description: 'Hand-poured artisan candles from Los Angeles. Transform your space.',
     icon: '🕯️',
-    link: '/pf-candle',
+    link: '/candles',
     linkText: 'Explore Candles',
     features: ['Hand-poured in LA', 'Natural soy wax', 'Signature scents'],
   },
@@ -50,7 +50,7 @@ const offers = [
 
 export default function OfferCards() {
   return (
-    <section className="py-20 bg-gradient-to-br from-sky-50 to-white">
+    <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -65,7 +65,7 @@ export default function OfferCards() {
           {offers.map((offer) => (
             <div
               key={offer.id}
-              className="bg-white border-2 border-cyan-100 rounded-2xl p-8 hover:shadow-2xl hover:border-cyan-300 hover:scale-105 transition-all duration-300"
+              className="bg-white border-l-4 border-teal-600 p-8 shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="text-5xl mb-4">{offer.icon}</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">
@@ -86,7 +86,7 @@ export default function OfferCards() {
 
               <Link
                 href={offer.link}
-                className="inline-flex items-center gap-2 text-cyan-600 hover:text-cyan-700 font-semibold group"
+                className="inline-flex items-center gap-2 text-teal-700 hover:text-teal-800 font-semibold group"
               >
                 {offer.linkText}
                 <span className="group-hover:translate-x-1 transition-transform">→</span>

@@ -96,13 +96,12 @@ export default function FragranceModal({ fragrance, isOpen, onClose }: Fragrance
                 <div className="flex flex-wrap gap-2">
                   {Object.entries(fragrance.sizes)
                     .filter(([_, qty]) => qty > 0)
-                    .map(([size, qty]) => (
+                    .map(([size]) => (
                       <div
                         key={size}
                         className="px-4 py-2 bg-white border-2 border-green-200 rounded-lg text-center"
                       >
                         <p className="font-bold text-gray-900">{size}</p>
-                        <p className="text-xs text-green-600">{qty} in stock</p>
                       </div>
                     ))}
                   {Object.values(fragrance.sizes).every(qty => qty === 0) && (
