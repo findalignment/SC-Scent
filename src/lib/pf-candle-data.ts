@@ -249,7 +249,7 @@ export const pfProducts: PFProduct[] = [
       middle: ['Redwood'],
       base: ['Palo Santo', 'Sage'],
     },
-    imageUrl: 'https://pfcandleco.com/cdn/shop/products/IN21.jpg',
+    imageUrl: '/images/PF Candle Co/golden-coast-incense.jpg',
     inStock: true,
     ingredients: 'Charcoal based incense sticks and phthalate-free fine fragrance oil. Hand-dipped in our Los Angeles factory.',
     howToUse: [
