@@ -199,7 +199,7 @@ export const pfProducts: PFProduct[] = [
       middle: ['Sage', 'Orange', 'Lavandin'],
       base: ['Amber', 'Musk'],
     },
-    imageUrl: '/images/PF Candle Co/amber-moss-af.jpg',
+    imageUrl: '/images/PF Candle Co/amber-moss-incense.jpg.webp',
     inStock: true,
     ingredients: 'Charcoal based incense sticks and phthalate-free fine fragrance oil. Hand-dipped in our Los Angeles factory.',
     howToUse: [
