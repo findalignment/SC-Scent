@@ -67,7 +67,6 @@ export default function OfferCards() {
               key={offer.id}
               className="bg-white border-l-4 border-teal-600 p-8 shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              <div className="text-5xl mb-4">{offer.icon}</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">
                 {offer.title}
               </h3>

@@ -18,8 +18,8 @@ export default function FragranceCard({ fragrance }: FragranceCardProps) {
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center text-7xl opacity-40">
-            🧴
+          <div className="w-full h-full flex items-center justify-center text-white/30 font-serif text-6xl">
+            SC
           </div>
         )}
         
@@ -34,7 +34,7 @@ export default function FragranceCard({ fragrance }: FragranceCardProps) {
             <span className="px-3 py-1 bg-gray-800/90 backdrop-blur-sm text-gray-300 text-xs font-medium uppercase tracking-wide shadow-lg">Out of Stock</span>
           )}
           {fragrance.flightReady && (
-            <span className="px-3 py-1 bg-blue-900/80 backdrop-blur-sm text-blue-200 text-xs font-medium uppercase tracking-wide shadow-lg">✈️ TSA Ready</span>
+            <span className="px-3 py-1 bg-blue-900/80 backdrop-blur-sm text-blue-200 text-xs font-medium uppercase tracking-wide shadow-lg">TSA Ready</span>
           )}
         </div>
 

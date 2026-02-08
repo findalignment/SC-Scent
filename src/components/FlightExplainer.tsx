@@ -22,14 +22,11 @@ export default function FlightExplainer() {
           <div className="bg-white shadow-xl overflow-hidden border-t-4 border-teal-700">
             {/* Hero Section */}
             <div className="bg-slate-800 p-8 text-white border-b-4 border-teal-600">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="text-5xl">✈️</div>
-                <div>
-                  <h3 className="text-2xl font-bold mb-1">Travel-Ready</h3>
-                  <p className="text-gray-300">
-                    All sizes {FLIGHT_RULES.maxSize} or less • Perfect for carry-on
-                  </p>
-                </div>
+              <div>
+                <h3 className="text-2xl font-bold mb-1">Travel-Ready</h3>
+                <p className="text-gray-300">
+                  All sizes {FLIGHT_RULES.maxSize} or less • Perfect for carry-on
+                </p>
               </div>
             </div>
 
@@ -57,28 +54,24 @@ export default function FlightExplainer() {
               </h4>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white p-4 border-l-4 border-teal-600 shadow-md">
-                  <div className="text-2xl mb-2">🎒</div>
                   <h5 className="font-bold text-gray-900 mb-2">Pack Smart</h5>
                   <p className="text-sm text-gray-700">
                     Keep your decants in a clear, quart-sized bag and place it on top of your carry-on for easy access during security.
                   </p>
                 </div>
                 <div className="bg-white p-4 border-l-4 border-teal-600 shadow-md">
-                  <div className="text-2xl mb-2">🔒</div>
                   <h5 className="font-bold text-gray-900 mb-2">Leak Protection</h5>
                   <p className="text-sm text-gray-700">
                     Our atomizers are leak-proof, but you can add extra protection by wrapping them in a small ziplock bag.
                   </p>
                 </div>
                 <div className="bg-white p-4 border-l-4 border-teal-600 shadow-md">
-                  <div className="text-2xl mb-2">🌡️</div>
                   <h5 className="font-bold text-gray-900 mb-2">Temperature Care</h5>
                   <p className="text-sm text-gray-700">
                     Avoid extreme temperatures. Don't leave fragrances in checked bags or hot cars—stick to carry-on.
                   </p>
                 </div>
                 <div className="bg-white p-4 border-l-4 border-teal-600 shadow-md">
-                  <div className="text-2xl mb-2">📏</div>
                   <h5 className="font-bold text-gray-900 mb-2">Size Right</h5>
                   <p className="text-sm text-gray-700">
                     A 10ml decant is perfect for a week-long trip. Order multiple sizes for extended travel.

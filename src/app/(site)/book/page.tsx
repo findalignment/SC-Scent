@@ -10,7 +10,6 @@ export default function BookPage() {
       <section className="py-20 bg-slate-800 text-white border-b-4 border-teal-600">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <div className="text-6xl mb-6">💬</div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Get in Touch
             </h1>
@@ -34,7 +33,6 @@ export default function BookPage() {
               
               <div className="space-y-6">
                 <div className="p-8 bg-slate-50 shadow-md border-l-4 border-teal-600">
-                  <div className="text-5xl mb-4">📧</div>
                   <h3 className="font-bold text-gray-900 mb-3 text-xl">Email</h3>
                   <a
                     href="mailto:hello@santacruzscent.com"
@@ -48,7 +46,6 @@ export default function BookPage() {
                 </div>
 
                 <div className="p-8 bg-slate-50 shadow-md border-l-4 border-slate-600">
-                  <div className="text-5xl mb-4">📱</div>
                   <h3 className="font-bold text-gray-900 mb-3 text-xl">Instagram</h3>
                   <a
                     href="https://instagram.com/santacruzscent"
@@ -66,7 +63,7 @@ export default function BookPage() {
               
               <div className="mt-8 p-6 bg-teal-50 border-l-4 border-teal-700 shadow-md">
                 <p className="text-sm text-gray-800 text-center font-medium">
-                  <strong className="text-teal-800">🌊 Based in Santa Cruz, CA</strong>
+                  <strong className="text-teal-800">Based in Santa Cruz, CA</strong>
                   <br />
                   In-person scent consultations available locally
                 </p>

@@ -10,7 +10,6 @@ export default function PartiesPage() {
       <section className="py-20 bg-slate-800 text-white border-b-4 border-teal-600">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <div className="text-6xl mb-6">🎉</div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Fragrance Party Experiences
             </h1>
@@ -31,7 +30,6 @@ export default function PartiesPage() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 shadow-lg border-l-4 border-teal-600">
-                <div className="text-4xl mb-4">👃</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
                   Scent Discovery
                 </h3>
@@ -41,7 +39,6 @@ export default function PartiesPage() {
               </div>
 
               <div className="bg-white p-8 shadow-lg border-l-4 border-teal-600">
-                <div className="text-4xl mb-4">🎓</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
                   Expert Guidance
                 </h3>
@@ -51,7 +48,6 @@ export default function PartiesPage() {
               </div>
 
               <div className="bg-white p-8 shadow-lg border-l-4 border-teal-600">
-                <div className="text-4xl mb-4">🧴</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
                   Take-Home Samples
                 </h3>
@@ -61,7 +57,6 @@ export default function PartiesPage() {
               </div>
 
               <div className="bg-white p-8 shadow-lg border-l-4 border-teal-600">
-                <div className="text-4xl mb-4">🌊</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
                   Santa Cruz Setting
                 </h3>
@@ -84,15 +79,14 @@ export default function PartiesPage() {
 
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                { emoji: '🎂', title: 'Birthdays', desc: 'Make your celebration unique' },
-                { emoji: '👰', title: 'Bridal Showers', desc: 'Find the perfect wedding day scent' },
-                { emoji: '💼', title: 'Team Building', desc: 'Unique corporate experience' },
-                { emoji: '👯', title: "Friends' Gatherings", desc: 'Fun and interactive activity' },
-                { emoji: '🎓', title: 'Graduation Parties', desc: 'Celebrate with something special' },
-                { emoji: '🏠', title: 'Home Parties', desc: 'Intimate group experiences' },
+                { title: 'Birthdays', desc: 'Make your celebration unique' },
+                { title: 'Bridal Showers', desc: 'Find the perfect wedding day scent' },
+                { title: 'Team Building', desc: 'Unique corporate experience' },
+                { title: "Friends' Gatherings", desc: 'Fun and interactive activity' },
+                { title: 'Graduation Parties', desc: 'Celebrate with something special' },
+                { title: 'Home Parties', desc: 'Intimate group experiences' },
               ].map((item, index) => (
                 <div key={index} className="bg-white p-6 shadow-md text-center hover:shadow-lg transition-shadow border-l-4 border-slate-600">
-                  <div className="text-4xl mb-3">{item.emoji}</div>
                   <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
                   <p className="text-sm text-gray-700">{item.desc}</p>
                 </div>

@@ -14,7 +14,6 @@ export default function SiteLayout({
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group">
-              <span className="text-2xl">🌊</span>
               <span className="text-xl font-serif font-light text-white tracking-wide group-hover:text-amber-300 transition-colors">
                 {SITE_CONFIG.name}
               </span>
@@ -61,7 +60,6 @@ export default function SiteLayout({
             {/* Brand */}
             <div>
               <div className="flex items-center gap-3 mb-6">
-                <span className="text-2xl">🌊</span>
                 <span className="text-xl font-serif font-light tracking-wide">{SITE_CONFIG.name}</span>
               </div>
               <p className="text-gray-400 font-light leading-relaxed text-sm">
