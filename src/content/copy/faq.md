@@ -43,7 +43,7 @@ Place all your decants in a clear, quart-sized plastic bag. Remove the bag durin
 100% authentic. We source directly from authorized retailers and distributors.
 
 ### How long will a 10ml decant last?
-With regular use (2-3 sprays per day), a 10ml decant typically lasts 4-6 weeks.
+With regular use (2-3 sprays per day), a 5ml decant typically lasts 1 week.
 
 ### Do you take custom orders?
 Yes! Contact us for special requests, larger sizes, or fragrances not listed on our site.

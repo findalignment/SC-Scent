@@ -74,7 +74,7 @@ export default function FlightExplainer() {
                 <div className="bg-white p-4 border-l-4 border-teal-600 shadow-md">
                   <h5 className="font-bold text-gray-900 mb-2">Size Right</h5>
                   <p className="text-sm text-gray-700">
-                    A 10ml decant is perfect for a week-long trip. Order multiple sizes for extended travel.
+                    A 5ml decant is perfect for a week-long trip. Order multiple sizes for extended travel.
                   </p>
                 </div>
               </div>

@@ -1,5 +1,5 @@
 import type { Fragrance } from '@/lib/schema';
-import Badge from './Badge';
+import Link from 'next/link';
 
 interface FragranceCardProps {
   fragrance: Fragrance;
@@ -7,8 +7,9 @@ interface FragranceCardProps {
 
 export default function FragranceCard({ fragrance }: FragranceCardProps) {
   return (
-    <div className="bg-gradient-to-b from-[#1a2f4a] to-[#0d1b2a] shadow-2xl overflow-hidden hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)] transition-all duration-500 border border-amber-900/20 group"
-    >
+    <Link href={`/fragrances/${fragrance.id}`} className="block">
+      <div className="bg-gradient-to-b from-[#1a2f4a] to-[#0d1b2a] shadow-2xl overflow-hidden hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)] transition-all duration-500 border border-amber-900/20 group cursor-pointer"
+      >
       {/* Image */}
       <div className="relative h-72 bg-gradient-to-br from-[#0a1628] to-[#1a2f4a] overflow-hidden">
         {fragrance.image ? (
@@ -118,6 +119,7 @@ export default function FragranceCard({ fragrance }: FragranceCardProps) {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </Link>
   );
 }
