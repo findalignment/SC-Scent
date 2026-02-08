@@ -7,8 +7,56 @@
    - Will be used as background overlay with opacity
    - Suggested: Natural Bridges, Steamer Lane, or West Cliff Drive at dusk
 
-## Fragrance Product Images
-Each fragrance in your Google Sheet should have product images. You'll need:
+## Fragrance Images Status
+
+### ✅ Fragrances WITH Images (23 found)
+The following fragrance images are currently in `/public/images/fragrances/`:
+
+1. ✅ **beach-walk.jpg** - Maison Margiela Replica Beach Walk
+2. ✅ **black-afgano.jpg** - Nasomatto Black Afgano
+3. ✅ **bosca-vanilla.jpg** - Bosca Vanilla
+4. ✅ **coffee-break.jpg** - Maison Margiela Replica Coffee Break
+5. ✅ **colonia.jpg** - Acqua di Parma Colonia
+6. ✅ **guerlain-heritage.jpg.avif** - Guerlain Heritage
+7. ✅ **guerlain-vetiver.jpg** - Guerlain Vetiver
+8. ✅ **jazz-club.jpg** - Maison Margiela Replica Jazz Club
+9. ✅ **lazy-sunday-morning.jpg** - Maison Margiela Replica Lazy Sunday Morning
+10. ✅ **megamare.jpg** - Orto Parisi Megamare
+11. ✅ **myrrh-tonka.jpg** - Jo Malone Myrrh & Tonka
+12. ✅ **nerolia-vetiver.jpg.webp** - Guerlain Nerolia Vetiver
+13. ✅ **nettare-di-sole.jpg.avif** - Guerlain Nettare di Sole
+14. ✅ **orange-soleia.jpg.avif** - Guerlain Orange Soleia
+15. ✅ **prada-lhomme.jpg** - Prada L'Homme
+16. ✅ **rosa-pallisandro.jpg.avif** - Guerlain Rosa Palissandro
+17. ✅ **rosa-rossa.jpg** - Guerlain Rosa Rossa
+18. ✅ **under-the-lemon-tree.jpg** - Maison Margiela Replica Under The Lemon Tree
+19. ✅ **when-the-name-stops.jpg** - Teo Cabanel When The Name Stops
+20. ✅ **wood-sage-sea-salt.jpg** - Jo Malone Wood Sage & Sea Salt
+21. ✅ **ysl-y.webp** - YSL Y
+22. ✅ **zoologist-bat.jpg** - Zoologist Bat
+23. ✅ **zoologist-chipmunk.jpg.webp** - Zoologist Chipmunk
+
+### 📋 Next Steps - Update Google Sheets
+For each fragrance image above, update your Google Sheet's "Image" column with the path:
+
+**Format:** `/images/fragrances/filename.jpg`
+
+**Examples:**
+- Beach Walk → `/images/fragrances/beach-walk.jpg`
+- Black Afgano → `/images/fragrances/black-afgano.jpg`
+- Jazz Club → `/images/fragrances/jazz-club.jpg`
+
+### ❌ Fragrances MISSING Images
+To determine which fragrances are missing images, check your Google Sheet and compare against the list above. Any fragrance not listed above still needs an image.
+
+**Common fragrances that might need images:**
+- Check your current inventory in the Google Sheet
+- Look for entries where the "Image" column is empty
+- Download missing images from official brand sites or FragranceX.com
+- Name them consistently (lowercase, hyphens, no spaces)
+- Upload to `/public/images/fragrances/`
+
+## Fragrance Product Images Guidelines
 
 ### For Each Fragrance:
 - **High-quality bottle images** (600x800px minimum, square or portrait)
@@ -25,9 +73,9 @@ Each fragrance in your Google Sheet should have product images. You'll need:
 5. **Fragrantica.com** - community-sourced images
 
 ### Image Naming Convention:
-- Use brand-fragrance-name format
+- Use brand-fragrance-name format (lowercase, hyphens)
 - Example: `tom-ford-tobacco-vanille.jpg`
-- Store in: `public/fragrances/` folder
+- Store in: `public/images/fragrances/` folder
 
 ## Optional Enhancement Images
 
