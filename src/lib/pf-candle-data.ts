@@ -249,7 +249,7 @@ export const pfProducts: PFProduct[] = [
       middle: ['Redwood'],
       base: ['Palo Santo', 'Sage'],
     },
-    imageUrl: '/images/PF Candle Co/golden-coast-af.jpg',
+    imageUrl: 'https://pfcandleco.com/cdn/shop/products/IN21.jpg',
     inStock: true,
     ingredients: 'Charcoal based incense sticks and phthalate-free fine fragrance oil. Hand-dipped in our Los Angeles factory.',
     howToUse: [
@@ -586,7 +586,7 @@ export const pfProducts: PFProduct[] = [
       middle: ['Lavender', 'Rose', 'Lily'],
       base: ['Mint', 'Red Cedar'],
     },
-    imageUrl: '/images/PF Candle Co/amber-moss-spray.jpg',
+    imageUrl: 'https://pfcandleco.com/cdn/shop/products/RSOL.jpg',
     inStock: true,
     ingredients: 'Each amber glass bottle contains a 7.75 fl oz blend of body-safe fine fragrance oils and water.',
     howToUse: [
