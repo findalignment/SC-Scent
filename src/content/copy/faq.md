@@ -31,7 +31,6 @@ Yes! Orders over $75 qualify for free standard shipping.
 Yes! All our decants marked as "flight-ready" are:
 - 100ml (3.4oz) or less
 - In TSA-approved travel atomizers
-- Leak-proof and tested
 - Ready for your carry-on
 
 ### How do I pack fragrance for a flight?

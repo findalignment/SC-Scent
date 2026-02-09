@@ -62,7 +62,7 @@ export default function FlightExplainer() {
                 <div className="bg-white p-4 border-l-4 border-teal-600 shadow-md">
                   <h5 className="font-bold text-gray-900 mb-2">Leak Protection</h5>
                   <p className="text-sm text-gray-700">
-                    Our atomizers are leak-proof, but you can add extra protection by wrapping them in a small ziplock bag.
+                    For extra protection during travel, wrap your decants in a small ziplock bag inside your quart-sized liquids bag.
                   </p>
                 </div>
                 <div className="bg-white p-4 border-l-4 border-teal-600 shadow-md">

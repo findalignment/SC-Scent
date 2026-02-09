@@ -8,7 +8,7 @@ const offers = [
     icon: '✈️',
     link: '/in-stock',
     linkText: 'Shop Decants',
-    features: ['3.4oz or less', 'Leak-proof atomizers', 'Perfect for carry-on'],
+    features: ['3.4oz or less', 'Travel atomizers', 'Perfect for carry-on'],
   },
   {
     id: 3,
