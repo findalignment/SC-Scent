@@ -50,10 +50,10 @@ const offers = [
 
 export default function OfferCards() {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-gray-50" aria-labelledby="offers-heading">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 id="offers-heading" className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             What We Offer
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -61,13 +61,14 @@ export default function OfferCards() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" role="list">
           {offers.map((offer) => (
             <div
               key={offer.id}
               className="bg-white border-l-4 border-teal-600 p-8 shadow-lg hover:shadow-xl transition-all duration-300"
+              role="listitem"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3" id={`offer-${offer.id}`}>
                 {offer.title}
               </h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
@@ -85,10 +86,12 @@ export default function OfferCards() {
 
               <Link
                 href={offer.link}
-                className="inline-flex items-center gap-2 text-teal-700 hover:text-teal-800 font-semibold group"
+                className="inline-flex items-center gap-2 text-teal-700 hover:text-teal-800 font-semibold group focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-600"
+                aria-label={`${offer.linkText} for ${offer.title}`}
+                aria-describedby={`offer-${offer.id}`}
               >
                 {offer.linkText}
-                <span className="group-hover:translate-x-1 transition-transform">→</span>
+                <span className="group-hover:translate-x-1 transition-transform" aria-hidden="true">→</span>
               </Link>
             </div>
           ))}

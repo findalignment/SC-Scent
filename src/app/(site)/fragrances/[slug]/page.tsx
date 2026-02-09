@@ -151,12 +151,16 @@ export default function FragranceDetailPage({ params }: { params: Promise<{ slug
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             {/* Tab Navigation */}
-            <div className="flex flex-wrap gap-2 mb-8 border-b border-white/10 pb-4">
+            <div className="flex flex-wrap gap-2 mb-8 border-b border-white/10 pb-4" role="tablist" aria-label="Product information tabs">
               {tabs.map((tab) => (
                 <button
                   key={tab.id}
                   onClick={() => setActiveTab(tab.id)}
-                  className={`px-6 py-3 font-medium text-sm uppercase tracking-wider transition-all ${
+                  role="tab"
+                  aria-selected={activeTab === tab.id}
+                  aria-controls={`panel-${tab.id}`}
+                  id={`tab-${tab.id}`}
+                  className={`px-6 py-3 font-medium text-sm uppercase tracking-wider transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 ${
                     activeTab === tab.id
                       ? 'bg-amber-600 text-white'
                       : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white'
@@ -170,7 +174,12 @@ export default function FragranceDetailPage({ params }: { params: Promise<{ slug
             {/* Tab Content */}
             <div className="bg-gradient-to-b from-[#1a2f4a] to-[#0d1b2a] p-8 md:p-12 border border-amber-900/20">
               {activeTab === 'details' && (
-                <div className="text-gray-300">
+                <div 
+                  className="text-gray-300"
+                  role="tabpanel"
+                  id="panel-details"
+                  aria-labelledby="tab-details"
+                >
                   <h3 className="text-2xl font-serif font-light text-white mb-6">About This Fragrance</h3>
                   
                   {fragrance.description ? (
@@ -208,7 +217,12 @@ export default function FragranceDetailPage({ params }: { params: Promise<{ slug
               )}
 
               {activeTab === 'notes' && (
-                <div className="text-gray-300">
+                <div 
+                  className="text-gray-300"
+                  role="tabpanel"
+                  id="panel-notes"
+                  aria-labelledby="tab-notes"
+                >
                   <h3 className="text-2xl font-serif font-light text-white mb-8">Fragrance Pyramid</h3>
                   
                   <div className="space-y-8">
@@ -271,7 +285,12 @@ export default function FragranceDetailPage({ params }: { params: Promise<{ slug
               )}
 
               {activeTab === 'sizes' && (
-                <div className="text-gray-300">
+                <div 
+                  className="text-gray-300"
+                  role="tabpanel"
+                  id="panel-sizes"
+                  aria-labelledby="tab-sizes"
+                >
                   <h3 className="text-2xl font-serif font-light text-white mb-8">Available Sizes</h3>
                   
                   {availableSizes.length > 0 ? (

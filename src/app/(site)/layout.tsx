@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { SITE_CONFIG } from '@/lib/constants';
 import SearchBar from '@/components/SearchBar';
 import BackToTop from '@/components/BackToTop';
+import SkipToContent from '@/components/SkipToContent';
 
 export default function SiteLayout({
   children,
@@ -10,12 +11,15 @@ export default function SiteLayout({
 }) {
   return (
     <>
+      {/* Skip to Content - Accessibility */}
+      <SkipToContent />
+
       {/* Navigation - Already sticky! */}
-      <nav className="sticky top-0 z-40 bg-[#0a1628]/95 backdrop-blur-lg border-b border-amber-900/30 shadow-2xl">
+      <nav className="sticky top-0 z-40 bg-[#0a1628]/95 backdrop-blur-lg border-b border-amber-900/30 shadow-2xl" role="navigation" aria-label="Main navigation">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-3 group">
+            <Link href="/" className="flex items-center gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400" aria-label="Santa Cruz Scent home page">
               <span className="text-xl font-serif font-light text-white tracking-wide group-hover:text-amber-300 transition-colors">
                 {SITE_CONFIG.name}
               </span>
@@ -25,25 +29,25 @@ export default function SiteLayout({
             <div className="hidden md:flex items-center gap-8">
               <Link
                 href="/in-stock"
-                className="text-gray-300 hover:text-amber-400 font-light tracking-wide text-sm uppercase transition-colors"
+                className="text-gray-300 hover:text-amber-400 font-light tracking-wide text-sm uppercase transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
               >
                 Fragrances
               </Link>
               <Link
                 href="/candles"
-                className="text-gray-300 hover:text-amber-400 font-light tracking-wide text-sm uppercase transition-colors"
+                className="text-gray-300 hover:text-amber-400 font-light tracking-wide text-sm uppercase transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
               >
                 Candles
               </Link>
               <Link
                 href="/parties"
-                className="text-gray-300 hover:text-amber-400 font-light tracking-wide text-sm uppercase transition-colors"
+                className="text-gray-300 hover:text-amber-400 font-light tracking-wide text-sm uppercase transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
               >
                 Events
               </Link>
               <Link
                 href="/book"
-                className="px-6 py-2 bg-amber-600 text-white font-medium text-sm uppercase tracking-wide hover:bg-amber-700 transition-colors shadow-lg"
+                className="px-6 py-2 bg-amber-600 text-white font-medium text-sm uppercase tracking-wide hover:bg-amber-700 transition-colors shadow-lg focus:outline-none focus-visible:ring-4 focus-visible:ring-amber-400"
               >
                 Contact
               </Link>
@@ -56,13 +60,13 @@ export default function SiteLayout({
       </nav>
 
       {/* Main Content */}
-      <main>{children}</main>
+      <main id="main-content">{children}</main>
 
       {/* Back to Top Button */}
       <BackToTop />
 
       {/* Footer */}
-      <footer className="bg-[#0a1628] text-white py-16 border-t border-amber-900/20">
+      <footer className="bg-[#0a1628] text-white py-16 border-t border-amber-900/20" role="contentinfo" aria-label="Site footer">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
             {/* Brand */}
@@ -76,45 +80,46 @@ export default function SiteLayout({
             </div>
 
             {/* Links */}
-            <div>
-              <h3 className="font-medium mb-6 text-amber-400 uppercase tracking-wider text-sm">Navigate</h3>
-              <ul className="space-y-3 text-sm">
+            <nav aria-labelledby="footer-navigation">
+              <h3 id="footer-navigation" className="font-medium mb-6 text-amber-400 uppercase tracking-wider text-sm">Navigate</h3>
+              <ul className="space-y-3 text-sm" role="list">
                 <li>
-                  <Link href="/" className="text-gray-400 hover:text-amber-400 transition-colors font-light">
+                  <Link href="/" className="text-gray-400 hover:text-amber-400 transition-colors font-light focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link href="/in-stock" className="text-gray-400 hover:text-amber-400 transition-colors font-light">
+                  <Link href="/in-stock" className="text-gray-400 hover:text-amber-400 transition-colors font-light focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400">
                     Fragrances
                   </Link>
                 </li>
                 <li>
-                  <Link href="/candles" className="text-gray-400 hover:text-amber-400 transition-colors font-light">
+                  <Link href="/candles" className="text-gray-400 hover:text-amber-400 transition-colors font-light focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400">
                     Candles
                   </Link>
                 </li>
                 <li>
-                  <Link href="/parties" className="text-gray-400 hover:text-amber-400 transition-colors font-light">
+                  <Link href="/parties" className="text-gray-400 hover:text-amber-400 transition-colors font-light focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400">
                     Events
                   </Link>
                 </li>
                 <li>
-                  <Link href="/book" className="text-gray-400 hover:text-amber-400 transition-colors font-light">
+                  <Link href="/book" className="text-gray-400 hover:text-amber-400 transition-colors font-light focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400">
                     Contact
                   </Link>
                 </li>
               </ul>
-            </div>
+            </nav>
 
             {/* Contact */}
             <div>
               <h3 className="font-medium mb-6 text-amber-400 uppercase tracking-wider text-sm">Connect</h3>
-              <ul className="space-y-3 text-sm">
+              <ul className="space-y-3 text-sm" role="list">
                 <li>
                   <a
                     href={`mailto:${SITE_CONFIG.email}`}
-                    className="text-gray-400 hover:text-amber-400 transition-colors font-light"
+                    className="text-gray-400 hover:text-amber-400 transition-colors font-light focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
+                    aria-label={`Send email to ${SITE_CONFIG.email}`}
                   >
                     {SITE_CONFIG.email}
                   </a>
@@ -124,7 +129,8 @@ export default function SiteLayout({
                     href={SITE_CONFIG.social.instagram}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-amber-400 transition-colors font-light"
+                    className="text-gray-400 hover:text-amber-400 transition-colors font-light focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
+                    aria-label="Visit our Instagram page (opens in new tab)"
                   >
                     @santacruzscent
                   </a>

@@ -7,10 +7,10 @@ export default function BookPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white">
       {/* Hero */}
-      <section className="py-20 bg-slate-800 text-white border-b-4 border-teal-600">
+      <section className="py-20 bg-slate-800 text-white border-b-4 border-teal-600" aria-labelledby="contact-heading">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 id="contact-heading" className="text-4xl md:text-5xl font-bold mb-6">
               Get in Touch
             </h1>
             <p className="text-xl text-gray-300">
@@ -31,12 +31,13 @@ export default function BookPage() {
                 Ready to order or have questions? Get in touch.
               </p>
               
-              <div className="space-y-6">
-                <div className="p-8 bg-slate-50 shadow-md border-l-4 border-teal-600">
+              <div className="space-y-6" role="list">
+                <div className="p-8 bg-slate-50 shadow-md border-l-4 border-teal-600" role="listitem">
                   <h3 className="font-bold text-gray-900 mb-3 text-xl">Email</h3>
                   <a
                     href="mailto:hello@santacruzscent.com"
-                    className="text-teal-700 hover:text-teal-800 hover:underline text-xl font-bold"
+                    className="text-teal-700 hover:text-teal-800 hover:underline text-xl font-bold focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-600"
+                    aria-label="Send email to hello@santacruzscent.com"
                   >
                     hello@santacruzscent.com
                   </a>
@@ -45,13 +46,14 @@ export default function BookPage() {
                   </p>
                 </div>
 
-                <div className="p-8 bg-slate-50 shadow-md border-l-4 border-slate-600">
+                <div className="p-8 bg-slate-50 shadow-md border-l-4 border-slate-600" role="listitem">
                   <h3 className="font-bold text-gray-900 mb-3 text-xl">Instagram</h3>
                   <a
                     href="https://instagram.com/santacruzscent"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-slate-700 hover:text-slate-900 hover:underline text-xl font-bold"
+                    className="text-slate-700 hover:text-slate-900 hover:underline text-xl font-bold focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-600"
+                    aria-label="Visit Santa Cruz Scent on Instagram, opens in new tab"
                   >
                     @santacruzscent
                   </a>

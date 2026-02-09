@@ -12,9 +12,9 @@ export default function Hero() {
           <div className="grid md:grid-cols-[300px_1fr] gap-12 items-center">
             {/* Left - Square Logo/Image - Now Responsive */}
             <div className="mx-auto md:mx-0">
-              <div className="w-full max-w-[280px] aspect-square sm:w-[200px] md:w-[280px] bg-white/10 backdrop-blur-md border border-white/20 shadow-2xl flex items-center justify-center relative">
+              <div className="w-full max-w-[280px] aspect-square sm:w-[200px] md:w-[280px] bg-white/10 backdrop-blur-md border border-white/20 shadow-2xl flex items-center justify-center relative" role="img" aria-label="Santa Cruz Scent logo placeholder">
                 {/* Fallback text - replace with actual logo image */}
-                <div className="flex items-center justify-center text-white/40 font-serif text-6xl">
+                <div className="flex items-center justify-center text-white/40 font-serif text-6xl" aria-hidden="true">
                   SC
                 </div>
               </div>
@@ -47,13 +47,15 @@ export default function Hero() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start items-center">
                 <Link
                   href="/in-stock"
-                  className="px-10 py-4 bg-amber-600 text-white font-medium tracking-wide uppercase text-sm shadow-2xl hover:bg-amber-700 transition-all duration-300"
+                  className="px-10 py-4 bg-amber-600 text-white font-medium tracking-wide uppercase text-sm shadow-2xl hover:bg-amber-700 transition-all duration-300 focus:outline-none focus-visible:ring-4 focus-visible:ring-amber-400"
+                  aria-label="Explore our fragrance collection"
                 >
                   Explore Collection
                 </Link>
                 <Link
                   href="/book"
-                  className="px-10 py-4 bg-transparent text-white font-medium tracking-wide uppercase text-sm border-2 border-white/40 hover:bg-white/10 hover:border-white/60 transition-all duration-300"
+                  className="px-10 py-4 bg-transparent text-white font-medium tracking-wide uppercase text-sm border-2 border-white/40 hover:bg-white/10 hover:border-white/60 transition-all duration-300 focus:outline-none focus-visible:ring-4 focus-visible:ring-amber-400"
+                  aria-label="Contact us for consultation or questions"
                 >
                   Contact Us
                 </Link>
@@ -80,7 +82,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce" aria-hidden="true">
         <svg
           className="w-6 h-6 text-gray-400"
           fill="none"
@@ -89,6 +91,7 @@ export default function Hero() {
           strokeWidth="2"
           viewBox="0 0 24 24"
           stroke="currentColor"
+          aria-label="Scroll down indicator"
         >
           <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
         </svg>

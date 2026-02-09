@@ -54,7 +54,8 @@ export default function CTA({
             {primaryButton && (
               <Link
                 href={primaryButton.href}
-                className={`px-8 py-4 font-semibold hover:scale-105 transition-all duration-200 ${buttonPrimary}`}
+                className={`px-8 py-4 font-semibold hover:scale-105 transition-all duration-200 focus:outline-none focus-visible:ring-4 focus-visible:ring-amber-400 ${buttonPrimary}`}
+                aria-label={primaryButton.text}
               >
                 {primaryButton.text}
               </Link>
@@ -62,7 +63,8 @@ export default function CTA({
             {secondaryButton && (
               <Link
                 href={secondaryButton.href}
-                className={`px-8 py-4 font-semibold hover:scale-105 transition-all duration-200 ${buttonSecondary}`}
+                className={`px-8 py-4 font-semibold hover:scale-105 transition-all duration-200 focus:outline-none focus-visible:ring-4 focus-visible:ring-amber-400 ${buttonSecondary}`}
+                aria-label={secondaryButton.text}
               >
                 {secondaryButton.text}
               </Link>

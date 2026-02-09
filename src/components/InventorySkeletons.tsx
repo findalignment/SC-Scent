@@ -4,11 +4,12 @@
  */
 export default function InventorySkeletons({ count = 6 }: { count?: number }) {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8" role="status" aria-live="polite" aria-label="Loading fragrances">
       {Array.from({ length: count }).map((_, index) => (
         <div
           key={index}
           className="bg-gradient-to-b from-[#1a2f4a] to-[#0d1b2a] shadow-2xl overflow-hidden border border-amber-900/20 animate-pulse"
+          aria-hidden="true"
         >
           {/* Image skeleton */}
           <div className="aspect-[3/4] bg-white/5" />

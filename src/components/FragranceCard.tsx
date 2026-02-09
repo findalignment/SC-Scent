@@ -7,7 +7,11 @@ interface FragranceCardProps {
 
 export default function FragranceCard({ fragrance }: FragranceCardProps) {
   return (
-    <Link href={`/fragrances/${fragrance.id}`} className="block">
+    <Link 
+      href={`/fragrances/${fragrance.id}`} 
+      className="block focus:outline-none focus-visible:ring-4 focus-visible:ring-amber-400 focus-visible:ring-offset-4 focus-visible:ring-offset-[#0a1628]"
+      aria-label={`View details for ${fragrance.brand} ${fragrance.name}`}
+    >
       <div className="bg-gradient-to-b from-[#1a2f4a] to-[#0d1b2a] shadow-2xl overflow-hidden hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)] transition-all duration-500 border border-amber-900/20 group cursor-pointer"
       >
       {/* Image - Now with proper aspect ratio */}
@@ -15,13 +19,13 @@ export default function FragranceCard({ fragrance }: FragranceCardProps) {
         {fragrance.image ? (
           <img
             src={fragrance.image}
-            alt={`${fragrance.brand} ${fragrance.name}`}
+            alt={`${fragrance.brand} ${fragrance.name} perfume bottle`}
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
             loading="lazy"
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center text-white/30 font-serif text-6xl">
-            SC
+          <div className="w-full h-full flex items-center justify-center text-white/30 font-serif text-6xl" role="img" aria-label="Product image placeholder">
+            <span aria-hidden="true">SC</span>
           </div>
         )}
         
@@ -29,14 +33,14 @@ export default function FragranceCard({ fragrance }: FragranceCardProps) {
         <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628] via-transparent to-transparent opacity-60"></div>
         
         {/* Badges */}
-        <div className="absolute top-4 left-4 flex flex-col gap-2">
+        <div className="absolute top-4 left-4 flex flex-col gap-2" role="status" aria-label="Product availability">
           {fragrance.inStock ? (
-            <span className="px-3 py-1 bg-amber-600/90 backdrop-blur-sm text-white text-xs font-medium uppercase tracking-wide shadow-lg">In Stock</span>
+            <span className="px-3 py-1 bg-amber-600/90 backdrop-blur-sm text-white text-xs font-medium uppercase tracking-wide shadow-lg" aria-label="Currently in stock">In Stock</span>
           ) : (
-            <span className="px-3 py-1 bg-gray-800/90 backdrop-blur-sm text-gray-300 text-xs font-medium uppercase tracking-wide shadow-lg">Out of Stock</span>
+            <span className="px-3 py-1 bg-gray-800/90 backdrop-blur-sm text-gray-300 text-xs font-medium uppercase tracking-wide shadow-lg" aria-label="Currently out of stock">Out of Stock</span>
           )}
           {fragrance.flightReady && (
-            <span className="px-3 py-1 bg-blue-900/80 backdrop-blur-sm text-blue-200 text-xs font-medium uppercase tracking-wide shadow-lg">TSA Ready</span>
+            <span className="px-3 py-1 bg-blue-900/80 backdrop-blur-sm text-blue-200 text-xs font-medium uppercase tracking-wide shadow-lg" aria-label="TSA compliant for air travel">TSA Ready</span>
           )}
         </div>
 
@@ -46,7 +50,7 @@ export default function FragranceCard({ fragrance }: FragranceCardProps) {
       <div className="p-6 bg-gradient-to-b from-[#0d1b2a] to-[#0a1628]">
         {/* Brand & Name */}
         <div className="mb-4">
-          <p className="text-xs text-amber-400 font-medium mb-2 uppercase tracking-widest">{fragrance.brand}</p>
+          <p className="text-xs text-amber-400 font-medium mb-2 uppercase tracking-widest" aria-label={`Brand: ${fragrance.brand}`}>{fragrance.brand}</p>
           <h3 className="text-xl font-serif font-light text-white group-hover:text-amber-300 transition-colors leading-tight">
             {fragrance.name}
           </h3>

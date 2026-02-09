@@ -37,7 +37,7 @@ export default function InventoryClient({ initialFragrances }: InventoryClientPr
     <>
       {/* Search indicator */}
       {query && (
-        <div className="mb-8 p-4 bg-amber-600/20 border-l-4 border-amber-600">
+        <div className="mb-8 p-4 bg-amber-600/20 border-l-4 border-amber-600" role="status" aria-live="polite">
           <p className="text-amber-200">
             Searching for: <strong className="text-white">"{query}"</strong>
             {' '}—{' '}
@@ -50,7 +50,7 @@ export default function InventoryClient({ initialFragrances }: InventoryClientPr
         </div>
       )}
 
-      <div className="mb-8">
+      <div className="mb-8" role="status" aria-live="polite">
         <p className="text-gray-400 font-light">
           {query ? 'Found' : 'Showing'}{' '}
           <strong className="text-amber-400">{fragrances.length}</strong>{' '}
