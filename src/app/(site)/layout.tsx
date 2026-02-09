@@ -108,6 +108,11 @@ export default function SiteLayout({
                     Contact
                   </Link>
                 </li>
+                <li>
+                  <Link href="/privacy" className="text-gray-400 hover:text-amber-400 transition-colors font-light focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400">
+                    Privacy
+                  </Link>
+                </li>
               </ul>
             </nav>
 

@@ -36,9 +36,9 @@ export default function BookPage() {
                 <div className="p-6 md:p-8 bg-slate-50 shadow-md border-l-4 border-amber-600" role="listitem">
                   <h3 className="font-bold text-gray-900 mb-3 text-xl">Phone</h3>
                   <a
-                    href="tel:+18315551234"
+                    href="tel:+18312952076"
                     className="text-amber-700 hover:text-amber-800 hover:underline text-xl md:text-2xl font-bold focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-600 inline-block"
-                    aria-label="Call (831) 555-1234"
+                    aria-label="Call (831) 295-2076"
                   >
                     (831) 555-1234
                   </a>

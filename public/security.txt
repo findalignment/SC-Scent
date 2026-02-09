@@ -1,0 +1,5 @@
+Contact: mailto:hello@santacruzscent.com
+Expires: 2027-02-06T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://sc-scent.vercel.app/security.txt
+Policy: https://sc-scent.vercel.app/privacy
