@@ -75,24 +75,10 @@ santa-cruz-scent/
 ├── public/
 │   └── images/
 │       └── fragrances/                  # Product images
-├── Documentation/
-│   ├── QUICKSTART.md                    # 5-min setup guide
-│   ├── GOOGLE_SHEETS_SETUP.md           # API setup
-│   ├── SEO_PAGES_LIST.md                # All 100 SEO pages
-│   ├── ACCESSIBILITY_ENHANCEMENTS.md     # WCAG 2.1 AA compliance
-│   ├── MOBILE_RESPONSIVENESS_IMPROVEMENTS.md
-│   ├── UX_ENHANCEMENTS_COMPLETED.md
-│   ├── SECURITY_AUDIT.md                # Pre-launch security
-│   ├── MOBILE_UX_AUDIT.md               # Mobile testing
-│   └── IMAGE_LIST.md                    # Visual content strategy
 └── .env.local                           # Environment variables (gitignored)
 ```
 
 ## 🚀 Quick Start
-
-See [QUICKSTART.md](./QUICKSTART.md) for a 5-minute setup guide.
-
-**TL;DR**:
 ```bash
 git clone git@github.com:findalignment/SC-Scent.git
 cd santa-cruz-scent
@@ -169,9 +155,6 @@ Inventory is managed through Google Sheets. Simply edit your sheet and changes w
 **Image Paths**:
 - Place images in `public/images/fragrances/`
 - Reference in sheet as `/images/fragrances/your-image.jpg`
-- See [IMAGE_LIST.md](./IMAGE_LIST.md) for complete visual strategy
-
-See [GOOGLE_SHEETS_SETUP.md](./GOOGLE_SHEETS_SETUP.md) for detailed API setup instructions.
 
 ### Customization
 
@@ -200,8 +183,6 @@ See [GOOGLE_SHEETS_SETUP.md](./GOOGLE_SHEETS_SETUP.md) for detailed API setup in
 - **Sitemap**: Automatically generated for all pages
 - **Content-Driven**: All SEO content in `src/content/seo-pages.ts`
 
-See [SEO_PAGES_LIST.md](./SEO_PAGES_LIST.md) for all 100 pages.
-
 ### 3. Accessibility (WCAG 2.1 AA) ♿
 
 - **Skip to Content**: Keyboard users can bypass navigation
@@ -212,8 +193,6 @@ See [SEO_PAGES_LIST.md](./SEO_PAGES_LIST.md) for all 100 pages.
 - **Keyboard Navigation**: 100% keyboard accessible
 - **Motion Preferences**: Respects `prefers-reduced-motion`
 - **Zoom Support**: Up to 500% without loss of functionality
-
-See [ACCESSIBILITY_ENHANCEMENTS.md](./ACCESSIBILITY_ENHANCEMENTS.md) for details.
 
 ### 4. Mobile Responsiveness 📱
 
@@ -228,8 +207,6 @@ See [ACCESSIBILITY_ENHANCEMENTS.md](./ACCESSIBILITY_ENHANCEMENTS.md) for details
 
 **Tested On**: iPhone SE, iPhone 12/13/14, iPhone 14 Pro Max, iPad Mini, iPad Pro
 
-See [MOBILE_RESPONSIVENESS_IMPROVEMENTS.md](./MOBILE_RESPONSIVENESS_IMPROVEMENTS.md).
-
 ### 5. UX Enhancements
 
 - **Search Functionality**: Client-side search in header + inventory page
@@ -239,8 +216,6 @@ See [MOBILE_RESPONSIVENESS_IMPROVEMENTS.md](./MOBILE_RESPONSIVENESS_IMPROVEMENTS
 - **Sticky Navigation**: Header stays visible while scrolling
 - **Smooth Scroll**: With motion preference respect
 - **Error States**: Graceful handling of API failures
-
-See [UX_ENHANCEMENTS_COMPLETED.md](./UX_ENHANCEMENTS_COMPLETED.md).
 
 ### 6. Server Components & Performance
 
@@ -269,8 +244,6 @@ All pages use React Server Components for:
 - Rate limiting (Vercel edge config)
 - Content Security Policy headers
 - Privacy policy page
-
-See [SECURITY_AUDIT.md](./SECURITY_AUDIT.md) for complete analysis.
 
 ## 🚀 Deployment
 
