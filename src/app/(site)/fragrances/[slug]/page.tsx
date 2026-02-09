@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Fragrance } from '@/lib/schema';
 import { loadFragrances } from '@/lib/inventory';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 type Tab = 'details' | 'notes' | 'sizes';
 
@@ -54,11 +55,13 @@ export default function FragranceDetailPage({ params }: { params: Promise<{ slug
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             {/* Breadcrumb */}
-            <div className="mb-8">
-              <Link href="/in-stock" className="text-gray-400 hover:text-amber-400 text-sm font-light">
-                ← Back to Collection
-              </Link>
-            </div>
+            <Breadcrumbs
+              items={[
+                { label: 'Home', href: '/' },
+                { label: 'Fragrances', href: '/in-stock' },
+                { label: `${fragrance.brand} ${fragrance.name}` },
+              ]}
+            />
 
             <div className="grid md:grid-cols-2 gap-12">
               {/* Product Image */}

@@ -1,5 +1,7 @@
+import { Suspense } from 'react';
 import { loadFragrances } from '@/lib/inventory';
-import InventoryGrid from '@/components/InventoryGrid';
+import InventoryClient from './InventoryClient';
+import InventorySkeletons from '@/components/InventorySkeletons';
 import type { Fragrance } from '@/lib/schema';
 
 export const metadata = {
@@ -67,39 +69,16 @@ export default async function InStockPage() {
                 </div>
                 <a
                   href="/book"
-                  className="inline-block px-8 py-3 bg-teal-700 text-white font-bold shadow-lg hover:bg-teal-800 hover:shadow-xl transition-all"
+                  className="inline-block px-8 py-3 bg-amber-600 text-white font-bold shadow-lg hover:bg-amber-700 hover:shadow-xl transition-all"
                 >
                   Contact for Availability
                 </a>
               </div>
             </div>
           ) : (
-            <>
-              <div className="mb-8">
-                <p className="text-gray-400 font-light">
-                  Showing <strong className="text-amber-400">{fragrances.length}</strong> fragrances
-                </p>
-              </div>
-
-              {fragrances.length === 0 ? (
-                <div className="text-center py-20">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                    No Inventory Currently Listed
-                  </h3>
-                  <p className="text-gray-600 max-w-md mx-auto mb-6">
-                    Our inventory is being updated. Contact us to check current availability.
-                  </p>
-                  <a
-                    href="/book"
-                    className="inline-block px-6 py-3 bg-teal-700 text-white font-bold shadow-lg hover:bg-teal-800 hover:shadow-xl transition-all"
-                  >
-                    Get in Touch
-                  </a>
-                </div>
-              ) : (
-                <InventoryGrid fragrances={fragrances} />
-              )}
-            </>
+            <Suspense fallback={<InventorySkeletons count={8} />}>
+              <InventoryClient initialFragrances={fragrances} />
+            </Suspense>
           )}
         </div>
       </section>

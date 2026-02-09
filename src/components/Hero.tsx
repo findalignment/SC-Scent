@@ -10,9 +10,9 @@ export default function Hero() {
       <div className="container mx-auto px-4 py-16 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-[300px_1fr] gap-12 items-center">
-            {/* Left - Square Logo/Image */}
+            {/* Left - Square Logo/Image - Now Responsive */}
             <div className="mx-auto md:mx-0">
-              <div className="w-[280px] h-[280px] bg-white/10 backdrop-blur-md border border-white/20 shadow-2xl flex items-center justify-center relative">
+              <div className="w-full max-w-[280px] aspect-square sm:w-[200px] md:w-[280px] bg-white/10 backdrop-blur-md border border-white/20 shadow-2xl flex items-center justify-center relative">
                 {/* Fallback text - replace with actual logo image */}
                 <div className="flex items-center justify-center text-white/40 font-serif text-6xl">
                   SC

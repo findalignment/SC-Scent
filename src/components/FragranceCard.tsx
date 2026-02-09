@@ -10,13 +10,14 @@ export default function FragranceCard({ fragrance }: FragranceCardProps) {
     <Link href={`/fragrances/${fragrance.id}`} className="block">
       <div className="bg-gradient-to-b from-[#1a2f4a] to-[#0d1b2a] shadow-2xl overflow-hidden hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)] transition-all duration-500 border border-amber-900/20 group cursor-pointer"
       >
-      {/* Image */}
-      <div className="relative h-72 bg-gradient-to-br from-[#0a1628] to-[#1a2f4a] overflow-hidden">
+      {/* Image - Now with proper aspect ratio */}
+      <div className="relative aspect-[3/4] bg-gradient-to-br from-[#0a1628] to-[#1a2f4a] overflow-hidden">
         {fragrance.image ? (
           <img
             src={fragrance.image}
-            alt={fragrance.name}
+            alt={`${fragrance.brand} ${fragrance.name}`}
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+            loading="lazy"
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center text-white/30 font-serif text-6xl">

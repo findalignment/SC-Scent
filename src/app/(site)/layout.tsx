@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import { SITE_CONFIG } from '@/lib/constants';
+import SearchBar from '@/components/SearchBar';
+import BackToTop from '@/components/BackToTop';
 
 export default function SiteLayout({
   children,
@@ -8,7 +10,7 @@ export default function SiteLayout({
 }) {
   return (
     <>
-      {/* Navigation */}
+      {/* Navigation - Already sticky! */}
       <nav className="sticky top-0 z-40 bg-[#0a1628]/95 backdrop-blur-lg border-b border-amber-900/30 shadow-2xl">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
@@ -45,6 +47,9 @@ export default function SiteLayout({
               >
                 Contact
               </Link>
+              
+              {/* Search Bar */}
+              <SearchBar />
             </div>
           </div>
         </div>
@@ -52,6 +57,9 @@ export default function SiteLayout({
 
       {/* Main Content */}
       <main>{children}</main>
+
+      {/* Back to Top Button */}
+      <BackToTop />
 
       {/* Footer */}
       <footer className="bg-[#0a1628] text-white py-16 border-t border-amber-900/20">
