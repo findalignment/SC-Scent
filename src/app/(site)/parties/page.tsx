@@ -43,7 +43,7 @@ export default function PartiesPage() {
                   Expert Guidance
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  I'll guide your group through the world of fragrances, explaining notes, longevity, and how scents work with body chemistry.
+                  I'll guide your group through the world of fragrances, explaining notes, longevity, and what makes each scent unique.
                 </p>
               </div>
 
@@ -136,7 +136,7 @@ export default function PartiesPage() {
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Enjoy the Event</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    I bring everything needed (fragrances, testing supplies, take-home samples) and create a fun, interactive 60-90 minute experience.
+                    I bring everything needed (fragrances, scent tubes, take-home samples) and create a fun, interactive 60-90 minute experience.
                   </p>
                 </div>
               </div>
@@ -187,7 +187,7 @@ export default function PartiesPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-teal-700 font-bold">✓</span>
-                      <span>All testing supplies and materials</span>
+                      <span>All materials and scent tubes</span>
                     </li>
                   </ul>
                 </div>

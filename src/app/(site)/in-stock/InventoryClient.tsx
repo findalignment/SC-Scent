@@ -40,7 +40,7 @@ export default function InventoryClient({ initialFragrances }: InventoryClientPr
         <div className="mb-8 p-4 bg-amber-600/20 border-l-4 border-amber-600" role="status" aria-live="polite">
           <p className="text-amber-200">
             Searching for: <strong className="text-white">"{query}"</strong>
-            {' '}—{' '}
+            {' '}&middot;{' '}
             {fragrances.length === 0 ? (
               <span>No results found</span>
             ) : (

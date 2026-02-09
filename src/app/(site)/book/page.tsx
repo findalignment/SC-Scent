@@ -40,7 +40,7 @@ export default function BookPage() {
                     className="text-amber-700 hover:text-amber-800 hover:underline text-xl md:text-2xl font-bold focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-600 inline-block"
                     aria-label="Call (831) 295-2076"
                   >
-                    (831) 555-1234
+                    (831) 295-2076
                   </a>
                   <p className="text-sm text-gray-600 mt-3">
                     Call or text for quick questions and local consultations

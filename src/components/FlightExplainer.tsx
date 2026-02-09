@@ -68,7 +68,7 @@ export default function FlightExplainer() {
                 <div className="bg-white p-4 border-l-4 border-teal-600 shadow-md">
                   <h5 className="font-bold text-gray-900 mb-2">Temperature Care</h5>
                   <p className="text-sm text-gray-700">
-                    Avoid extreme temperatures. Don't leave fragrances in checked bags or hot cars—stick to carry-on.
+                    Avoid extreme temperatures. Don't leave fragrances in checked bags or hot cars. Stick to carry-on.
                   </p>
                 </div>
                 <div className="bg-white p-4 border-l-4 border-teal-600 shadow-md">

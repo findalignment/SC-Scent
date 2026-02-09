@@ -54,7 +54,7 @@ We're proud stockists of P.F. Candle Co. artisan candles. Hand-poured in Los Ang
 
 ### How do I find my signature scent?
 1. Explore by scent family (floral, woody, fresh, etc.)
-2. Test fragrances on your skin—body chemistry matters!
+2. Book a scent flight to smell different fragrances and discover what you're drawn to
 3. Try our Scent Search tool to filter by notes and preferences
 4. Start with samples before committing to a full bottle
 
@@ -66,9 +66,9 @@ We're proud stockists of P.F. Candle Co. artisan candles. Hand-poured in Los Ang
 
 ### How should I apply fragrance?
 - Apply to pulse points (wrists, neck, behind ears)
-- Don't rub—let it dry naturally
+- Don't rub, let it dry naturally
 - Apply to moisturized skin for better longevity
-- Less is more—2-3 sprays is plenty
+- Less is more, 2-3 sprays is plenty
 
 ## Returns & Exchanges
 
