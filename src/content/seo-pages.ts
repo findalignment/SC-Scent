@@ -2666,6 +2666,724 @@ export const seoPages: SeoPage[] = [
     tags: [`Education`, `Strategy`, `Lifestyle`]
   },
 
+  {
+    slug: `best-lavender-fragrances`,
+    title: `Best Lavender Fragrances You Can Sample`,
+    metaTitle: `Best Lavender Fragrances | Modern Aromatic Lavender Scents`,
+    metaDescription: `Discover modern lavender fragrances beyond basic aromatherapy. Sophisticated lavender scents for everyday wear.`,
+    h1: `Best Lavender Fragrances`,
+    intro: `Lavender in perfumery goes far beyond sleep sprays and aromatherapy. Modern lavender fragrances range from fresh and herbaceous to rich and ambery, offering sophisticated compositions that work beautifully for daily wear.`,
+    sections: [
+      {
+        heading: `Lavender Beyond Aromatherapy`,
+        body: `Forget generic lavender essential oil. Quality lavender fragrances use lavender as one element in complex compositions: lavender with vanilla creates fougère warmth, lavender with woods feels grounding, lavender with citrus stays bright and fresh. These smell sophisticated rather than medicinal.`
+      },
+      {
+        heading: `The Fougère Family`,
+        body: `Fougères are classic lavender-based fragrances, traditionally combining lavender, coumarin, and oakmoss. Modern fougères update this formula while maintaining that sophisticated aromatic character. They're versatile, appropriate for any occasion, and work for anyone regardless of gender.`
+      },
+      {
+        heading: `Lavender in Santa Cruz`,
+        body: `Lavender's herbal, calming quality aligns beautifully with Santa Cruz's wellness culture. It's grounding without being heavy, fresh without being sharp, and universally appropriate. Plus it typically projects moderately—perfect for community-conscious wearing.`
+      }
+    ],
+    faq: [
+      { q: `Will lavender smell too medicinal?`, a: `Not in well-composed fragrances. Quality lavender blends smell sophisticated and herbaceous rather than like sleep aids.` },
+      { q: `Are lavender fragrances too relaxing for daytime?`, a: `Not at all. While lavender is calming, modern lavender fragrances are energizing and appropriate for any time of day.` },
+      { q: `Can anyone wear lavender?`, a: `Absolutely. Lavender is one of the most universally appealing notes—fresh, clean, and sophisticated.` }
+    ],
+    primaryCta: { label: `Sample Lavender Scents`, href: `/book` },
+    relatedSlugs: [`best-tea-fragrances`, `coastal-clean-fragrances`, `if-you-like-freshies`],
+    tags: [`Notes`, `Education`, `Aromatics`]
+  },
+
+  {
+    slug: `best-patchouli-fragrances-modern`,
+    title: `Best Patchouli Fragrances (Modern, Not Hippie)`,
+    metaTitle: `Best Modern Patchouli Fragrances | Contemporary Earthy Scents`,
+    metaDescription: `Discover modern patchouli fragrances that are sophisticated, not stereotypical. Contemporary earthy scents beyond hippie clichés.`,
+    h1: `Best Patchouli Fragrances (Modern)`,
+    intro: `Patchouli has an unfair reputation from '60s headshop associations. Modern patchouli fragrances are sophisticated, earthy, and refined—using patchouli as a grounding note rather than the overwhelming star. These are contemporary compositions, not hippie throwbacks.`,
+    sections: [
+      {
+        heading: `Modern vs. Vintage Patchouli`,
+        body: `Heavy, dirty patchouli oil from the '60s gave the note a bad reputation. Modern patchouli is cleaner, more refined, and used in sophisticated compositions. It's often paired with roses, woods, or vanilla to create depth without that stereotypical headshop smell.`
+      },
+      {
+        heading: `What Patchouli Brings`,
+        body: `Patchouli is earthy, slightly sweet, with hints of chocolate and soil. It adds grounding depth to compositions and has excellent longevity. In modern perfumery, it's a supporting player that creates richness rather than dominating the fragrance.`
+      },
+      {
+        heading: `Patchouli for Santa Cruz`,
+        body: `Despite stereotypes, sophisticated patchouli actually works beautifully in Santa Cruz—it's earthy and grounding without being cliché, pairs well with our forest-and-ocean environment, and modern versions are subtle enough to be community-appropriate.`
+      }
+    ],
+    faq: [
+      { q: `Will I smell like a hippie?`, a: `Not with modern patchouli fragrances. These are sophisticated compositions, not patchouli oil.` },
+      { q: `Is patchouli too heavy?`, a: `Modern patchouli fragrances use it sparingly for depth. They're rarely overwhelming or heavy.` },
+      { q: `Can patchouli be professional?`, a: `Absolutely. Well-composed patchouli fragrances are subtle and sophisticated enough for any professional context.` }
+    ],
+    primaryCta: { label: `Sample Modern Patchouli`, href: `/book` },
+    relatedSlugs: [`best-vetiver-fragrances`, `if-you-like-woody-scents`, `best-sandalwood-fragrances`],
+    tags: [`Notes`, `Education`, `Modern`]
+  },
+
+  {
+    slug: `fragrance-for-yoga-studio`,
+    title: `Fragrances Appropriate for Yoga Studios`,
+    metaTitle: `Yoga Studio Fragrances | Gentle Scents for Mindful Spaces`,
+    metaDescription: `Discover fragrances appropriate for yoga studios and wellness spaces. Gentle, close-wearing scents for mindful environments.`,
+    h1: `Fragrances for Yoga Studios`,
+    intro: `Yoga studios and wellness spaces are often scent-sensitive by design. If you want to wear fragrance to yoga without disrupting the practice, you need specifically gentle, close-wearing options that respect shared mindful space.`,
+    sections: [
+      {
+        heading: `Why Yoga Spaces Are Scent-Sensitive`,
+        body: `Deep breathing, close proximity, heat, and mindfulness practices all amplify scent awareness. What might be subtle elsewhere becomes noticeable during pranayama. Many studios explicitly request fragrance-free attendance. Respecting this means choosing extremely minimal options or skipping fragrance entirely.`
+      },
+      {
+        heading: `If You Must Wear Fragrance`,
+        body: `Choose: single-note compositions (avoid complex blends), natural-leaning scents (harsh synthetics are more triggering), minimal projection (skin scents only), and simple structures. Apply hours before class so it has settled. Less is crucial—when in doubt, go lighter or skip it entirely.`
+      },
+      {
+        heading: `Better Alternatives`,
+        body: `Consider applying fragrance after yoga rather than before. Or choose scents specifically for post-yoga—clean musks, soft woods, or gentle tea notes that feel aligned with the practice without being worn during it. This respects the space while still enjoying fragrance in your routine.`
+      },
+      {
+        heading: `Santa Cruz Yoga Culture`,
+        body: `Santa Cruz has vibrant yoga and wellness culture with strong scent-awareness. Many studios are explicitly fragrance-free. Being part of this community means respecting these boundaries even if you personally love fragrance. It's about collective care over individual preference.`
+      }
+    ],
+    faq: [
+      { q: `Can I wear any fragrance to yoga?`, a: `Many studios request fragrance-free. Check studio policy first, and when in doubt, skip fragrance or choose absolute minimal application.` },
+      { q: `What if my yoga studio doesn't have a policy?`, a: `Err on extreme caution. Even without official policy, many practitioners are scent-sensitive. Minimal or no fragrance is safest.` },
+      { q: `Are natural fragrances okay for yoga?`, a: `Not necessarily. Some natural ingredients (patchouli, jasmine, sandalwood) can be intense. "Natural" doesn't automatically mean gentle or appropriate.` }
+    ],
+    primaryCta: { label: `Find Minimal Scents`, href: `/book` },
+    relatedSlugs: [`low-projection-fragrances`, `how-to-wear-fragrance-sensitive-places`, `skin-scents-expensive`],
+    tags: [`Problem/Solution`, `Wellness`, `Santa Cruz`, `Etiquette`]
+  },
+
+  {
+    slug: `best-bergamot-fragrances`,
+    title: `Best Bergamot Fragrances You Can Sample`,
+    metaTitle: `Best Bergamot Fragrances | Sophisticated Citrus Scents`,
+    metaDescription: `Discover sophisticated bergamot fragrances. Elegant citrus scents beyond basic lemon cologne.`,
+    h1: `Best Bergamot Fragrances`,
+    intro: `Bergamot is citrus's sophisticated cousin—bright like lemon but more complex, with slightly bitter, almost floral qualities. It's the backbone of classic cologne and appears in countless modern fragrances, providing elegant citrus that feels refined rather than basic.`,
+    sections: [
+      {
+        heading: `What Makes Bergamot Special`,
+        body: `Bergamot (from bergamot oranges) has a complex profile: bright citrus with subtle floral undertones and slight bitterness. It's the signature note in Earl Grey tea and traditional cologne. This complexity makes bergamot more interesting than simple lemon or orange—it has depth while maintaining brightness.`
+      },
+      {
+        heading: `Bergamot in Classic vs. Modern Fragrance`,
+        body: `Traditional colognes are bergamot-heavy—that bright, sophisticated opening is almost entirely bergamot. Modern fragrances use bergamot more subtly, pairing it with woods, florals, or tea notes. Both approaches showcase bergamot's versatility and timeless appeal.`
+      },
+      {
+        heading: `Bergamot for Year-Round Wear`,
+        body: `Unlike some citruses that feel summery, bergamot works year-round. Its slight bitterness and complexity make it sophisticated enough for cooler months while maintaining that bright freshness. In Santa Cruz's mild climate, bergamot fragrances are genuinely versatile across all seasons.`
+      }
+    ],
+    faq: [
+      { q: `Is bergamot just another citrus?`, a: `It's more complex—brighter than orange, more sophisticated than lemon, with subtle floral and bitter notes that make it unique.` },
+      { q: `Do bergamot fragrances last?`, a: `Pure bergamot fades quickly like all citruses. But compositions with bergamot plus base notes (woods, musks) have good longevity while maintaining that bergamot brightness.` },
+      { q: `Can anyone wear bergamot?`, a: `Absolutely. It's one of the most universally appealing notes—fresh, elegant, and appropriate for any gender or age.` }
+    ],
+    primaryCta: { label: `Sample Bergamot Scents`, href: `/book` },
+    relatedSlugs: [`best-citrus-fragrances`, `best-neroli-citrus-blossom-fragrances`, `if-you-like-citrus`],
+    tags: [`Notes`, `Education`, `Citrus`]
+  },
+
+  {
+    slug: `sustainable-ethical-fragrance-practices`,
+    title: `Sustainable & Ethical Fragrance Practices`,
+    metaTitle: `Sustainable Fragrance Practices | Ethical Perfume Choices`,
+    metaDescription: `Learn about sustainable and ethical fragrance practices. Make conscious choices about perfume consumption and waste.`,
+    h1: `Sustainable & Ethical Fragrance Practices`,
+    intro: `As consciousness around sustainability grows, fragrance lovers face questions about ethical consumption. From ingredient sourcing to packaging waste, understanding the impact of fragrance helps you make aligned choices.`,
+    sections: [
+      {
+        heading: `The Decant Advantage`,
+        body: `Decants are inherently more sustainable than buying full bottles you might not finish. Testing through decants means less waste from bottles that end up unused, less material consumption from unnecessary packaging, and more intentional purchases. You only buy full bottles of fragrances you know you'll completely use.`
+      },
+      {
+        heading: `Ingredient Ethics`,
+        body: `Some traditional perfume ingredients raise ethical concerns: natural musk from animals (now largely replaced by synthetics), endangered plant sources, or unsustainable harvesting. Modern niche perfumery increasingly uses ethical alternatives—synthetic musks, sustainably sourced naturals, and transparent supply chains.`
+      },
+      {
+        heading: `Packaging and Waste`,
+        body: `Luxury perfume packaging is often excessive—multiple boxes, plastic wrap, unnecessary materials. Seeking out brands with minimal packaging, buying decants in simple bottles, or choosing brands with refill programs reduces waste. Sustainability doesn't require sacrificing quality—just being more intentional about what you support.`
+      },
+      {
+        heading: `Santa Cruz Values`,
+        body: `Santa Cruz has long prioritized environmental consciousness and ethical consumption. Applying these values to fragrance means: testing thoroughly before buying (less waste), supporting small/independent perfumers over massive corporations, choosing minimal packaging, and being thoughtful about consumption rather than collecting mindlessly.`
+      }
+    ],
+    faq: [
+      { q: `Are natural fragrances more sustainable?`, a: `Not necessarily. Some naturals require huge amounts of plant material. Quality synthetics can be more sustainable than some natural extractions.` },
+      { q: `How can I reduce fragrance waste?`, a: `Test thoroughly through decants before buying bottles. Finish what you own before buying more. Share or swap fragrances you won't finish.` },
+      { q: `Are indie perfume brands more ethical?`, a: `Often, but not automatically. Small brands frequently have more transparent sourcing and less excessive packaging, but each brand varies.` }
+    ],
+    primaryCta: { label: `Start With Decants`, href: `/book` },
+    relatedSlugs: [`what-is-a-decant`, `try-before-you-buy-perfume-santa-cruz`, `artsy-indie-niche-fragrances`],
+    tags: [`Education`, `Sustainability`, `Ethics`, `Santa Cruz`]
+  },
+
+  {
+    slug: `fragrance-for-sensitive-skin`,
+    title: `Fragrances for Sensitive Skin`,
+    metaTitle: `Fragrances for Sensitive Skin | Gentle Perfume Options`,
+    metaDescription: `Discover fragrances that work for sensitive skin. Gentle options that won't irritate or cause reactions.`,
+    h1: `Fragrances for Sensitive Skin`,
+    intro: `Sensitive skin can make wearing fragrance challenging. Alcohol content, synthetic ingredients, and certain naturals can all trigger reactions. Understanding what to look for—and what to avoid—helps you enjoy fragrance without irritation.`,
+    sections: [
+      {
+        heading: `What Triggers Skin Reactions`,
+        body: `Common culprits include high alcohol content (which dries skin), certain synthetics (especially some musks and aldehydes), specific natural ingredients (citrus oils can be photosensitizing, cinnamon can irritate), and applying too much fragrance directly to skin. Reactions vary by person—what irritates one might be fine for another.`
+      },
+      {
+        heading: `Testing Safely`,
+        body: `When you have sensitive skin, proper testing is crucial: test on inner arm first (more sensitive than wrist), wait 24-48 hours to see if reaction develops, start with very small amounts, and never test multiple fragrances at once (can't identify culprit if you react). Decants let you test extensively before committing to bottles.`
+      },
+      {
+        heading: `Application Alternatives`,
+        body: `If direct skin application causes issues, try: spraying on clothes (though some fragrances can stain), applying to hair (scent diffuses without skin contact), or using fragrance on pulse points with barrier cream underneath. These methods let you enjoy scent while minimizing skin exposure.`
+      },
+      {
+        heading: `When to Skip Fragrance`,
+        body: `Some skin conditions mean avoiding fragrance entirely during flare-ups: eczema, psoriasis, rosacea, or active irritation all require fragrance-free periods. Prioritizing skin health over fragrance wearing isn't failure—it's appropriate self-care. Save fragrance for when your skin can handle it.`
+      }
+    ],
+    faq: [
+      { q: `Are natural fragrances safer for sensitive skin?`, a: `Not necessarily. Many natural ingredients (citrus, cinnamon, jasmine) can be highly irritating. Synthetic doesn't automatically mean irritating, natural doesn't automatically mean safe.` },
+      { q: `Should I avoid alcohol-based fragrances?`, a: `If alcohol dries or irritates your skin, yes. But many people with sensitive skin handle alcohol-based fragrances fine. Test to know for sure.` },
+      { q: `Can I develop sensitivity over time?`, a: `Yes. You might handle a fragrance fine for years, then suddenly develop reaction. Skin changes, hormones shift, and sensitivities can emerge at any time.` }
+    ],
+    primaryCta: { label: `Test Safely With Decants`, href: `/book` },
+    relatedSlugs: [`fragrances-people-headaches`, `how-to-test-fragrance-properly`, `what-is-a-decant`],
+    tags: [`Problem/Solution`, `Health`, `Sensitive`]
+  },
+
+  {
+    slug: `mens-cologne-santa-cruz`,
+    title: `Men's Cologne in Santa Cruz (Beyond Department Stores)`,
+    metaTitle: `Men's Cologne Santa Cruz | Niche Fragrance for Men`,
+    metaDescription: `Discover men's cologne in Santa Cruz beyond department store options. Niche and artisanal fragrances for sophisticated tastes.`,
+    h1: `Men's Cologne in Santa Cruz`,
+    intro: `Looking for men's cologne beyond the usual mall options? Niche and artisanal fragrances offer more interesting, unique options than mainstream designers—scents that feel personal and distinctive rather than smelling like everyone else.`,
+    sections: [
+      {
+        heading: `Beyond Generic Designer`,
+        body: `Department store men's colognes tend toward similar profiles—aquatic freshness, generic woods, sweet amber. They're safe but boring. Niche fragrances offer actually distinctive options: creative compositions, unusual notes, better quality ingredients, and scents you won't smell on everyone in the office.`
+      },
+      {
+        heading: `Rethinking "Masculine"`,
+        body: `Modern fragrance isn't about gendered marketing. Many technically "unisex" fragrances work beautifully for men—sophisticated woods, clean musks, interesting aromatics. Skip fragrances marketed with aggressive masculinity and explore based on what you actually enjoy, not what advertising tells you men should wear.`
+      },
+      {
+        heading: `Santa Cruz Style`,
+        body: `Santa Cruz men's style tends toward understated rather than flashy, quality over logos, and authentic over performative. Cologne should match this aesthetic—sophisticated but not showy, interesting but not attention-seeking, quality ingredients over marketing hype. Niche fragrances often align better with this approach.`
+      },
+      {
+        heading: `Building a Versatile Collection`,
+        body: `Rather than one signature, consider 3-4 fragrances that cover different contexts: something fresh for daily wear, something woody-sophisticated for work, something warm for evenings, something beach-appropriate for casual weekends. Decants let you build this wardrobe affordably while testing what actually works in your life.`
+      }
+    ],
+    faq: [
+      { q: `Can men wear fragrances not marketed to men?`, a: `Absolutely. Fragrance is about what you enjoy, not marketing. Many "unisex" or "women's" fragrances work beautifully for men.` },
+      { q: `Where can I test niche colognes locally?`, a: `Book an appointment to explore niche options with guidance. Much better than blindly ordering online or settling for department store options.` },
+      { q: `Are niche fragrances worth the cost?`, a: `Often yes—better ingredients, more unique compositions, and less marketing markup. Testing through decants helps determine value before buying bottles.` }
+    ],
+    primaryCta: { label: `Explore Beyond Department Stores`, href: `/book` },
+    relatedSlugs: [`cologne-decants-santa-cruz`, `niche-fragrance-near-me`, `if-you-like-woody-scents`],
+    tags: [`Local`, `Santa Cruz`, `Men`]
+  },
+
+  {
+    slug: `womens-perfume-santa-cruz`,
+    title: `Women's Perfume in Santa Cruz (Niche & Artisanal)`,
+    metaTitle: `Women's Perfume Santa Cruz | Niche Fragrance Discovery`,
+    metaDescription: `Discover women's perfume in Santa Cruz beyond typical options. Niche and artisanal fragrances with personality and depth.`,
+    h1: `Women's Perfume in Santa Cruz`,
+    intro: `Santa Cruz women looking for perfume beyond typical department store offerings can explore niche and artisanal fragrances—options with actual personality, interesting compositions, and scents that feel distinctive rather than mass-market generic.`,
+    sections: [
+      {
+        heading: `Beyond Sweet Floral Generics`,
+        body: `Mainstream women's perfume often defaults to sweet florals, fruity notes, or generic freshness. Niche fragrance offers so much more: sophisticated florals, interesting woods, creative compositions, unexpected combinations. These feel like personal choices rather than following trends or wearing what advertising tells you is "feminine."`
+      },
+      {
+        heading: `Rethinking Feminine Fragrance`,
+        body: `Modern women's fragrance isn't about pink bottles and sweet florals. Explore freely across categories: woody scents, leather notes, green aromatics, spicy compositions. Fragrance should reflect your actual taste and personality, not outdated gender marketing. Many women find their favorites in technically "masculine" or unisex categories.`
+      },
+      {
+        heading: `Santa Cruz Women's Aesthetic`,
+        body: `Santa Cruz women's style often emphasizes natural beauty, understated sophistication, and authenticity over trend-following. Fragrance can match this—interesting without being loud, quality without being flashy, personal without being generic. Niche perfumery often aligns better with this sensibility than mass-market options.`
+      },
+      {
+        heading: `Professional to Weekend Versatility`,
+        body: `Many Santa Cruz women need fragrances that work across contexts—professional settings, casual weekends, outdoor activities, evening plans. Building a small versatile wardrobe (3-5 fragrances) through testing decants ensures you have appropriate options for all parts of your life.`
+      }
+    ],
+    faq: [
+      { q: `Can women wear fragrances marketed to men?`, a: `Absolutely. Many women prefer woody, aromatic, or fresh scents typically marketed to men. Wear what you enjoy, ignore gender marketing.` },
+      { q: `Where can I find interesting women's perfumes locally?`, a: `Book a consultation to explore niche options with expert guidance. You'll discover fragrances beyond typical mall perfume counters.` },
+      { q: `Are niche fragrances appropriate for professional women?`, a: `Many are. We can help you find sophisticated, office-appropriate options that are interesting without being inappropriate or overwhelming.` }
+    ],
+    primaryCta: { label: `Discover Niche Options`, href: `/book` },
+    relatedSlugs: [`perfume-decants-santa-cruz`, `niche-fragrance-near-me`, `best-rose-fragrances`],
+    tags: [`Local`, `Santa Cruz`, `Women`]
+  },
+
+  {
+    slug: `unisex-fragrance-santa-cruz`,
+    title: `Unisex Fragrance in Santa Cruz`,
+    metaTitle: `Unisex Fragrance Santa Cruz | Gender-Neutral Scents`,
+    metaDescription: `Discover unisex fragrances in Santa Cruz. Gender-neutral scents that work beautifully for anyone.`,
+    h1: `Unisex Fragrance in Santa Cruz`,
+    intro: `Unisex fragrances reject gendered marketing in favor of scents chosen for what they smell like, not who they're supposedly for. These compositions work beautifully for anyone, making them increasingly popular among people tired of artificial fragrance gender divides.`,
+    sections: [
+      {
+        heading: `What Makes Fragrance Unisex`,
+        body: `Technically, all fragrance is unisex—notes don't have gender. But "unisex" labeling typically means avoiding stereotypically gendered marketing (pink bottles and florals, black bottles and aggressive masculinity). Unisex fragrances focus on composition quality and interesting scent over gender targeting.`
+      },
+      {
+        heading: `Common Unisex Profiles`,
+        body: `Certain fragrance families are inherently versatile: clean musks, sophisticated woods, citrus-aromatics, vetiver-based scents, tea fragrances, and mineral aquatics. These work beautifully for anyone because they're not trying to smell "masculine" or "feminine"—they're just well-composed interesting scents.`
+      },
+      {
+        heading: `Santa Cruz's Gender-Fluid Culture`,
+        body: `Santa Cruz has always been progressive about gender expression and identity. This extends to fragrance—many people here reject gendered marketing entirely, choosing scents based on personal preference rather than who companies think should wear them. Unisex fragrance aligns with this community value.`
+      },
+      {
+        heading: `Sharing Fragrance`,
+        body: `One benefit of unisex fragrances: partners can share. Buy one fragrance both people enjoy, reducing cost and simplifying collections. Or enjoy how the same fragrance smells different on different people due to chemistry—creating connected but distinct signatures.`
+      }
+    ],
+    faq: [
+      { q: `Do unisex fragrances smell neutral or boring?`, a: `Not at all. They're just as interesting and complex as gendered options—they're just marketed honestly rather than with artificial gender associations.` },
+      { q: `Can I wear any fragrance as unisex?`, a: `Technically yes. Marketing doesn't determine who can wear what. If you love it, wear it regardless of who it's supposedly "for."` },
+      { q: `Are most niche fragrances unisex?`, a: `Many are, or at least don't lean heavily into gendered marketing. Niche perfumery tends to focus on composition quality over gender targeting.` }
+    ],
+    primaryCta: { label: `Explore Unisex Options`, href: `/book` },
+    relatedSlugs: [`best-vetiver-fragrances`, `best-clean-musk-fragrances`, `coastal-clean-fragrances`],
+    tags: [`Education`, `Santa Cruz`, `Inclusive`]
+  },
+
+  {
+    slug: `gift-fragrance-decants-santa-cruz`,
+    title: `Gift Fragrance Decants in Santa Cruz`,
+    metaTitle: `Fragrance Decants as Gifts Santa Cruz | Perfume Gift Ideas`,
+    metaDescription: `Give the gift of fragrance discovery. Decant gift sets and scent flight experiences in Santa Cruz.`,
+    h1: `Gift Fragrance Decants`,
+    intro: `Fragrance decants make thoughtful gifts for scent lovers and complete beginners alike. Unlike giving a full bottle (which might not suit someone's taste), decants or scent flight experiences let recipients discover what they actually love.`,
+    sections: [
+      {
+        heading: `Why Decants Beat Full Bottles`,
+        body: `Giving a full bottle of perfume is risky—if the recipient doesn't love it, you've given them an expensive obligation. Decants or curated decant sets let them explore and discover without commitment. Or gift a scent flight experience—giving discovery and education rather than a predetermined choice.`
+      },
+      {
+        heading: `Curated Decant Sets`,
+        body: `We can create custom decant collections based on what you know about the recipient: fresh scents for someone who loves the beach, woody options for someone outdoorsy, gourmands for comfort scent lovers, or mixed exploration sets for total beginners. Each set comes in gift-ready presentation.`
+      },
+      {
+        heading: `Experience Gifts`,
+        body: `Scent flight appointments make excellent experience gifts—memorable, interactive, and educational. Perfect for birthdays, celebrations, or introducing someone to niche fragrance. Recipients book when convenient and leave with decants of their discoveries—tangible takeaways from the experience.`
+      },
+      {
+        heading: `Santa Cruz Gift Culture`,
+        body: `Santa Cruz gift-giving often emphasizes experience over stuff, supporting local businesses over chains, and thoughtful personalization over generic presents. Fragrance decants and consultations align perfectly—they're local, experiential, personalized, and genuinely useful.`
+      }
+    ],
+    faq: [
+      { q: `How do I know what fragrances to gift?`, a: `If unsure, gift a consultation or scent flight experience rather than choosing fragrances yourself. Let them discover what they love with expert guidance.` },
+      { q: `Can you create custom gift sets?`, a: `Yes. Describe the recipient and we can curate appropriate selections. Or provide gift certificates for them to choose themselves.` },
+      { q: `Do you have gift packaging?`, a: `Contact us about gift presentation options for decant sets and experience certificates.` }
+    ],
+    primaryCta: { label: `Create Gift Experience`, href: `/book` },
+    relatedSlugs: [`santa-cruz-scent-flights`, `custom-scent-flight`, `what-is-a-decant`],
+    tags: [`Gifts`, `Experience`, `Santa Cruz`]
+  },
+
+  {
+    slug: `best-amber-woody-fragrances`,
+    title: `Best Amber Woody Fragrances You Can Sample`,
+    metaTitle: `Best Amber Woody Fragrances | Warm Sophisticated Scents`,
+    metaDescription: `Discover amber woody fragrances that combine warmth with grounding. Sophisticated scents for all occasions.`,
+    h1: `Best Amber Woody Fragrances`,
+    intro: `Amber woody fragrances combine the warmth of amber with the grounding nature of woods, creating compositions that feel sophisticated, versatile, and deeply wearable. These are modern classics—appropriate for any occasion while maintaining distinctive character.`,
+    sections: [
+      {
+        heading: `The Amber Woody Category`,
+        body: `This fragrance family combines amber (that warm, slightly sweet resinous quality) with various woods (cedar, sandalwood, vetiver). The result balances warmth with earthiness, sweetness with dryness, richness with restraint. It's one of the most versatile categories—working across genders, seasons, and occasions.`
+      },
+      {
+        heading: `Why Amber Woody Works`,
+        body: `These fragrances hit a sweet spot: warm enough to feel comforting, woody enough to stay grounded, sophisticated enough for any context. They're not too sweet, not too dry, not too fresh, not too heavy. This balanced versatility makes them popular signatures and reliable daily wears.`
+      },
+      {
+        heading: `In Santa Cruz Climate`,
+        body: `Amber woody fragrances work beautifully in Santa Cruz's mild weather. They're never too heavy (unlike pure orientals) but have enough warmth to feel substantial. They adapt well to temperature changes and maintain their character in coastal humidity without becoming cloying.`
+      }
+    ],
+    faq: [
+      { q: `Are amber woody fragrances too formal?`, a: `Not at all. They range from casual to refined. Many are perfect daily wears that happen to be sophisticated.` },
+      { q: `Can amber woody work for active lifestyles?`, a: `Lighter versions absolutely can. Look for compositions that lean more woody than amber—these stay grounded during activity.` }
+    ],
+    primaryCta: { label: `Sample Amber Woody`, href: `/book` },
+    relatedSlugs: [`if-you-like-woody-scents`, `if-you-like-ambers`, `best-sandalwood-fragrances`],
+    tags: [`Notes`, `Education`, `Versatile`]
+  },
+
+  {
+    slug: `fragrance-wardrobe-essentials`,
+    title: `Fragrance Wardrobe Essentials (3-5 Scents)`,
+    metaTitle: `Fragrance Wardrobe Essentials | Complete Scent Collection`,
+    metaDescription: `Build a complete fragrance wardrobe with 3-5 essential scents. Cover all contexts without overwhelming your collection.`,
+    h1: `Fragrance Wardrobe Essentials`,
+    intro: `You don't need dozens of fragrances. A well-chosen wardrobe of 3-5 scents can cover every context in your life—work, casual, evening, special occasions, and weekend activities. Here's how to build a complete but minimalist fragrance collection.`,
+    sections: [
+      {
+        heading: `The Essential 3-5 Framework`,
+        body: `1) Daily versatile (works for everything routine), 2) Professional/polished (office appropriate), 3) Casual/weekend (relaxed, maybe beach-appropriate), 4) Evening/special (something elevated), 5) Seasonal alternative (optional, for variety). This framework ensures you're covered without redundancy or overwhelming choice.`
+      },
+      {
+        heading: `Choosing Each Category`,
+        body: `Daily versatile should be something you never tire of—often clean woody or sophisticated musk. Professional needs appropriate projection and universal appeal. Casual can be fresher and more relaxed. Evening allows more presence and richness. Build systematically rather than collecting randomly.`
+      },
+      {
+        heading: `Santa Cruz-Specific Wardrobe`,
+        body: `A Santa Cruz fragrance wardrobe might look like: fresh aquatic or vetiver for beach/casual, clean woody for work, amber or tonka for evenings, maybe something forest-inspired for cooler weather. Adapt this framework to your specific Santa Cruz lifestyle and contexts.`
+      },
+      {
+        heading: `Testing Before Completing`,
+        body: `Use decants to test each category thoroughly before buying bottles. Wear contenders in their intended contexts—test "work" fragrances at actual work, "beach" scents on beach days. This real-world testing ensures each piece of your wardrobe actually fulfills its purpose.`
+      }
+    ],
+    faq: [
+      { q: `Is 3-5 fragrances really enough?`, a: `For most people, yes. More provides variety but isn't necessary for covering all life contexts. Start with essentials, add more only if specific needs aren't met.` },
+      { q: `Can I build a wardrobe with all unisex fragrances?`, a: `Absolutely. Unisex options can fill every category. Gender marketing is irrelevant to building functional wardrobe.` },
+      { q: `How long does it take to build a wardrobe?`, a: `Take your time. Test systematically through decants. Building thoughtfully over months beats rushing and making expensive mistakes.` }
+    ],
+    primaryCta: { label: `Build Your Wardrobe`, href: `/book` },
+    relatedSlugs: [`scent-wardrobe-building`, `one-fragrance-for-everything`, `how-to-choose-fragrance-for-lifestyle`],
+    tags: [`Strategy`, `Education`, `Wardrobe`]
+  },
+
+  {
+    slug: `replacing-discontinued-fragrance`,
+    title: `Help Finding Replacement for Discontinued Fragrance`,
+    metaTitle: `Replace Discontinued Fragrance | Find Similar Scents`,
+    metaDescription: `Lost your favorite discontinued fragrance? Get help finding similar replacements and alternatives.`,
+    h1: `Replacing Discontinued Fragrances`,
+    intro: `Having a beloved fragrance discontinued is frustrating. While finding exact replacements is often impossible, discovering similar alternatives that capture what you loved about the original is achievable with systematic searching and expert guidance.`,
+    sections: [
+      {
+        heading: `Why Fragrances Get Discontinued`,
+        body: `Brands discontinue fragrances for many reasons: poor sales, reformulation due to ingredient restrictions, brand direction changes, or licensing issues. It's unfortunately common, especially with niche brands. The fragrance you love might simply stop existing, with no warning.`
+      },
+      {
+        heading: `Finding Similar Alternatives`,
+        body: `Describe what you loved about the discontinued scent—specific notes, overall vibe, when/where you wore it, what compliments you got. We can translate this into fragrance language and present similar alternatives. The goal isn't identical replication but capturing the essence of what drew you to the original.`
+      },
+      {
+        heading: `The Search Process`,
+        body: `Bring any information about the discontinued fragrance—name, brand, when it was discontinued, notes lists, reviews. We'll research what made it distinctive and present candidates that share similar DNA. Through testing, we narrow down to options that actually feel like worthy successors.`
+      },
+      {
+        heading: `Letting Go and Moving Forward`,
+        body: `Sometimes the perfect replacement doesn't exist, and you need to accept moving on. Use this as opportunity to discover something new that might become an even better signature. Mourning the old is valid, but staying stuck prevents discovering what could become your new favorite.`
+      }
+    ],
+    faq: [
+      { q: `Can you get discontinued fragrances?`, a: `Sometimes old stock exists, but it's rare and often degraded. Better strategy is usually finding similar alternatives from current production.` },
+      { q: `How close can replacements get to originals?`, a: `Rarely identical, but often close enough to satisfy what you loved about the original. It's about capturing essence, not perfect replication.` },
+      { q: `What if I can't find anything similar?`, a: `We can at least try multiple directions. Sometimes nothing is close enough, but systematic searching gives the best chance.` }
+    ],
+    primaryCta: { label: `Start Replacement Search`, href: `/book` },
+    relatedSlugs: [`custom-scent-search-consultation`, `private-perfume-consultation-santa-cruz`, `signature-scent-finder`],
+    tags: [`Problem/Solution`, `Custom`]
+  },
+
+  {
+    slug: `seasonal-fragrance-rotation`,
+    title: `Do You Need Seasonal Fragrance Rotation in Santa Cruz?`,
+    metaTitle: `Seasonal Fragrance Rotation Santa Cruz | Year-Round Scents`,
+    metaDescription: `Understand if seasonal fragrance rotation matters in Santa Cruz's mild climate. Year-round scent strategies.`,
+    h1: `Seasonal Fragrance Rotation in Santa Cruz`,
+    intro: `Many fragrance guides talk about seasonal rotation—light scents for summer, heavy for winter. But in Santa Cruz's mild, consistent climate, do seasonal rules actually apply? Understanding local weather helps you choose fragrances that work year-round.`,
+    sections: [
+      {
+        heading: `Why Seasonal Rotation Exists`,
+        body: `Traditional seasonal fragrance advice comes from climates with dramatic temperature swings. Heavy orientals feel oppressive in 95-degree humidity. Light citruses disappear in freezing cold. But Santa Cruz doesn't experience these extremes—our year-round mild weather changes the equation.`
+      },
+      {
+        heading: `Santa Cruz's Unique Climate`,
+        body: `We range from roughly 45-75°F year-round. Winter means more rain and marine layer, summer more sun, but temperature differences are modest. This consistent mildness means many fragrances work year-round here that would be seasonal elsewhere. You can wear favorites continuously without weather forcing rotation.`
+      },
+      {
+        heading: `Mood-Based vs. Weather-Based`,
+        body: `Rather than rotating by season, many Santa Cruz residents rotate by mood or context: beach vs. redwoods, professional vs. casual, energizing vs. contemplative. This approach makes more sense in mild climate than strict seasonal calendars.`
+      },
+      {
+        heading: `If You Want Seasonal Variety`,
+        body: `Some people enjoy seasonal rotation for psychological reasons even when climate doesn't require it. Lighter/brighter for summer sun, richer/moodier for winter rain can create pleasing ritual. But it's preference, not necessity—don't feel obligated to rotate if you're happy wearing favorites year-round.`
+      }
+    ],
+    faq: [
+      { q: `Can I wear the same fragrance all year in Santa Cruz?`, a: `Absolutely. Many fragrances that would be seasonal elsewhere work year-round here. Wear what you love when you love it.` },
+      { q: `Do any fragrances require seasonal thinking here?`, a: `Very heavy orientals might feel better in cooler months, very bright citruses might shine more in sun. But these are subtle preferences, not requirements.` },
+      { q: `Should I own different fragrances for different seasons?`, a: `Only if you want variety. Climate doesn't force it in Santa Cruz like it might elsewhere.` }
+    ],
+    primaryCta: { label: `Find Year-Round Scents`, href: `/book` },
+    relatedSlugs: [`santa-cruz-friendly-fragrances`, `one-fragrance-for-everything`, `fragrances-coastal-weather`],
+    tags: [`Education`, `Santa Cruz`, `Strategy`]
+  },
+
+  {
+    slug: `fragrance-for-remote-workers`,
+    title: `Fragrance for Remote Workers (Santa Cruz)`,
+    metaTitle: `Fragrance for Remote Workers | Work-From-Home Scents`,
+    metaDescription: `Discover fragrances perfect for remote work. Create focus and routine with intentional scent choices.`,
+    h1: `Fragrance for Remote Workers`,
+    intro: `Remote work changes fragrance needs entirely. Without commutes or office spaces to navigate, you can wear whatever you want—but intentional fragrance choices can still enhance focus, mark transitions, and create productive routines.`,
+    sections: [
+      {
+        heading: `Fragrance as Routine Anchor`,
+        body: `When working from home, normal work cues disappear—commute, office space, dress code. Fragrance can serve as routine signal: applying specific scent marks transition into work mode, helps maintain professional mindset even in sweatpants, and creates sensory boundary between work and home life in same physical space.`
+      },
+      {
+        heading: `Choosing Remote Work Fragrances`,
+        body: `Remote work fragrances can be whatever enhances your productivity: energizing citruses for focus, grounding woods for contemplation, clean musks for clarity. Without needing to consider colleagues' sensitivities or office appropriateness, you have complete freedom. Choose what actually helps you work better.`
+      },
+      {
+        heading: `The Santa Cruz Remote Work Culture`,
+        body: `Santa Cruz has abundant remote workers, freelancers, and flexible schedules. Many people here have figured out that intentional sensory environment—including scent—improves work-from-home experience. Fragrance becomes self-care and productivity tool, not just aesthetic choice.`
+      },
+      {
+        heading: `Separating Work and Life`,
+        body: `Consider: work fragrance during work hours, different scent (or none) for personal time. This creates olfactory separation between modes even when physical space doesn't change. The ritual of washing off work scent signals transition to evening, helping maintain work-life boundaries at home.`
+      }
+    ],
+    faq: [
+      { q: `Should remote workers wear fragrance at all?`, a: `No requirement, but many find it helpful for routine, mood, or just enjoying scent without workplace restrictions. It's personal choice.` },
+      { q: `Can I wear heavier fragrances working from home?`, a: `You can, but consider your own comfort. Heavy projection in small home office can become overwhelming by hour eight.` },
+      { q: `Do Zoom meetings change fragrance choice?`, a: `Technically no one can smell you on video. But applying fragrance before meetings can help you feel more "on" and professional.` }
+    ],
+    primaryCta: { label: `Find Your Work Scent`, href: `/book` },
+    relatedSlugs: [`office-safe-fragrances`, `how-to-choose-fragrance-for-lifestyle`, `one-fragrance-for-everything`],
+    tags: [`Lifestyle`, `Remote Work`, `Santa Cruz`]
+  },
+
+  {
+    slug: `perfume-aging-vintage-fragrances`,
+    title: `Perfume Aging & Vintage Fragrances`,
+    metaTitle: `Perfume Aging & Vintage Fragrances | How Scents Change Over Time`,
+    metaDescription: `Understand how fragrances age and whether vintage perfumes are worth pursuing. Complete guide to perfume aging.`,
+    h1: `Perfume Aging & Vintage Fragrances`,
+    intro: `Fragrances change over time—sometimes improving, sometimes degrading. Understanding how perfumes age helps you store current fragrances properly and decide whether pursuing vintage bottles is worth the effort and risk.`,
+    sections: [
+      {
+        heading: `How Fragrances Age`,
+        body: `Over years, fragrance molecules slowly break down and transform: top notes often fade or turn sharp, some base notes can deepen and improve, color typically darkens (this is normal), overall projection may decrease. The rate depends on storage—cool, dark, sealed conditions slow aging dramatically.`
+      },
+      {
+        heading: `When Aging Improves Fragrance`,
+        body: `Some fragrances—especially those with rich base notes like oud, amber, or certain woods—can actually improve with moderate aging. Rough edges smooth out, components integrate better, harshness mellows. This is like wine aging, but rare in perfumery. Most fragrances are best fresh.`
+      },
+      {
+        heading: `The Vintage Fragrance Appeal`,
+        body: `Vintage fragrance hunting appeals to collectors for several reasons: accessing discontinued classics, experiencing original formulations before reformulation, owning rare pieces, or nostalgia for specific eras. But it's risky—you're gambling on storage history you can't verify and paying premium prices for possibly degraded juice.`
+      },
+      {
+        heading: `Signs of Bad Aging`,
+        body: `Fragrances that have "gone bad" smell: sour or vinegary (especially top notes), flat and lifeless, wrong compared to known reference, or cause skin irritation where they didn't before. If a vintage bottle smells off, it probably is. Don't force yourself to wear degraded fragrance just because it's rare.`
+      }
+    ],
+    faq: [
+      { q: `Should I buy vintage fragrances?`, a: `Only if you're willing to risk degradation and understand you can't return perfume after smelling it. Better to focus on current production unless you're a serious collector.` },
+      { q: `How long do modern fragrances last?`, a: `Properly stored (cool, dark, sealed), most last 5-10+ years without major degradation. Some last indefinitely.` },
+      { q: `Do reformulations always make fragrances worse?`, a: `Not always. Sometimes reformulations improve longevity, remove irritating ingredients, or update for modern tastes. "Original formula" isn't automatically better.` }
+    ],
+    primaryCta: { label: `Focus on Current Gems`, href: `/book` },
+    relatedSlugs: [`how-to-store-decants`, `replacing-discontinued-fragrance`, `sustainable-ethical-fragrance-practices`],
+    tags: [`Education`, `Advanced`, `Collection`]
+  },
+
+  {
+    slug: `concentration-levels-explained`,
+    title: `Fragrance Concentration Levels Explained (EDT vs EDP vs Parfum)`,
+    metaTitle: `Fragrance Concentration Levels | EDT vs EDP vs Parfum Explained`,
+    metaDescription: `Understand fragrance concentration levels. Complete guide to EDT, EDP, Parfum, and what concentration means for longevity and projection.`,
+    h1: `Fragrance Concentration Levels Explained`,
+    intro: `You'll see fragrance described as EDT, EDP, Parfum, or other concentration levels. Understanding what these mean helps you choose appropriate strength and predict how fragrances will perform.`,
+    sections: [
+      {
+        heading: `The Concentration Hierarchy`,
+        body: `From weakest to strongest: Eau Fraiche (1-3% perfume oil), Eau de Cologne (2-5%), Eau de Toilette/EDT (5-15%), Eau de Parfum/EDP (15-20%), Parfum/Extrait (20-40%). Higher concentration generally means longer lasting and potentially stronger projection, but not always—composition matters as much as concentration.`
+      },
+      {
+        heading: `EDT vs EDP Differences`,
+        body: `EDT is lighter, often brighter, and typically lasts 4-6 hours. EDP is richer, can have different balance (more base notes), and often lasts 6-8+ hours. Same fragrance in EDT vs EDP can smell noticeably different—not just stronger, but actually different character. Test both if available.`
+      },
+      {
+        heading: `What Concentration to Choose`,
+        body: `EDT works well for: office/professional contexts, hot weather, when you want lighter presence, or fragrances you'll reapply. EDP works for: all-day wear, cooler weather, when you want lasting power, or fragrances you don't want to reapply. Parfum is for: special occasions, minimal application, or when you want maximum longevity.`
+      },
+      {
+        heading: `Why Concentration Matters for Decants`,
+        body: `When buying decants, know the concentration—it affects how much you need and how long it lasts. A 5ml EDT might give you different wear time than 5ml EDP of the same fragrance. This impacts which size makes sense for your testing or travel goals.`
+      }
+    ],
+    faq: [
+      { q: `Is higher concentration always better?`, a: `Not necessarily. Some fragrances are best in EDT, others in EDP. It depends on composition and your preferences. Higher isn't automatically superior.` },
+      { q: `Do all brands use these levels the same way?`, a: `Mostly yes, but some variation exists. Niche brands especially might define concentrations slightly differently than mainstream houses.` },
+      { q: `Can I mix different concentrations?`, a: `You can layer EDT and EDP of same fragrance for customized strength/longevity. Some people do this intentionally.` }
+    ],
+    primaryCta: { label: `Learn More About Fragrances`, href: `/book` },
+    relatedSlugs: [`what-is-a-decant`, `decant-sizes-explained`, `how-many-sprays-in-decant`],
+    tags: [`Education`, `Technical`]
+  },
+
+  {
+    slug: `fragrance-notes-explained`,
+    title: `Fragrance Notes Explained (Top, Middle, Base)`,
+    metaTitle: `Fragrance Notes Explained | Understanding Top Middle Base Notes`,
+    metaDescription: `Learn how fragrance notes work. Complete guide to top, middle, and base notes and how fragrances develop over time.`,
+    h1: `Fragrance Notes Explained`,
+    intro: `Understanding fragrance notes—top, middle, and base—helps you predict how scents will develop, describe what you're experiencing, and choose fragrances that work with your chemistry and lifestyle.`,
+    sections: [
+      {
+        heading: `The Three-Tier Structure`,
+        body: `Top notes are what you smell first (0-15 minutes)—usually bright, volatile ingredients like citrus, herbs, or light florals. Heart/middle notes emerge next (15 minutes to several hours)—the main character, often florals, fruits, or spices. Base notes are what remains (several hours to days)—heavy, long-lasting ingredients like woods, musks, amber, or vanilla.`
+      },
+      {
+        heading: `Why This Structure Matters`,
+        body: `This pyramid explains why initial impressions can be misleading: a fragrance might smell bright and citrusy in the store but dry down to warm vanilla hours later. You need to experience all stages to know if you truly love something. This is why proper testing takes time and why buying based on first sniff is risky.`
+      },
+      {
+        heading: `How Chemistry Affects Notes`,
+        body: `Your skin chemistry influences how quickly notes develop and which ones come forward. Warm skin accelerates top note evaporation. Oily skin holds fragrance longer. pH affects which notes you perceive strongest. This is why the same fragrance can smell different on different people—chemistry emphasizes different notes.`
+      },
+      {
+        heading: `Using Notes to Choose Fragrances`,
+        body: `If you always love initial brightness but fragrances turn disappointing after an hour, you might prefer top-note-heavy compositions or should reapply frequently. If you love how scents smell after several hours, focus on base notes. Understanding your pattern helps you choose fragrances that satisfy your specific preferences.`
+      }
+    ],
+    faq: [
+      { q: `Do all fragrances have three tiers?`, a: `Most do, but some linear fragrances smell consistent from spray to drydown. Others might have more or fewer distinct stages.` },
+      { q: `Which notes last longest?`, a: `Base notes—especially woods, musks, resins, and vanilla—last longest. Top notes fade fastest.` },
+      { q: `Can I just smell base notes to know if I'll like a fragrance?`, a: `Not really. You need to experience the whole development. Base notes alone don't tell you if the journey to get there is pleasant.` }
+    ],
+    primaryCta: { label: `Experience Note Development`, href: `/book` },
+    relatedSlugs: [`how-to-test-fragrance-properly`, `why-perfume-smells-different-on-everyone`, `your-first-niche-fragrance`],
+    tags: [`Education`, `Fundamentals`]
+  },
+
+  {
+    slug: `fragrance-families-explained`,
+    title: `Fragrance Families Explained (Fresh, Floral, Woody, Oriental)`,
+    metaTitle: `Fragrance Families Explained | Understanding Perfume Categories`,
+    metaDescription: `Learn the main fragrance families. Complete guide to Fresh, Floral, Woody, and Oriental scent categories.`,
+    h1: `Fragrance Families Explained`,
+    intro: `Fragrance families are the basic categories used to classify scents—Fresh, Floral, Woody, and Oriental. Understanding these helps you articulate preferences, navigate fragrance stores, and discover new scents in families you already know you love.`,
+    sections: [
+      {
+        heading: `The Four Main Families`,
+        body: `Fresh (Citrus, Aquatic, Green, Aromatic): Bright, clean, energizing. Woody (Cedar, Vetiver, Sandalwood, Oud): Earthy, grounding, sophisticated. Floral (Rose, Jasmine, Iris, etc): Flowery, from light to opulent. Oriental (Amber, Vanilla, Spice): Warm, rich, sensual. Most fragrances are blends across families, but understanding pure categories helps you recognize what you're drawn to.`
+      },
+      {
+        heading: `Subfamilies and Combinations`,
+        body: `Within each family are subcategories: Floral-Fresh, Woody-Aromatic, Oriental-Gourmand, Fresh-Aquatic, etc. These combinations describe fragrances that bridge categories. Modern perfumery often blends families creatively—Floral-Woody-Musk, Fresh-Oriental, etc. Understanding families helps decode these descriptions.`
+      },
+      {
+        heading: `Using Families to Navigate Discovery`,
+        body: `If you know you love Woody fragrances but want variety, explore across Woody subcategories: dry cedar vs creamy sandalwood vs green vetiver vs rich oud. Or bridge to adjacent families: Woody-Aromatic adds freshness, Woody-Oriental adds warmth. This systematic exploration is more efficient than random testing.`
+      },
+      {
+        heading: `Santa Cruz Family Preferences`,
+        body: `Certain families naturally align with Santa Cruz lifestyle: Fresh and Woody tend to be popular (coastal, outdoorsy). Floral in modern interpretations works well (avoid heavy vintage florals). Oriental can work but lighter, less projecting versions suit community culture better than heavy, loud orientals.`
+      }
+    ],
+    faq: [
+      { q: `Do I have to stick to one family?`, a: `Not at all. Many people enjoy fragrances across multiple families. Use families as navigation tools, not restrictions.` },
+      { q: `Are some families more masculine or feminine?`, a: `Marketing tries to gender them, but families themselves are neutral. Anyone can wear anything from any family.` },
+      { q: `How do I figure out which family I prefer?`, a: `Sample systematically across families. Your reactions will reveal patterns and preferences you might not have consciously known.` }
+    ],
+    primaryCta: { label: `Explore All Families`, href: `/book` },
+    relatedSlugs: [`fragrance-notes-explained`, `your-first-niche-fragrance`, `how-to-test-fragrance-properly`],
+    tags: [`Education`, `Fundamentals`]
+  },
+
+  {
+    slug: `what-is-niche-perfume`,
+    title: `What Is Niche Perfume? (And Why It's Different)`,
+    metaTitle: `What Is Niche Perfume | Niche vs Designer Fragrances Explained`,
+    metaDescription: `Understand what makes perfume "niche" and how it differs from designer fragrances. Complete guide to niche perfumery.`,
+    h1: `What Is Niche Perfume?`,
+    intro: `Niche perfume refers to fragrances from independent or artisanal houses rather than massive fashion/designer brands. Understanding what makes something "niche" helps you navigate the fragrance world and decide whether exploring beyond mainstream options is worth it.`,
+    sections: [
+      {
+        heading: `Niche vs Designer Fragrances`,
+        body: `Designer fragrances come from fashion houses (Chanel, Dior, Gucci) and are mass-marketed for broad appeal. Niche fragrances come from independent perfume houses (Le Labo, Byredo, Imaginary Authors) focused primarily on scent rather than fashion branding. Niche tends toward more creative, unusual, or uncompromising compositions rather than safe crowd-pleasers.`
+      },
+      {
+        heading: `What Makes Niche Different`,
+        body: `Niche fragrances often feature: more unusual or high-quality ingredients, more creative compositions, smaller production batches, focus on scent over marketing, higher prices (but not always), and willingness to be polarizing rather than universally appealing. They're perfume as art or craft rather than perfume as fashion accessory.`
+      },
+      {
+        heading: `Is Niche Better?`,
+        body: `Not automatically. Niche means different, not necessarily superior. Some designer fragrances are excellent; some niche fragrances are overhyped or overpriced. "Niche" is category descriptor, not quality guarantee. What matters is whether specific fragrances smell good to you and suit your life, not whether they're niche or designer.`
+      },
+      {
+        heading: `Why Explore Niche`,
+        body: `If you're bored with mall perfume counters, want something more unique, appreciate craft and artistry, or enjoy exploring creative compositions, niche perfumery offers much more variety. But if you're happy with mainstream options, there's no requirement to explore niche. It's about what serves your needs and interests.`
+      }
+    ],
+    faq: [
+      { q: `Are niche fragrances always more expensive?`, a: `Often yes, but not always. Some niche is accessible, some designer is expensive. Price varies widely in both categories.` },
+      { q: `Where can I try niche fragrances?`, a: `Specialty perfume boutiques, appointments like ours, or ordering decants online. Department stores rarely carry significant niche selection.` },
+      { q: `Should I only wear niche fragrances?`, a: `Wear whatever you love. Niche snobbery is silly. If you love a designer fragrance, wear it. If you love niche, wear that. Quality is what you enjoy, not category label.` }
+    ],
+    primaryCta: { label: `Explore Niche Options`, href: `/book` },
+    relatedSlugs: [`niche-fragrance-near-me`, `artsy-indie-niche-fragrances`, `your-first-niche-fragrance`],
+    tags: [`Education`, `Niche`, `Fundamentals`]
+  },
+
+  {
+    slug: `house-scent-signature-scent-difference`,
+    title: `House Scent vs Signature Scent (What's the Difference?)`,
+    metaTitle: `House Scent vs Signature Scent | Perfume vs Home Fragrance`,
+    metaDescription: `Understand the difference between house scent and signature personal fragrance. Complete guide to home vs personal scent.`,
+    h1: `House Scent vs Signature Scent`,
+    intro: `"House scent" and "signature scent" sound similar but mean different things. Understanding the distinction helps you think about fragrance both personally and environmentally—how you smell and how your space smells.`,
+    sections: [
+      {
+        heading: `What Is House Scent`,
+        body: `House scent is ambient fragrance in your living space—candles, diffusers, room sprays. It's environmental, affecting everyone in the space. House scent creates atmosphere: welcoming guests, marking transitions (morning coffee ritual, evening wind-down), or simply making your home smell intentional. It's shared and static, filling space rather than moving with you.`
+      },
+      {
+        heading: `What Is Signature Scent`,
+        body: `Signature scent is personal fragrance you wear on your body—perfume, cologne, body spray. It's individual, moving with you, experienced by people you're near. Signature scent is about personal expression and identity: how you want to smell, what feels authentic to you, how you present yourself olfactively to the world. It's mobile and intimate.`
+      },
+      {
+        heading: `Can They Be the Same?`,
+        body: `Some people match personal and house scent intentionally—wearing the same fragrance and burning that scent as candle creates cohesive sensory environment. Others prefer distinction—home smells one way, body another, creating variety. Neither approach is right or wrong; it's about what you enjoy and how you think about scent.`
+      },
+      {
+        heading: `Santa Cruz Scent Approaches`,
+        body: `Many Santa Cruz homes use minimal or natural environmental scent (open windows, ocean air, natural materials) rather than heavy artificial home fragrance. Personal scent then becomes more intentional choice rather than competing with heavy room fragrance. This aligns with values around natural living and scent sensitivity.`
+      }
+    ],
+    faq: [
+      { q: `Should my house and personal scent match?`, a: `Only if you want them to. Some people love cohesive scent environment, others prefer variety. Personal preference entirely.` },
+      { q: `Can I use perfume as house scent?`, a: `You can spray perfume on curtains or linens, but it's expensive for that purpose. Dedicated home fragrances are more economical for environmental scenting.` },
+      { q: `Is house scent necessary?`, a: `Not at all. Many people (especially scent-sensitive) prefer homes without artificial fragrance. Natural air is perfectly valid choice.` }
+    ],
+    primaryCta: { label: `Explore P.F. Candle Co`, href: `/candles` },
+    relatedSlugs: [`signature-scent-finder`, `one-fragrance-for-everything`, `santa-cruz-friendly-fragrances`],
+    tags: [`Education`, `Fundamentals`]
+  },
+
 ];
 
 export function getPageBySlug(slug: string): SeoPage | undefined {
