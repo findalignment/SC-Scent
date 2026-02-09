@@ -66,9 +66,9 @@ export default function SiteLayout({
       <BackToTop />
 
       {/* Footer */}
-      <footer className="bg-[#0a1628] text-white py-16 border-t border-amber-900/20" role="contentinfo" aria-label="Site footer">
+      <footer className="bg-[#0a1628] text-white py-12 sm:py-16 border-t border-amber-900/20" role="contentinfo" aria-label="Site footer">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10 md:gap-12 mb-8 sm:mb-10 md:mb-12">
             {/* Brand */}
             <div>
               <div className="flex items-center gap-3 mb-6">
@@ -140,8 +140,8 @@ export default function SiteLayout({
           </div>
 
           {/* Bottom Bar */}
-          <div className="pt-8 border-t border-white/10 text-center">
-            <p className="text-gray-500 font-light text-sm">© {new Date().getFullYear()} {SITE_CONFIG.name} • Santa Cruz, CA</p>
+          <div className="pt-6 sm:pt-8 border-t border-white/10 text-center">
+            <p className="text-gray-500 font-light text-xs sm:text-sm">© {new Date().getFullYear()} {SITE_CONFIG.name} • Santa Cruz, CA</p>
           </div>
         </div>
       </footer>

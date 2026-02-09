@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -19,6 +19,13 @@ export const metadata: Metadata = {
   },
   description: "Discover luxury fragrances in travel-friendly sizes. Flight-ready decants and artisan candles.",
   keywords: ["fragrance", "perfume", "decants", "travel size", "TSA approved", "flight ready", "luxury scents", "PF Candle", "Santa Cruz"],
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
 };
 
 export default function RootLayout({

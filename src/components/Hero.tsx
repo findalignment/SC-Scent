@@ -2,12 +2,12 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-[#0a1628] via-[#1a2f4a] to-[#0d1b2a] min-h-[90vh] flex items-center overflow-hidden">
+    <section className="relative bg-gradient-to-br from-[#0a1628] via-[#1a2f4a] to-[#0d1b2a] min-h-[80vh] sm:min-h-[85vh] md:min-h-[90vh] flex items-center overflow-hidden">
       {/* Background Image Overlay - Replace with actual Santa Cruz beach image */}
       <div className="absolute inset-0 bg-[url('/hero-bg.jpg')] bg-cover bg-center opacity-20"></div>
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0a1628]/80 to-[#0a1628]"></div>
       
-      <div className="container mx-auto px-4 py-16 relative z-10">
+      <div className="container mx-auto px-4 py-12 sm:py-16 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-[300px_1fr] gap-12 items-center">
             {/* Left - Square Logo/Image - Now Responsive */}
@@ -29,32 +29,32 @@ export default function Hero() {
               </div>
 
               {/* Main Heading */}
-              <h1 className="text-5xl md:text-7xl font-serif font-light text-white mb-6 leading-tight">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl font-serif font-light text-white mb-4 sm:mb-6 leading-tight">
                 Discover Your
-                <span className="block font-normal text-amber-300 mt-2">
+                <span className="block font-normal text-amber-300 mt-1 sm:mt-2">
                   Signature Scent
                 </span>
               </h1>
 
               {/* Subheading */}
-              <p className="text-lg md:text-xl text-gray-300 mb-10 leading-relaxed font-light">
+              <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-8 sm:mb-10 leading-relaxed font-light">
                 Curated luxury fragrances in travel-ready sizes.
-                <br />
-                <span className="text-white">Experience the world's finest perfumes without the commitment.</span>
+                <br className="hidden sm:block" />
+                <span className="text-white"> Experience the world's finest perfumes without the commitment.</span>
               </p>
 
               {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start items-center">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center md:justify-start items-stretch sm:items-center">
                 <Link
                   href="/in-stock"
-                  className="px-10 py-4 bg-amber-600 text-white font-medium tracking-wide uppercase text-sm shadow-2xl hover:bg-amber-700 transition-all duration-300 focus:outline-none focus-visible:ring-4 focus-visible:ring-amber-400"
+                  className="w-full sm:w-auto text-center px-8 sm:px-10 py-3 sm:py-4 bg-amber-600 text-white font-medium tracking-wide uppercase text-sm shadow-2xl hover:bg-amber-700 transition-all duration-300 focus:outline-none focus-visible:ring-4 focus-visible:ring-amber-400"
                   aria-label="Explore our fragrance collection"
                 >
                   Explore Collection
                 </Link>
                 <Link
                   href="/book"
-                  className="px-10 py-4 bg-transparent text-white font-medium tracking-wide uppercase text-sm border-2 border-white/40 hover:bg-white/10 hover:border-white/60 transition-all duration-300 focus:outline-none focus-visible:ring-4 focus-visible:ring-amber-400"
+                  className="w-full sm:w-auto text-center px-8 sm:px-10 py-3 sm:py-4 bg-transparent text-white font-medium tracking-wide uppercase text-sm border-2 border-white/40 hover:bg-white/10 hover:border-white/60 transition-all duration-300 focus:outline-none focus-visible:ring-4 focus-visible:ring-amber-400"
                   aria-label="Contact us for consultation or questions"
                 >
                   Contact Us

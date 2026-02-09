@@ -50,8 +50,8 @@ export default function FragranceCard({ fragrance }: FragranceCardProps) {
       <div className="p-6 bg-gradient-to-b from-[#0d1b2a] to-[#0a1628]">
         {/* Brand & Name */}
         <div className="mb-4">
-          <p className="text-xs text-amber-400 font-medium mb-2 uppercase tracking-widest" aria-label={`Brand: ${fragrance.brand}`}>{fragrance.brand}</p>
-          <h3 className="text-xl font-serif font-light text-white group-hover:text-amber-300 transition-colors leading-tight">
+          <p className="text-xs text-amber-400 font-medium mb-2 uppercase tracking-widest truncate" aria-label={`Brand: ${fragrance.brand}`}>{fragrance.brand}</p>
+          <h3 className="text-xl font-serif font-light text-white group-hover:text-amber-300 transition-colors leading-tight line-clamp-2">
             {fragrance.name}
           </h3>
         </div>

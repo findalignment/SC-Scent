@@ -50,22 +50,22 @@ const offers = [
 
 export default function OfferCards() {
   return (
-    <section className="py-20 bg-gray-50" aria-labelledby="offers-heading">
+    <section className="py-12 sm:py-16 md:py-20 bg-gray-50" aria-labelledby="offers-heading">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 id="offers-heading" className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        <div className="text-center mb-10 sm:mb-12 md:mb-16">
+          <h2 id="offers-heading" className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
             What We Offer
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4">
             From travel-ready decants to artisan candles, discover premium scents in Santa Cruz
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" role="list">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8" role="list">
           {offers.map((offer) => (
             <div
               key={offer.id}
-              className="bg-white border-l-4 border-teal-600 p-8 shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-white border-l-4 border-teal-600 p-6 sm:p-8 shadow-lg hover:shadow-xl transition-all duration-300"
               role="listitem"
             >
               <h3 className="text-2xl font-bold text-gray-900 mb-3" id={`offer-${offer.id}`}>

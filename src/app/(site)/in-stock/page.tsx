@@ -24,13 +24,13 @@ export default async function InStockPage() {
   return (
     <div className="min-h-screen bg-[#0a1628]">
       {/* Header */}
-      <section className="py-20 bg-gradient-to-br from-[#0a1628] via-[#1a2f4a] to-[#0d1b2a] text-white border-b border-amber-900/30">
+      <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-[#0a1628] via-[#1a2f4a] to-[#0d1b2a] text-white border-b border-amber-900/30">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-5xl md:text-6xl font-serif font-light mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-light mb-4 md:mb-6">
               Our Collection
             </h1>
-            <p className="text-lg text-gray-400 font-light">
+            <p className="text-base sm:text-lg text-gray-400 font-light">
               Curated luxury fragrances in travel-ready sizes
             </p>
           </div>
@@ -38,7 +38,7 @@ export default async function InStockPage() {
       </section>
 
       {/* Main Content */}
-      <section className="py-16">
+      <section className="py-8 sm:py-12 md:py-16">
         <div className="container mx-auto px-4">
           {/* Error State */}
           {error ? (
