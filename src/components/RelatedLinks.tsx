@@ -24,7 +24,7 @@ export default function RelatedLinks({ slugs }: RelatedLinksProps) {
             {pages.map((page) => (
               <Link
                 key={page!.slug}
-                href={`/seo/${page!.slug}`}
+                href={`/guides/${page!.slug}`}
                 className="block p-6 bg-white/5 border border-white/10 hover:bg-white/10 hover:border-amber-400/40 transition-all duration-300 group"
               >
                 <h3 className="text-white font-medium mb-2 group-hover:text-amber-400 transition-colors">

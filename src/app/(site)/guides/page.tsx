@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Fragrance Discovery & Consultation in Santa Cruz | Santa Cruz Scent',
   description: 'Explore appointment-only fragrance consultations, niche perfume decants, and scent discovery sessions in Santa Cruz. Try before you buy with expert guidance.',
   alternates: {
-    canonical: 'https://santacruzscent.com/seo',
+    canonical: 'https://santacruzscent.com/guides',
   },
 };
 
@@ -47,7 +47,7 @@ export default function SeoIndexPage() {
               {seoPages.slice(0, 9).map((page) => (
                 <Link
                   key={page.slug}
-                  href={`/seo/${page.slug}`}
+                  href={`/guides/${page.slug}`}
                   className="block p-8 bg-gradient-to-b from-[#1a2f4a] to-[#0d1b2a] border border-amber-900/20 hover:shadow-2xl transition-all duration-300 group"
                 >
                   <h3 className="text-xl font-serif font-light text-white mb-3 group-hover:text-amber-400 transition-colors">
@@ -76,7 +76,7 @@ export default function SeoIndexPage() {
                   {groupedPages[tag].map((page) => (
                     <Link
                       key={page.slug}
-                      href={`/seo/${page.slug}`}
+                      href={`/guides/${page.slug}`}
                       className="block p-6 bg-white/5 border border-white/10 hover:bg-white/10 hover:border-amber-400/40 transition-all duration-300 group"
                     >
                       <h3 className="text-lg font-medium text-white mb-2 group-hover:text-amber-400 transition-colors">

@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  const canonicalUrl = `https://santacruzscent.com/seo/${slug}`;
+  const canonicalUrl = `https://santacruzscent.com/guides/${slug}`;
 
   return {
     title: page.metaTitle,
