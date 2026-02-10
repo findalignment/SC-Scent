@@ -586,7 +586,7 @@ export const pfProducts: PFProduct[] = [
       middle: ['Lavender', 'Rose', 'Lily'],
       base: ['Mint', 'Red Cedar'],
     },
-    imageUrl: 'https://pfcandleco.com/cdn/shop/products/RSOL.jpg',
+    imageUrl: '/images/PF Candle Co/ojai-lavender-spray.jpg',
     inStock: true,
     ingredients: 'Each amber glass bottle contains a 7.75 fl oz blend of body-safe fine fragrance oils and water.',
     howToUse: [
