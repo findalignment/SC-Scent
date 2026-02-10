@@ -3,6 +3,7 @@ import { SITE_CONFIG } from '@/lib/constants';
 import SearchBar from '@/components/SearchBar';
 import BackToTop from '@/components/BackToTop';
 import SkipToContent from '@/components/SkipToContent';
+import MobileMenu from '@/components/MobileMenu';
 
 export default function SiteLayout({
   children,
@@ -37,7 +38,7 @@ export default function SiteLayout({
                 href="/candles"
                 className="text-gray-300 hover:text-amber-400 font-light tracking-wide text-sm uppercase transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
               >
-                Candles
+                Home Fragrance
               </Link>
               <Link
                 href="/parties"
@@ -55,6 +56,9 @@ export default function SiteLayout({
               {/* Search Bar */}
               <SearchBar />
             </div>
+
+            {/* Mobile Menu */}
+            <MobileMenu />
           </div>
         </div>
       </nav>
@@ -95,7 +99,7 @@ export default function SiteLayout({
                 </li>
                 <li>
                   <Link href="/candles" className="text-gray-400 hover:text-amber-400 transition-colors font-light focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400">
-                    Candles
+                    Home Fragrance
                   </Link>
                 </li>
                 <li>

@@ -16,7 +16,7 @@ const offers = [
     description: 'Hand-poured artisan candles from Los Angeles. Transform your space.',
     icon: '🕯️',
     link: '/candles',
-    linkText: 'Explore Candles',
+    linkText: 'Explore Home Fragrance',
     features: ['Hand-poured in LA', 'Natural soy wax', 'Signature scents'],
   },
   {

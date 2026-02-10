@@ -38,555 +38,270 @@
 - **Colors**: White/light version for dark backgrounds
 - **Status**: Currently showing text "SC" - needs proper logo design
 
-## Fragrance Images Status
+---
 
-### ✅ Fragrances WITH Images (23 found)
-The following fragrance images are currently in `/public/images/fragrances/`:
+## ✅ Fragrance Images Status
 
-1. ✅ **beach-walk.jpg** - Maison Margiela Replica Beach Walk
-2. ✅ **black-afgano.jpg** - Nasomatto Black Afgano
-3. ✅ **bosca-vanilla.jpg** - Bosca Vanilla
-4. ✅ **coffee-break.jpg** - Maison Margiela Replica Coffee Break
-5. ✅ **colonia.jpg** - Acqua di Parma Colonia
-6. ✅ **guerlain-heritage.jpg.avif** - Guerlain Heritage
-7. ✅ **guerlain-vetiver.jpg** - Guerlain Vetiver
-8. ✅ **jazz-club.jpg** - Maison Margiela Replica Jazz Club
-9. ✅ **lazy-sunday-morning.jpg** - Maison Margiela Replica Lazy Sunday Morning
-10. ✅ **megamare.jpg** - Orto Parisi Megamare
-11. ✅ **myrrh-tonka.jpg** - Jo Malone Myrrh & Tonka
-12. ✅ **nerolia-vetiver.jpg.webp** - Guerlain Nerolia Vetiver
-13. ✅ **nettare-di-sole.jpg.avif** - Guerlain Nettare di Sole
-14. ✅ **orange-soleia.jpg.avif** - Guerlain Orange Soleia
-15. ✅ **prada-lhomme.jpg** - Prada L'Homme
-16. ✅ **rosa-pallisandro.jpg.avif** - Guerlain Rosa Palissandro
-17. ✅ **rosa-rossa.jpg** - Guerlain Rosa Rossa
-18. ✅ **under-the-lemon-tree.jpg** - Maison Margiela Replica Under The Lemon Tree
-19. ✅ **when-the-name-stops.jpg** - Teo Cabanel When The Name Stops
-20. ✅ **wood-sage-sea-salt.jpg** - Jo Malone Wood Sage & Sea Salt
-21. ✅ **ysl-y.webp** - YSL Y
-22. ✅ **zoologist-bat.jpg** - Zoologist Bat
-23. ✅ **zoologist-chipmunk.jpg.webp** - Zoologist Chipmunk
+### Current Count: 58 Images in `/public/images/fragrances/`
 
-### 📋 Next Steps - Update Google Sheets
-For each fragrance image above, update your Google Sheet's "Image" column with the path:
+All fragrance product images are now in the folder with various formats (.jpg, .webp, .avif, .jpeg, .png).
 
-**Format:** `/images/fragrances/filename.jpg`
+**Format for Google Sheets Image Column:**
+```
+/images/fragrances/filename.ext
+```
 
-**Examples:**
-- Beach Walk → `/images/fragrances/beach-walk.jpg`
-- Black Afgano → `/images/fragrances/black-afgano.jpg`
-- Jazz Club → `/images/fragrances/jazz-club.jpg`
+### Complete List of Available Images:
 
-### ❌ Fragrances MISSING Images
-To determine which fragrances are missing images, check your Google Sheet and compare against the list above. Any fragrance not listed above still needs an image.
+1. ✅ **SilkyWoodsElixir.jpg.webp**
+2. ✅ **accento.webp** - Xerjoff Accento
+3. ✅ **bad-boy.jpg** - Carolina Herrera Bad Boy
+4. ✅ **beach-walk.jpg** - Maison Margiela Replica Beach Walk
+5. ✅ **black-afgano.jpg** - Nasomatto Black Afgano
+6. ✅ **bosca-vanilla.jpg** - Bosca Vanilla
+7. ✅ **br540.jpg.avif** - Maison Francis Kurkdjian Baccarat Rouge 540
+8. ✅ **brit.jpg** - Burberry Brit
+9. ✅ **by-the-fireplace.jpeg** - Maison Margiela Replica By The Fireplace
+10. ✅ **coffee-break.jpg** - Maison Margiela Replica Coffee Break
+11. ✅ **colonia.jpg** - Acqua di Parma Colonia
+12. ✅ **d&g-by.jpg** - Dolce & Gabbana The One
+13. ✅ **euphoria.tif.jpeg** - Calvin Klein Euphoria
+14. ✅ **guerlain-heritage.jpg.avif** - Guerlain Heritage
+15. ✅ **guerlain-lhomme-ideal.png.avif** - Guerlain L'Homme Idéal
+16. ✅ **guerlain-linstant-mens.jpg** - Guerlain L'Instant de Guerlain Pour Homme
+17. ✅ **guerlain-vetiver.jpg** - Guerlain Vetiver
+18. ✅ **habit-rouge.jpg** - Guerlain Habit Rouge
+19. ✅ **jazz-club.jpg** - Maison Margiela Replica Jazz Club
+20. ✅ **lafayette-street.jpg.webp** - Bond No. 9 Lafayette Street
+21. ✅ **lanuit-de-lhomme.jpg.webp** - Yves Saint Laurent La Nuit de L'Homme
+22. ✅ **lazy-sunday-morning.jpg** - Maison Margiela Replica Lazy Sunday Morning
+23. ✅ **legend-spirit.jpg.webp** - Montblanc Legend Spirit
+24. ✅ **light-blue.jpg.avif** - Dolce & Gabbana Light Blue
+25. ✅ **megamare.jpg** - Orto Parisi Megamare
+26. ✅ **molecule-04.jpg.webp** - Escentric Molecules Molecule 04
+27. ✅ **molecule01-iris.jpg.webp** - Escentric Molecules Molecule 01 + Iris
+28. ✅ **montblanc-explorer.jpg.webp** - Montblanc Explorer
+29. ✅ **myrrh-tonka.jpg** - Jo Malone Myrrh & Tonka
+30. ✅ **nerolia-vetiver.jpg.webp** - Guerlain Nerolia Vetiver
+31. ✅ **nettare-di-sole.jpg.avif** - Guerlain Nettare di Sole
+32. ✅ **ombre-leather.jpg.webp** - Tom Ford Ombré Leather
+33. ✅ **orange-soleia.jpg.avif** - Guerlain Orange Soleia
+34. ✅ **pacific-rock-moss.jpg.webp** - Goldfield & Banks Pacific Rock Moss
+35. ✅ **prada-lhomme.jpg** - Prada L'Homme
+36. ✅ **rosa-palissandro.jpg.avif** - Guerlain Rosa Palissandro
+37. ✅ **rosa-rossa.jpg** - Guerlain Rosa Rossa
+38. ✅ **sailing-day.jpg.webp** - Maison Margiela Replica Sailing Day
+39. ✅ **terre-dhermes.jpg** - Hermès Terre d'Hermès
+40. ✅ **the-one.webp** - Dolce & Gabbana The One
+41. ✅ **under-the-lemon-tree.jpg** - Maison Margiela Replica Under The Lemon Tree
+42. ✅ **under-the-stars.jpg** - Maison Margiela Replica Under The Stars
+43. ✅ **vetiver.jpg.avif** - Guerlain Vetiver
+44. ✅ **virgin-island-water.jpg** - Creed Virgin Island Water
+45. ✅ **when-the-rain-stops.jpg** - Teo Cabanel When The Rain Stops
+46. ✅ **wood-sage-sea-salt.jpg** - Jo Malone Wood Sage & Sea Salt
+47. ✅ **ysl-y.webp** - Yves Saint Laurent Y
+48. ✅ **zoologist-bat.jpg** - Zoologist Bat
+49. ✅ **zoologist-chameleon.jpeg** - Zoologist Chameleon
+50. ✅ **zoologist-chipmunk.jpg.webp** - Zoologist Chipmunk
+51. ✅ **zoologist-elephant.jpg** - Zoologist Elephant
+52. ✅ **zoologist-hyrax.jpeg** - Zoologist Hyrax
+53. ✅ **zoologist-king-cobra.jpg.webp** - Zoologist King Cobra
+54. ✅ **zoologist-rabbit.jpg** - Zoologist Rabbit
+55. ✅ **zoologist-rhinoceros.jpg.webp** - Zoologist Rhinoceros
+56. ✅ **zoologist-sacred-scarab.jpg.webp** - Zoologist Sacred Scarab
+57. ✅ **zoologist-squid.jpeg** - Zoologist Squid
+58. ✅ **zoologist-tiger.jpg.webp** - Zoologist Tiger
 
-**Common fragrances that might need images:**
-- Check your current inventory in the Google Sheet
-- Look for entries where the "Image" column is empty
-- Download missing images from official brand sites or FragranceX.com
-- Name them consistently (lowercase, hyphens, no spaces)
-- Upload to `/public/images/fragrances/`
+---
+
+## 📋 Next Steps - Update Google Sheet
+
+For each fragrance in your Google Sheet, update the **Image** column (typically Column L) with the corresponding path:
+
+**Example Updates:**
+| Fragrance Name | Image Path |
+|---|---|
+| Maison Margiela Replica Beach Walk | `/images/fragrances/beach-walk.jpg` |
+| Nasomatto Black Afgano | `/images/fragrances/black-afgano.jpg` |
+| Guerlain Heritage | `/images/fragrances/guerlain-heritage.jpg.avif` |
+| Zoologist Bat | `/images/fragrances/zoologist-bat.jpg` |
+| Baccarat Rouge 540 | `/images/fragrances/br540.jpg.avif` |
+
+**Important Notes:**
+- Use the EXACT filename including the extension (.jpg, .webp, .avif, .jpeg, etc.)
+- Always start with `/images/fragrances/`
+- Case-sensitive - match the filename exactly as shown above
+- Some files have multiple extensions (e.g., `.jpg.avif`) - include ALL extensions
+
+---
 
 ## Fragrance Product Images Guidelines
 
-### For Each Fragrance:
-- **High-quality bottle images** (600x800px minimum, square or portrait)
-  - Clean white or neutral background
-  - Professional product photography
-  - Well-lit, sharp focus
-  - Shows brand name and bottle design clearly
+### Image Specifications:
+- **Size**: 600x800px minimum (square or portrait orientation)
+- **Background**: Clean white or neutral
+- **Quality**: High-resolution product photography
+- **Focus**: Sharp, well-lit bottle showing brand name clearly
+- **Format**: Supports JPG, PNG, WebP, AVIF
 
-### Where to Get Fragrance Images:
-1. **Official brand websites** (Dior, Chanel, Tom Ford, etc.)
-2. **FragranceX.com** - good product shots
-3. **Nordstrom.com** - high-quality images
-4. **Sephora.com** - professional product photography
-5. **Fragrantica.com** - community-sourced images
+### Where to Get More Images:
+1. **Official brand websites** (Dior, Chanel, Tom Ford, Guerlain, etc.)
+2. **FragranceX.com** - High-quality product photos
+3. **Fragrantica.com** - User-submitted bottle images
+4. **Sephora/Nordstrom** - Professional product photography
+5. **Google Images** - Filter by "Large" size and usage rights
 
-### Image Naming Convention:
-- Use brand-fragrance-name format (lowercase, hyphens)
-- Example: `tom-ford-tobacco-vanille.jpg`
-- Store in: `public/images/fragrances/` folder
+### Naming Convention:
+- Lowercase only
+- Use hyphens instead of spaces
+- Remove special characters (& → and, ' → omit)
+- Keep it short but recognizable
+- Examples:
+  - "Tom Ford Oud Wood" → `tom-ford-oud-wood.jpg`
+  - "Dior Homme Intense" → `dior-homme-intense.jpg`
+  - "MFK Baccarat Rouge 540" → `br540.jpg.avif`
 
 ---
 
-## 🟡 HIGH PRIORITY: User Experience Enhancers
+## 🟡 HIGH Priority: Enhance User Experience
 
-### 3. Lifestyle & Contextual Photography
-**Purpose**: Help users envision fragrances in their Santa Cruz life
+### 3. Lifestyle/Mood Images (Recommended)
 
-#### Travel/Beach Context
+#### For Homepage Hero Section:
+**Location**: Various sections throughout the site
+- **Fragrance Discovery Moments**:
+  - Close-up of hands holding a fragrance decant
+  - Someone smelling a scent strip
+  - Fragrance bottles arranged artistically
+  - Scent notes ingredients (vanilla beans, citrus, woods)
+
+#### For Blog/SEO Pages:
 **Folder**: `public/images/lifestyle/`
-- `beach-morning.jpg` - Morning beach walk, spray fragrance
-- `surf-ready.jpg` - Wetsuit hanging, decants on weathered wood
-- `travel-pack.jpg` - Decants arranged in TSA-approved bag
-- `foggy-morning.jpg` - Atmospheric SC fog with fragrance bottles
-- `coffee-vibes.jpg` - Decants at local coffee shop (Verve aesthetic)
+- Coastal California vibes (beaches, nature)
+- Fragrance application lifestyle shots
+- Ingredient close-ups (coffee beans, leather, flowers)
+- Event/party atmosphere photos
 
-**Why These Matter**: 
-- Shows product in context
-- Reinforces local Santa Cruz identity
-- Demonstrates TSA compliance visually
-- Creates emotional connection
-
-#### Consultation/Experience Photography
-**Folder**: `public/images/experience/`
-- `scent-tubes.jpg` - Close-up of scent testing tubes
-- `consultation-setup.jpg` - Clean, professional setup for appointments
-- `fragrance-notes.jpg` - Someone identifying notes (aspirational)
-- `group-flight.jpg` - 3-4 people enjoying a scent flight
-- `private-consultation.jpg` - One-on-one guidance
-
-**Why These Matter**:
-- Demonstrates the service
-- Makes appointments feel accessible
-- Shows what to expect
-- Builds trust and professionalism
-
-### 4. Product Detail Enhancements
-**Folder**: `public/images/details/`
-- `atomizer-closeup.jpg` - Clean product shot of atomizer
-- `size-comparison.jpg` - All decant sizes side-by-side
-- `label-detail.jpg` - Professional labeling closeup
-- `packaging-flat-lay.jpg` - Beautifully styled product flat lay
-
-**Why These Matter**:
-- Answers "what will I receive?"
-- Shows quality and professionalism
-- Reduces uncertainty about product
-- Instagram-worthy = shareable
+**Recommended Count**: 10-15 lifestyle images
+**Size**: 1200x800px minimum
+**Style**: Natural, editorial, warm tones
 
 ---
 
-## 🟡 HIGH PRIORITY: Missing Fragrance Images
+## 🟢 MEDIUM Priority: Brand Enhancement
 
-### Update Google Sheet Image Paths
-**Column L** should contain image paths for these existing images:
+### 4. Icon Set
+**Folder**: `public/icons/`
+- Custom SVG icons for:
+  - Fragrance families (fresh, woody, oriental, floral)
+  - Scent notes (citrus, vanilla, musk, etc.)
+  - Features (vegan, long-lasting, travel-size)
+  - Social media icons (Instagram, etc.)
+- **Style**: Line icons, consistent weight, brand colors
+- **Format**: SVG (scalable)
 
-| Fragrance | Image Path |
-|-----------|------------|
-| Maison Margiela Beach Walk | `/images/fragrances/beach-walk.jpg` |
-| Nasomatto Black Afgano | `/images/fragrances/black-afgano.jpg` |
-| Bosca Vanilla | `/images/fragrances/bosca-vanilla.jpg` |
-| Maison Margiela Coffee Break | `/images/fragrances/coffee-break.jpg` |
-| Acqua di Parma Colonia | `/images/fragrances/colonia.jpg` |
-| Guerlain Heritage | `/images/fragrances/guerlain-heritage.jpg.avif` |
-| Guerlain Vetiver | `/images/fragrances/guerlain-vetiver.jpg` |
-| Maison Margiela Jazz Club | `/images/fragrances/jazz-club.jpg` |
-| Maison Margiela Lazy Sunday Morning | `/images/fragrances/lazy-sunday-morning.jpg` |
-| Orto Parisi Megamare | `/images/fragrances/megamare.jpg` |
-| Jo Malone Myrrh & Tonka | `/images/fragrances/myrrh-tonka.jpg` |
-| Guerlain Nerolia Vetiver | `/images/fragrances/nerolia-vetiver.jpg.webp` |
-| Guerlain Nettare di Sole | `/images/fragrances/nettare-di-sole.jpg.avif` |
-| Guerlain Orange Soleia | `/images/fragrances/orange-soleia.jpg.avif` |
-| Prada L'Homme | `/images/fragrances/prada-lhomme.jpg` |
-| Guerlain Rosa Palissandro | `/images/fragrances/rosa-pallisandro.jpg.avif` |
-| Guerlain Rosa Rossa | `/images/fragrances/rosa-rossa.jpg` |
-| Maison Margiela Under The Lemon Tree | `/images/fragrances/under-the-lemon-tree.jpg` |
-| Teo Cabanel When The Name Stops | `/images/fragrances/when-the-name-stops.jpg` |
-| Jo Malone Wood Sage & Sea Salt | `/images/fragrances/wood-sage-sea-salt.jpg` |
-| YSL Y | `/images/fragrances/ysl-y.webp` |
-| Zoologist Bat | `/images/fragrances/zoologist-bat.jpg` |
-| Zoologist Chipmunk | `/images/fragrances/zoologist-chipmunk.jpg.webp` |
-
-### Still Need Fragrance Images
-Check your inventory - any fragrances without images in the list above still need professional product photos.
+### 5. Pattern/Texture Graphics
+**Usage**: Backgrounds, section dividers, decorative elements
+- Subtle textures (paper, canvas, watercolor)
+- Abstract shapes in brand colors
+- Coastal/wave patterns
+- Botanical illustrations
 
 ---
 
-## 🟢 MEDIUM PRIORITY: Brand Building & Trust
+## 🔵 LOW Priority: Future Enhancements
 
-### About/Origin Story
-**Folder**: `public/images/about/`
-- `owner-portrait.jpg` - Professional but approachable photo
-- `workspace.jpg` - Your decanting/curation space
-- `santa-cruz-love.jpg` - You in Santa Cruz (beach, downtown, etc.)
-- `fragrance-collection.jpg` - Your personal collection display
+### 6. Video Content
+- Product unboxing
+- How to use decants
+- Scent discovery process
+- Behind-the-scenes
+- Customer testimonials
 
-**Why These Matter**:
-- Humanizes the brand
-- Builds trust ("real person, not dropshipping")
-- Shows local connection
-- Demonstrates expertise/passion
-
-### Social Proof & Community
-**Folder**: `public/images/community/`
-- `happy-customer.jpg` - Customer testimonial photo (with permission)
-- `party-event.jpg` - Successful fragrance party
-- `local-collab.jpg` - Partnerships with SC businesses
-- `instagram-moments.jpg` - Curated social media content
-
-**Why These Matter**:
-- Demonstrates social proof
-- Shows real people using product
-- Creates FOMO
-- Builds community feeling
-
-### Santa Cruz Integration
-**Folder**: `public/images/santa-cruz/`
-- `natural-bridges.jpg` - Iconic SC landmark
-- `downtown-vibe.jpg` - Abbott Square, bookshops
-- `surf-culture.jpg` - Steamer Lane or beach scene
-- `redwoods-fog.jpg` - Local forest aesthetic
-
-**Why These Matter**:
-- Reinforces local identity
-- Appeals to residents and visitors
-- SEO juice for "Santa Cruz" queries
-- Creates sense of place
+### 7. Animated Elements
+- Loading animations
+- Hover effects
+- Page transitions
+- Scroll-triggered animations
 
 ---
 
-## 🟢 MEDIUM: SEO & Content Enhancement
+## Technical Requirements
 
-### Blog/Education Content
-**Folder**: `public/images/content/`
-- `fragrance-notes-diagram.jpg` - Visual guide to notes pyramid
-- `storage-tips.jpg` - How to store decants properly
-- `application-guide.jpg` - Where/how to apply
-- `travel-packing.jpg` - TSA-compliant packing demo
+### Image Optimization:
+- Use Next.js `<Image>` component (already implemented)
+- Compress images before upload (TinyPNG, ImageOptim)
+- Use WebP/AVIF formats when possible
+- Lazy loading enabled by default
+- Responsive srcset generated automatically
 
-**Why These Matter**:
-- Enhances educational content
-- Improves SEO with images
-- Increases time on site
-- Shareable on Pinterest
-
-### Seasonal & Occasion
-**Folder**: `public/images/seasonal/`
-- `summer-scents.jpg` - Beach/sunny day aesthetic
-- `winter-cozy.jpg` - Warm, indoor fragrance moment
-- `date-night.jpg` - Romantic context
-- `professional.jpg` - Office/work appropriate styling
-
-**Why These Matter**:
-- Helps customers contextualize use cases
-- Seasonal marketing opportunities
-- Email campaign visuals
-- Social media content calendar
-
----
-
-## 🔵 LOW PRIORITY: Future Enhancements
-
-### Interactive Elements
-- `loading-animation.gif` - Branded loading spinner
-- `hover-states/` - Custom illustrations for hover effects
-- `icons/` - Custom icon set for features
-
-### Video Content (When Ready)
-- `hero-video.mp4` - Short atmospheric Santa Cruz scene
-- `unboxing.mp4` - What customers receive
-- `consultation-preview.mp4` - 30-second appointment teaser
-- `fragrance-comparison.mp4` - Comparing scent families
-
-### Advanced Marketing
-- `gift-guide/` - Holiday gift imagery
-- `press/` - Press kit and media images
-- `partnerships/` - Co-marketing with P.F. Candle Co.
-
-## Image Specifications
-
-### Technical Requirements:
-- **Format**: JPG or WebP (WebP preferred for web performance)
-- **Color Profile**: sRGB
-- **Compression**: Optimize for web (use TinyPNG or similar)
-
-### Size Guidelines:
-- Hero background: 1920x1080px (landscape)
-- Fragrance cards: 600x800px (portrait)
-- Event photos: 1200x800px (landscape)
-
-## Adding Images to Your Site
-
-1. Place images in the `public/` folder:
-   ```
-   public/
-   ├── hero-bg.jpg
-   ├── fragrances/
-   │   ├── tom-ford-tobacco-vanille.jpg
-   │   ├── chanel-bleu-de-chanel.jpg
-   │   └── ...
-   └── events/
-       ├── party-setup.jpg
-       └── ...
-   ```
-
-2. Update your Google Sheet with image paths in the "Image" column:
-   - Format: `/fragrances/brand-name.jpg`
-   - Example: `/fragrances/dior-sauvage.jpg`
-
-## Free Stock Photo Resources (for generic imagery):
-
-- **Unsplash.com** - Free high-quality photos
-- **Pexels.com** - Free stock photos
-- **Pixabay.com** - Free images and videos
-
-### Search Terms for Stock Photos:
-- "luxury perfume bottle"
-- "fragrance collection"
-- "Santa Cruz beach sunset"
-- "coastal california"
-- "perfume photography"
-- "luxury lifestyle"
-
-## Priority Order:
-
-### Must Have (Essential):
-1. ✅ Hero background image (Santa Cruz scene)
-2. ✅ Top 10-20 fragrance bottle images
-
-### Nice to Have:
-3. Complete fragrance image library
-4. Event/party photos
-5. About/story images
-
----
-
-## 📸 Photography Guidelines
-
-### Visual Style Direction
-**Brand Aesthetic**: Modern Coastal Minimalism
-- **Colors**: Deep blues, warm ambers, natural tones
-- **Mood**: Sophisticated but approachable
-- **Style**: Clean, uncluttered, natural light
-- **Vibe**: Santa Cruz meets luxury
-
-### Do's
-✅ Natural lighting (golden hour, overcast diffused)
-✅ Neutral/coastal backgrounds
-✅ Lifestyle context (beach, coffee shops, travel)
-✅ Clean, uncluttered compositions
-✅ Authentic, unstaged moments
-✅ Local Santa Cruz locations when possible
-
-### Don'ts
-❌ Harsh direct sunlight
-❌ Cluttered backgrounds
-❌ Generic stock photo feel
-❌ Overly staged/artificial
-❌ Bright, saturated colors
-❌ Locations that don't feel "Santa Cruz"
-
----
-
-## 🛠️ Technical Specifications
-
-### File Formats
-- **Photos**: JPG (compressed) or WebP (preferred)
-- **Graphics**: SVG (logos, icons) or PNG with transparency
-- **Documents**: PDF for downloadable guides
-
-### Size Requirements by Use Case
-
-| Use Case | Dimensions | Max File Size | Format |
-|----------|-----------|---------------|---------|
-| Hero Background | 1920x1080px | 300KB | JPG/WebP |
-| Logo | 280x280px | 50KB | SVG/PNG |
-| Fragrance Product | 600x800px | 150KB | JPG/WebP |
-| Lifestyle Photos | 1200x800px | 250KB | JPG/WebP |
-| Social Share | 1200x630px | 200KB | JPG |
-| Thumbnails | 400x400px | 75KB | JPG/WebP |
-
-### Optimization Tools
-- **TinyPNG.com** - Excellent compression
-- **Squoosh.app** - Google's image optimizer
-- **ImageOptim** - Mac app for batch processing
-- **Next.js Image** - Automatic optimization (already implemented)
-
-### Responsive Images Strategy
-```tsx
-// Next.js handles this automatically
-<Image 
-  src="/images/hero.jpg"
-  alt="Santa Cruz coastline"
-  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-  priority // For above-fold images
-/>
+### File Organization:
+```
+public/
+├── images/
+│   ├── fragrances/        ✅ 58 images (DONE)
+│   ├── lifestyle/         ⏳ 0 images (TODO)
+│   ├── candles/          ⏳ 0 images (TODO)
+│   └── events/           ⏳ 0 images (TODO)
+├── icons/                ⏳ Custom SVG icons (TODO)
+├── hero-bg.jpg          ⏳ Hero background (CRITICAL)
+└── logo.svg             ⏳ Brand logo (CRITICAL)
 ```
 
 ---
 
-## 🎨 Where to Source Images
+## Image Checklist
 
-### Priority 1: Original Photography
-**Best Option**: Shoot yourself for authenticity
-- **Gear needed**: Modern smartphone is sufficient
-- **Locations**: Santa Cruz beaches, your workspace, products
-- **Time**: Golden hour (sunrise/sunset) for best light
-- **Cost**: Free (your time)
+### Launch Blockers (Do First):
+- [ ] Hero background image (`hero-bg.jpg`)
+- [ ] Logo design (`logo.svg` or `logo.png`)
+- [x] Fragrance product images (58/58 - COMPLETE)
+- [ ] Update Google Sheet with all 58 image paths
 
-### Priority 2: Stock Photography (Free)
-For general lifestyle shots:
-
-**Unsplash.com** (Free, high quality)
-- Search: "santa cruz california"
-- Search: "perfume bottle minimalist"
-- Search: "coastal lifestyle"
-- Search: "travel essentials"
-
-**Pexels.com** (Free, good selection)
-- Search: "luxury perfume"
-- Search: "beach morning"
-- Search: "fragrance collection"
-
-**Pixabay.com** (Free, varied quality)
-- Backup option for generic imagery
-
-### Priority 3: Paid Stock (If Needed)
-**Adobe Stock** or **Shutterstock**
-- Higher quality
-- More specific options
-- Exclusive rights available
-- ~$10-30 per image
-
-### Priority 4: User-Generated Content
-- Ask customers for photos (with permission)
-- Reshare Instagram content (with credit)
-- Host photo contests
-- Feature community in gallery
+### Nice to Have:
+- [ ] 10-15 lifestyle images
+- [ ] Custom icon set
+- [ ] Candle product images (when available)
+- [ ] Event/party photos
 
 ---
 
-## 📋 Implementation Checklist
+## Cost Estimates
 
-### Week 1: Critical Assets
-- [ ] Shoot or source hero background (Santa Cruz scene)
-- [ ] Design or commission logo (SC monogram)
-- [ ] Update Google Sheet with existing 23 image paths
-- [ ] Test image loading on inventory page
-- [ ] Optimize all existing images
+### DIY Route (Recommended):
+- **Fragrance Images**: Free (official brand sites) ✅ DONE
+- **Hero Background**: Free (Unsplash) or shoot yourself
+- **Lifestyle Photos**: Free (Unsplash, Pexels) or shoot yourself
+- **Logo Design**: $50-200 (Fiverr, 99designs) or DIY in Canva
+- **Total**: $0-200
 
-### Week 2: High Priority
-- [ ] Shoot 5-10 lifestyle/context photos
-- [ ] Take product/atomizer detail shots
-- [ ] Create consultation/experience photos
-- [ ] Add alt text to all images
-- [ ] Implement lazy loading
-
-### Week 3: Medium Priority
-- [ ] About/owner photography session
-- [ ] Social proof content
-- [ ] Santa Cruz location shots
-- [ ] Seasonal category images
-- [ ] Content images for blog/SEO pages
-
-### Week 4: Polish & Test
-- [ ] Compress all images
-- [ ] Test on mobile devices
-- [ ] Verify loading speeds
-- [ ] Check accessibility
-- [ ] Create social media versions
+### Professional Route:
+- **Brand Photography**: $500-2000 (product + lifestyle shoot)
+- **Logo Design**: $300-1000 (professional designer)
+- **Custom Icons**: $200-500 (icon set design)
+- **Total**: $1000-3500
 
 ---
 
-## 💡 Creative Photography Ideas
+## Resources
 
-### For Lifestyle Shots
-1. **Morning Ritual**: Decant + coffee at Verve
-2. **Beach Ready**: Wetsuit + waterproof bag + decants
-3. **Travel Prep**: Flat lay of TSA bag with decants
-4. **Foggy Coastal**: Atmospheric morning with fragrance
-5. **Date Night**: Getting ready, applying fragrance
+### Free Stock Photo Sites:
+- [Unsplash](https://unsplash.com/) - High-quality, free images
+- [Pexels](https://pexels.com/) - Free stock photos and videos
+- [Pixabay](https://pixabay.com/) - Free images and videos
 
-### For Product Shots
-1. **Size Comparison**: All 5 sizes lined up
-2. **In Context**: Decants on weathered wood, beach glass
-3. **Detail**: Macro shot of atomizer mechanism
-4. **Collection**: Curated selection artfully arranged
-5. **Gift Ready**: Wrapped decants with natural materials
+### Image Optimization Tools:
+- [TinyPNG](https://tinypng.com/) - Compress images
+- [Squoosh](https://squoosh.app/) - Convert to WebP/AVIF
+- [ImageOptim](https://imageoptim.com/) - Mac app for compression
 
-### For Social Media
-1. **Behind the Scenes**: Your curation process
-2. **Unboxing**: What customers receive
-3. **Tutorial**: How to apply, how to travel
-4. **Comparison**: Before/after organization
-5. **Community**: Customer photos reshared
+### Design Tools:
+- [Canva](https://canva.com/) - Easy logo and graphic design
+- [Figma](https://figma.com/) - Professional design tool
+- [Photopea](https://photopea.com/) - Free Photoshop alternative
 
 ---
 
-## 🎯 Success Metrics
-
-### Image Performance Indicators
-- **Page Load Time**: <3 seconds
-- **Largest Contentful Paint**: <2.5s
-- **Image Optimization**: >90% compressed
-- **Alt Text Coverage**: 100%
-- **Mobile Performance**: Images scale properly
-
-### User Engagement
-- Time on page with images vs. without
-- Click-through rate on product images
-- Social shares of lifestyle photos
-- Bounce rate on pages with/without images
-
----
-
-## 📌 Quick Start Action Plan
-
-**If you only have 1 hour:**
-1. Take 10 photos of your fragrance collection/workspace (iPhone is fine)
-2. Download 3-5 Santa Cruz photos from Unsplash
-3. Update Google Sheet with existing 23 image paths
-4. Optimize all images through TinyPNG
-
-**If you have half a day:**
-1. Do the 1-hour plan above
-2. Shoot lifestyle photos: beach + coffee shop + travel setup
-3. Create simple logo in Canva or hire on Fiverr ($20-50)
-4. Take product detail shots with natural light
-
-**If you have a full day:**
-1. Professional photo session at key SC locations
-2. Product photography with proper lighting
-3. Commission professional logo design
-4. Shoot consultation/experience content
-5. Create full brand photography library
-
----
-
-## ✅ Priority Action Items (Next 7 Days)
-
-### Must Do (Blocking Launch)
-1. **Hero background** - Santa Cruz coastal scene
-2. **Logo** - At minimum, clean SC monogram
-3. **Update Google Sheet** - Add paths for existing 23 images
-4. **Test image loading** - Verify all images display
-
-### Should Do (Significantly Improves UX)
-5. **Lifestyle photos** - 5-10 contextual shots
-6. **Product details** - Atomizer closeups, size comparison
-7. **Missing fragrance images** - Find/shoot missing products
-
-### Nice to Have (Enhances Brand)
-8. **About photos** - Owner/workspace shots
-9. **Social proof** - Customer/party photos
-10. **Seasonal content** - Holiday/occasion imagery
-
----
-
-**Remember**: Perfect is the enemy of good. Start with smartphone photos and upgrade over time. Authenticity beats perfection for a local Santa Cruz business.
-
----
-
-## 📞 Need Help?
-
-**Free Resources**:
-- YouTube: "Product photography with iPhone"
-- YouTube: "How to shoot lifestyle photos"
-- Canva: Logo design templates
-
-**Affordable Services**:
-- Fiverr: Logo design ($20-100)
-- TaskRabbit: Local photographer ($50-150/hour)
-- Students: UCSC photography students for portfolio work
-
-**Pro Services** (When Ready):
-- Local SC photographers for brand shoot
-- Product photography studio
-- Content creation agency
-
----
-
-**Last Updated**: February 2026  
-**Next Review**: After implementing critical assets
+**Status**: 58/58 fragrance images complete ✅  
+**Next Critical Task**: Add hero background and logo  
+**Timeline**: Ready to update Google Sheet now!
