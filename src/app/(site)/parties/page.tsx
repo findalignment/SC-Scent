@@ -49,10 +49,10 @@ export default function PartiesPage() {
 
               <div className="bg-white p-8 shadow-lg border-l-4 border-teal-600">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Take-Home Samples
+                  Interactive Learning
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Each guest receives sample vials of their favorite discoveries to take home and enjoy.
+                  Discover fragrance families, learn to identify notes, and understand what makes each scent unique in a fun, social setting.
                 </p>
               </div>
 
@@ -136,7 +136,7 @@ export default function PartiesPage() {
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Enjoy the Event</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    I bring everything needed (fragrances, scent tubes, take-home samples) and create a fun, interactive 60-90 minute experience.
+                    I bring everything needed (fragrances, scent tubes, materials) and create a fun, interactive 60-90 minute experience.
                   </p>
                 </div>
               </div>
@@ -183,18 +183,28 @@ export default function PartiesPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-teal-700 font-bold">✓</span>
-                      <span>Take-home sample vials for each guest</span>
+                      <span>All materials and scent tubes</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-teal-700 font-bold">✓</span>
-                      <span>All materials and scent tubes</span>
+                      <span>Interactive group experience</span>
+                    </li>
+                  </ul>
+                </div>
+                
+                <div className="pb-6 border-b border-gray-200">
+                  <h3 className="font-bold text-gray-900 mb-2">Optional Add-Ons</h3>
+                  <ul className="text-gray-700 space-y-2 mt-2">
+                    <li className="flex items-start gap-2">
+                      <span className="text-amber-600 font-bold">+</span>
+                      <span>Take-home decant samples for guests (additional cost per person)</span>
                     </li>
                   </ul>
                 </div>
                 
                 <div>
                   <h3 className="font-bold text-gray-900 mb-2">Pricing</h3>
-                  <p className="text-gray-700">Contact for custom quote based on group size and location</p>
+                  <p className="text-gray-700">Contact for custom quote based on group size, location, and any add-ons</p>
                 </div>
               </div>
             </div>
