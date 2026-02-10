@@ -123,7 +123,6 @@ export default function PrivacyPage() {
                 We may use the following third-party services:
               </p>
               <ul className="list-disc pl-6 text-gray-700 mb-4 space-y-2">
-                <li><strong>Google Sheets API</strong>: For inventory management (no personal data stored)</li>
                 <li><strong>Vercel</strong>: Website hosting and analytics (anonymized)</li>
                 <li><strong>Instagram</strong>: Social media integration (governed by their privacy policy)</li>
               </ul>
