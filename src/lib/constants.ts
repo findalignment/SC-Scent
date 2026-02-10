@@ -52,6 +52,8 @@ export const SITE_CONFIG = {
   tagline: 'Premium Fragrance Decants & Candles',
   description: 'Discover luxury fragrances in travel-friendly sizes. Flight-ready decants and artisan candles.',
   email: 'hello@santacruzscent.com',
+  phone: '(831) 295-2076',
+  phoneLink: 'tel:+18312952076',
   social: {
     instagram: 'https://instagram.com/santacruzscent',
   },

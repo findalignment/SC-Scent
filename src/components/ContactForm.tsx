@@ -111,7 +111,7 @@ export default function ContactForm() {
           value={formData.phone}
           onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
           className="w-full px-4 py-3 border border-gray-300 focus:border-teal-600 focus:ring-2 focus:ring-teal-600/20 focus:outline-none transition-colors"
-          placeholder="(831) 555-1234"
+          placeholder="(831) 295-2076"
           disabled={status === 'loading'}
         />
       </div>
