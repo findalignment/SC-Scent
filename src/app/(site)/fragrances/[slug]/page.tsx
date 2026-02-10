@@ -58,7 +58,7 @@ export default function FragranceDetailPage({ params }: { params: Promise<{ slug
             <Breadcrumbs
               items={[
                 { label: 'Home', href: '/' },
-                { label: 'Fragrances', href: '/in-stock' },
+                { label: 'Decants', href: '/in-stock' },
                 { label: `${fragrance.brand} ${fragrance.name}` },
               ]}
             />
@@ -333,7 +333,7 @@ export default function FragranceDetailPage({ params }: { params: Promise<{ slug
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-serif font-light text-white mb-6">
-              Explore More Fragrances
+              Explore More Decants
             </h2>
             <p className="text-gray-400 mb-8 font-light">
               Discover our complete collection of luxury fragrance decants.
@@ -342,7 +342,7 @@ export default function FragranceDetailPage({ params }: { params: Promise<{ slug
               href="/in-stock"
               className="inline-block px-10 py-4 bg-white/10 text-white font-medium tracking-wide uppercase text-sm border-2 border-white/40 hover:bg-white/20 hover:border-white/60 transition-all duration-300"
             >
-              View All Fragrances
+                  View All Decants
             </Link>
           </div>
         </div>

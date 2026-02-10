@@ -114,7 +114,7 @@ export default function MobileMenu() {
                       onClick={() => setIsOpen(false)}
                       className="block px-4 py-3 text-gray-300 hover:text-white hover:bg-amber-600/20 transition-colors text-sm uppercase tracking-wide font-light focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 rounded"
                     >
-                      Fragrances
+                      Decants
                     </Link>
                   </li>
                   <li>

@@ -32,7 +32,7 @@ export default function SiteLayout({
                 href="/in-stock"
                 className="text-gray-300 hover:text-amber-400 font-light tracking-wide text-sm uppercase transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
               >
-                Fragrances
+                Decants
               </Link>
               <Link
                 href="/candles"
@@ -94,7 +94,7 @@ export default function SiteLayout({
                 </li>
                 <li>
                   <Link href="/in-stock" className="text-gray-400 hover:text-amber-400 transition-colors font-light focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400">
-                    Fragrances
+                    Decants
                   </Link>
                 </li>
                 <li>
