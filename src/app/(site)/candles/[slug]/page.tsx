@@ -3,7 +3,7 @@
 import { use, useState } from 'react';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getProductBySlug } from '@/lib/pf-candle-data';
+import { getProductBySlug, getProductPrice } from '@/lib/pf-candle-data';
 
 type Tab = 'details' | 'notes' | 'ingredients' | 'how-to-use' | 'scent-throw';
 
@@ -60,9 +60,18 @@ export default function ProductDetailPage({ params }: { params: Promise<{ slug: 
                   {product.name}
                 </h1>
 
-                <p className="text-xl text-gray-400 font-light mb-8">
+                <p className="text-xl text-gray-400 font-light mb-4">
                   {product.tagline}
                 </p>
+
+                {(() => {
+                  const { label } = getProductPrice(product);
+                  return label ? (
+                    <p className="text-2xl font-semibold text-amber-400 mb-8">
+                      {label}
+                    </p>
+                  ) : null;
+                })()}
 
                 <p className="text-gray-300 leading-relaxed mb-8 font-light">
                   {product.description}

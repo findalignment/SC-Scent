@@ -21,6 +21,27 @@ export interface PFProduct {
   specs?: string[];
 }
 
+/** P.F. Candle Co prices (tax inclusive). Incense price depends on stick count. */
+export function getProductPrice(product: PFProduct): { amount: number; label: string } {
+  const taxNote = ' (tax incl.)';
+  switch (product.category) {
+    case 'Candle':
+      return { amount: 24, label: `$24${taxNote}` };
+    case 'Air Freshener':
+      return { amount: 12, label: `$12${taxNote}` };
+    case 'Room Spray':
+      return { amount: 22, label: `$22${taxNote}` };
+    case 'Incense': {
+      const has20Sticks = product.specs?.some((s) => s.startsWith('20 charcoal'));
+      return has20Sticks
+        ? { amount: 20, label: `$20${taxNote}` }
+        : { amount: 11, label: `$11${taxNote}` };
+    }
+    default:
+      return { amount: 0, label: '' };
+  }
+}
+
 export const pfProducts: PFProduct[] = [
   // Air Fresheners
   {
